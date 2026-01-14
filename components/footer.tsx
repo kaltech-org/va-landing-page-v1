@@ -1,0 +1,135 @@
+"use client"
+
+import { Linkedin, Mail, Phone } from "lucide-react"
+import Link from "next/link"
+import Image from "next/image"
+
+export function Footer() {
+  return (
+    <footer className="bg-primary text-white py-16 sm:py-20 md:py-24 font-sans">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12 lg:gap-16 mb-12 sm:mb-16">
+          <div>
+            <div className="mb-5 sm:mb-6">
+              <Image
+                src="/tcg-logo.png"
+                alt="Tax Consulting Group"
+                width={180}
+                height={54}
+                className="h-12 sm:h-14 w-auto brightness-0 invert"
+              />
+            </div>
+            {/* </CHANGE> */}
+            <p className="text-xs sm:text-sm text-white/70 mt-5 sm:mt-6 font-light leading-relaxed">
+              Tax Consulting Group — A trusted advisory partner for the GCC region.
+            </p>
+
+            {/* Social icons in gold */}
+            <div className="flex gap-4 mt-6 sm:mt-8">
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-accent/80 transition"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
+              </a>
+              <a href="mailto:info@tcg.com" className="text-accent hover:text-accent/80 transition" aria-label="Email">
+                <Mail className="w-4 h-4 sm:w-5 sm:h-5" />
+              </a>
+              <a href="tel:+971000000000" className="text-accent hover:text-accent/80 transition" aria-label="Phone">
+                <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
+              </a>
+            </div>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h4 className="font-serif font-semibold mb-5 sm:mb-6 text-base sm:text-lg text-white">Services</h4>
+            <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-white/70 font-light">
+              <li>
+                <Link href="/services/uae-ksa-relocation" className="hover:text-accent transition">
+                  UAE & KSA Relocation
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/tax-advisory" className="hover:text-accent transition">
+                  Tax Advisory
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/real-estate-advisory" className="hover:text-accent transition">
+                  Real Estate Advisory
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/family-governance" className="hover:text-accent transition">
+                  Family Governance
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/accounting-compliance" className="hover:text-accent transition">
+                  Accounting & Compliance
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Company */}
+          <div>
+            <h4 className="font-serif font-semibold mb-5 sm:mb-6 text-base sm:text-lg text-white">Company</h4>
+            <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-white/70 font-light">
+              <li>
+                <Link href="/about" className="hover:text-accent transition">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/team" className="hover:text-accent transition">
+                  Our Team
+                </Link>
+              </li>
+              <li>
+                <Link href="/insights" className="hover:text-accent transition">
+                  News & Insights
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="hover:text-accent transition">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Offices */}
+          <div>
+            <h4 className="font-serif font-semibold mb-5 sm:mb-6 text-base sm:text-lg text-white">Offices</h4>
+            <div className="space-y-5 sm:space-y-6">
+              <div>
+                <p className="text-xs sm:text-sm font-medium text-accent mb-2">Dubai</p>
+                <p className="text-xs text-white/70 font-light leading-relaxed">Boulevard Plaza, Downtown Dubai</p>
+              </div>
+              <div>
+                <p className="text-xs sm:text-sm font-medium text-accent mb-2">London</p>
+                <p className="text-xs text-white/70 font-light leading-relaxed">Mayfair, London</p>
+              </div>
+              <div>
+                <p className="text-xs text-white/70 font-light">Also in Abu Dhabi, Saudi Arabia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom bar */}
+        <div className="border-t border-white/10 pt-8 sm:pt-12 flex flex-col md:flex-row justify-between items-center gap-4 sm:gap-6">
+          <p className="text-xs sm:text-sm text-white/60 font-light">
+            © 2025 Tax Consulting Group. All rights reserved.
+          </p>
+         
+        </div>
+      </div>
+    </footer>
+  )
+}

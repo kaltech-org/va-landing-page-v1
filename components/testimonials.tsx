@@ -56,82 +56,70 @@ export function Testimonials() {
 
   return (
     /* CHANGED: Reduced py-20/40 to py-10/16 */
-    <section className="bg-secondary py-10 sm:py-16 md:py-20">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
+    <section className="bg-secondary py-10 sm:py-16 md:py-15">
+      <div className="max-w-4xl mx-auto px-6 w-full">
 
-        {/* CHANGED: Reduced mb-12/16 to mb-8/10 */}
-        <div className="text-center mb-8 sm:mb-10">
-          <p className="text-accent font-medium text-xs sm:text-sm uppercase tracking-widest mb-3">
-            CLIENT TESTIMONIALS
+        {/* Header */}
+        <div className="text-center mb-6">
+          <p className="text-accent text-xs uppercase tracking-widest mb-2">
+            Client Testimonials
           </p>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-foreground leading-tight text-balance px-4">
-            Trusted by Leaders Across the GCC
+          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-foreground">
+            Trusted Across the GCC
           </h2>
         </div>
 
-        <div className="relative">
-          {/* Testimonial Content */}
-          {/* CHANGED: Reduced py-8/12 to py-4/6 */}
-          <div className="text-center px-4 sm:px-8 md:px-16 py-4 sm:py-6">
+        {/* Content */}
+        <div className="text-center">
 
-            {/* Large Opening Quote - Reduced MB */}
-            <div className="text-accent text-6xl sm:text-8xl font-serif leading-none mb-4 sm:mb-6">"</div>
-
-            {/* Quote Text - Reduced MB */}
-            <blockquote className="text-xl sm:text-2xl md:text-3xl font-serif text-foreground leading-relaxed mb-6 sm:mb-8 text-balance">
-              {testimonials[currentIndex].quote}
-            </blockquote>
-
-            {/* Gold Line Separator - Reduced MB */}
-            <div className="w-20 sm:w-24 h-0.5 bg-accent mx-auto mb-4 sm:mb-6"></div>
-
-            {/* Author Info */}
-            <div>
-              <p className="text-lg sm:text-xl font-serif font-semibold text-foreground mb-1">
-                {testimonials[currentIndex].name}
-              </p>
-              <p className="text-sm sm:text-base text-muted-foreground font-light">
-                {testimonials[currentIndex].title}
-              </p>
-            </div>
+          {/* Opening Quote */}
+          <div className="text-accent text-4xl sm:text-5xl font-serif leading-none mb-3">
+            "
           </div>
 
-          {/* Navigation Buttons - Reduced MT */}
-          <div className="flex items-center justify-center gap-3 sm:gap-4 mt-6 sm:mt-8">
+          {/* Quote */}
+          <blockquote className="text-xl sm:text-2xl font-serif text-foreground leading-relaxed mb-4 max-w-3xl mx-auto">
+            {testimonials[currentIndex].quote}
+          </blockquote>
+
+          {/* Divider */}
+          <div className="w-16 h-0.5 bg-accent mx-auto mb-3" />
+
+          {/* Author */}
+          <p className="font-serif text-lg text-foreground">
+            {testimonials[currentIndex].name}
+          </p>
+          <p className="text-sm text-muted-foreground mb-5">
+            {testimonials[currentIndex].title}
+          </p>
+
+          {/* Controls */}
+          <div className="flex items-center justify-center gap-3">
             <Button
-              variant="outline"
               size="icon"
-              onClick={prev}
-              className="rounded-full border-2 border-accent text-accent hover:bg-accent hover:text-white transition-colors bg-transparent h-10 w-10 sm:h-12 sm:w-12"
+              variant="outline"
+              onClick={() =>
+                setCurrentIndex((i) => (i - 1 + testimonials.length) % testimonials.length)
+              }
+              className="h-9 w-9 rounded-full border-accent text-accent"
             >
-              <ChevronLeft className="h-4 w-4 sm:h-5 sm:w-5" />
+              <ChevronLeft className="h-4 w-4" />
             </Button>
 
-            {/* Dots Indicator */}
-            <div className="flex gap-2">
-              {testimonials.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => setCurrentIndex(index)}
-                  className={`h-2 rounded-full transition-all ${
-                    index === currentIndex ? "bg-accent w-6 sm:w-8" : "bg-accent/30 w-2"
-                  }`}
-                  aria-label={`Go to testimonial ${index + 1}`}
-                />
-              ))}
-            </div>
-
             <Button
-              variant="outline"
               size="icon"
-              onClick={next}
-              className="rounded-full border-2 border-accent text-accent hover:bg-accent hover:text-white transition-colors bg-transparent h-10 w-10 sm:h-12 sm:w-12"
+              variant="outline"
+              onClick={() =>
+                setCurrentIndex((i) => (i + 1) % testimonials.length)
+              }
+              className="h-9 w-9 rounded-full border-accent text-accent"
             >
-              <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5" />
+              <ChevronRight className="h-4 w-4" />
             </Button>
           </div>
         </div>
       </div>
+
     </section>
   )
 }

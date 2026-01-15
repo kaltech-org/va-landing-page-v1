@@ -34,7 +34,7 @@ export function Hero() {
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-white/80 leading-relaxed font-light max-w-3xl mx-auto px-4 mb-8 sm:mb-10">
-            Specialist relocation, tax, real estate and cross-border advisers to UK, Middle Eastern and
+            Specialist relocation, tax, real estate to UK, Middle Eastern and
             international families and entrepreneurs.
           </p>
 

@@ -1,37 +1,35 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Loader2, CheckCircle, AlertCircle } from "lucide-react"
+import { Loader2, CheckCircle, AlertCircle, ChevronDown } from "lucide-react"
 
 type FormStatus = "idle" | "loading" | "success" | "error"
 
 interface FormData {
-  name: string
+  firstName: string
+  lastName: string
   email: string
-  phone: string
-  subject: string
+  mobile: string
+  serviceType: string
   message: string
 }
 
 export function ContactForm() {
   const [formData, setFormData] = useState<FormData>({
-    name: "",
+    firstName: "",
+    lastName: "",
     email: "",
-    phone: "",
-    subject: "",
+    mobile: "",
+    serviceType: "",
     message: "",
   })
   const [status, setStatus] = useState<FormStatus>("idle")
   const [errorMessage, setErrorMessage] = useState("")
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { id, value } = e.target
-    setFormData((prev) => ({ ...prev, [id]: value }))
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value } = e.target
+    setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -45,9 +43,14 @@ export function ContactForm() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          name: `${formData.firstName} ${formData.lastName}`,
+          email: formData.email,
+          phone: formData.mobile,
+          subject: formData.serviceType || "General Enquiry",
+          message: formData.message,
+        }),
       })
-      console.log('res is',response)
 
       const result = await response.json()
 
@@ -57,10 +60,11 @@ export function ContactForm() {
 
       setStatus("success")
       setFormData({
-        name: "",
+        firstName: "",
+        lastName: "",
         email: "",
-        phone: "",
-        subject: "",
+        mobile: "",
+        serviceType: "",
         message: "",
       })
     } catch (error) {
@@ -69,137 +73,148 @@ export function ContactForm() {
     }
   }
 
+  const services = [
+    "UAE & KSA Relocation",
+    "Tax Advisory & International Structuring",
+    "Real Estate Advisory",
+    "Family Governance & Succession",
+    "Accounting & Compliance",
+    "General Enquiry",
+  ]
+
+  const inputClass =
+    "w-full bg-transparent border-0 border-b border-primary/30 focus:border-accent focus:ring-0 py-3 text-primary placeholder:text-primary/40 font-sans text-base outline-none transition-colors"
+
   if (status === "success") {
     return (
-      <div className="bg-white p-8 md:p-10 rounded-xl shadow-sm text-center">
-        <div className="flex justify-center mb-4">
+      <div className="text-center py-12">
+        <div className="flex justify-center mb-6">
           <CheckCircle className="w-16 h-16 text-green-600" />
         </div>
-        <h3 className="font-serif text-2xl text-primary mb-4">Thank You!</h3>
-        <p className="text-primary/70 font-sans mb-6">
+        <h3 className="font-serif text-3xl text-primary mb-4">Thank You!</h3>
+        <p className="text-primary/70 font-sans mb-8 max-w-md mx-auto">
           Your message has been sent to our team. We will get back to you shortly.
         </p>
-        <Button
+        <button
           onClick={() => setStatus("idle")}
-          className="bg-primary hover:bg-primary/90 text-white font-medium px-8 py-4 font-sans"
+          className="bg-primary hover:bg-primary/90 text-white font-medium px-8 py-3 font-sans transition-colors"
         >
           Send Another Message
-        </Button>
+        </button>
       </div>
     )
   }
 
   return (
-    <div className="bg-white p-8 md:p-10 rounded-xl shadow-sm">
-      <h2 className="font-serif text-2xl md:text-3xl text-primary mb-2">Send Us a Message</h2>
-      <p className="text-primary/60 mb-8 font-sans text-sm">
-        Fill out the form below and we will get back to you shortly.
-      </p>
-
+    <form onSubmit={handleSubmit} className="space-y-8">
       {status === "error" && (
-        <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex items-start gap-3">
+        <div className="p-4 bg-red-50 border-l-4 border-red-500 flex items-start gap-3">
           <AlertCircle className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
           <p className="text-sm text-red-700 font-sans">{errorMessage}</p>
         </div>
       )}
 
-      <form onSubmit={handleSubmit} className="space-y-6">
-        <div className="grid sm:grid-cols-2 gap-6">
-          <div>
-            <label htmlFor="name" className="block text-sm font-medium text-primary mb-2 font-sans">
-              Full Name <span className="text-red-500">*</span>
-            </label>
-            <Input
-              id="name"
-              type="text"
-              placeholder="Your name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-              disabled={status === "loading"}
-              className="w-full border-border focus:border-accent focus:ring-accent font-sans"
-            />
-          </div>
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium text-primary mb-2 font-sans">
-              Email Address <span className="text-red-500">*</span>
-            </label>
-            <Input
-              id="email"
-              type="email"
-              placeholder="your@email.com"
-              value={formData.email}
-              onChange={handleChange}
-              required
-              disabled={status === "loading"}
-              className="w-full border-border focus:border-accent focus:ring-accent font-sans"
-            />
-          </div>
-        </div>
-
-        <div className="grid sm:grid-cols-2 gap-6">
-          <div>
-            <label htmlFor="phone" className="block text-sm font-medium text-primary mb-2 font-sans">
-              Phone Number
-            </label>
-            <Input
-              id="phone"
-              type="tel"
-              placeholder="+971 XX XXX XXXX"
-              value={formData.phone}
-              onChange={handleChange}
-              disabled={status === "loading"}
-              className="w-full border-border focus:border-accent focus:ring-accent font-sans"
-            />
-          </div>
-          <div>
-            <label htmlFor="subject" className="block text-sm font-medium text-primary mb-2 font-sans">
-              Subject <span className="text-red-500">*</span>
-            </label>
-            <Input
-              id="subject"
-              type="text"
-              placeholder="How can we help?"
-              value={formData.subject}
-              onChange={handleChange}
-              required
-              disabled={status === "loading"}
-              className="w-full border-border focus:border-accent focus:ring-accent font-sans"
-            />
-          </div>
-        </div>
-
+      <div className="grid md:grid-cols-2 gap-8">
         <div>
-          <label htmlFor="message" className="block text-sm font-medium text-primary mb-2 font-sans">
-            Message <span className="text-red-500">*</span>
-          </label>
-          <Textarea
-            id="message"
-            placeholder="Tell us about your enquiry..."
-            rows={5}
-            value={formData.message}
+          <label className="block text-primary font-sans text-base mb-1">First Name</label>
+          <input
+            type="text"
+            name="firstName"
+            value={formData.firstName}
             onChange={handleChange}
             required
             disabled={status === "loading"}
-            className="w-full border-border focus:border-accent focus:ring-accent resize-none font-sans"
+            className={inputClass}
           />
         </div>
+        <div>
+          <label className="block text-primary font-sans text-base mb-1">Last Name</label>
+          <input
+            type="text"
+            name="lastName"
+            value={formData.lastName}
+            onChange={handleChange}
+            required
+            disabled={status === "loading"}
+            className={inputClass}
+          />
+        </div>
+      </div>
 
-        <Button
-          type="submit"
+      <div className="grid md:grid-cols-2 gap-8">
+        <div>
+          <label className="block text-primary font-sans text-base mb-1">Email</label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+            disabled={status === "loading"}
+            className={inputClass}
+          />
+        </div>
+        <div>
+          <label className="block text-primary font-sans text-base mb-1">Mobile</label>
+          <input
+            type="tel"
+            name="mobile"
+            value={formData.mobile}
+            onChange={handleChange}
+            disabled={status === "loading"}
+            className={inputClass}
+          />
+        </div>
+      </div>
+
+      <div className="relative">
+        <label className="block text-primary font-sans text-base mb-1">Service Type</label>
+        <div className="relative">
+          <select
+            name="serviceType"
+            value={formData.serviceType}
+            onChange={handleChange}
+            disabled={status === "loading"}
+            className={`${inputClass} appearance-none cursor-pointer pr-10`}
+          >
+            <option value="">-None-</option>
+            {services.map((service) => (
+              <option key={service} value={service}>
+                {service}
+              </option>
+            ))}
+          </select>
+          <ChevronDown className="absolute right-0 top-1/2 -translate-y-1/2 w-5 h-5 text-primary/50 pointer-events-none" />
+        </div>
+      </div>
+
+      <div>
+        <label className="block text-primary font-sans text-base mb-1">Message</label>
+        <textarea
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+          required
           disabled={status === "loading"}
-          className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-white font-medium px-10 py-6 text-base font-sans disabled:opacity-70"
-        >
-          {status === "loading" ? (
-            <>
-              <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-              Sending...
-            </>
-          ) : (
-            "Send Message"
-          )}
-        </Button>
-      </form>
-    </div>
+          rows={4}
+          className={`${inputClass} resize-none`}
+        />
+      </div>
+
+      <button
+        type="submit"
+        disabled={status === "loading"}
+        className="bg-primary hover:bg-primary/90 text-white font-medium px-10 py-3 font-sans transition-colors disabled:opacity-70 flex items-center gap-2"
+      >
+        {status === "loading" ? (
+          <>
+            <Loader2 className="w-4 h-4 animate-spin" />
+            Sending...
+          </>
+        ) : (
+          "Submit"
+        )}
+      </button>
+    </form>
   )
 }

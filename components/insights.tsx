@@ -12,10 +12,9 @@ export function Insights() {
   const recentArticles = articles.slice(0, 3)
 
   return (
-    <section id="insights" className="py-10 sm:py-16 md:py-20 bg-background">
+    <section id="insights" className="py-10 sm:py-16 md:py-15 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
         <div className="text-center mb-8 sm:mb-12">
-          <p className="text-accent font-medium text-xs sm:text-sm uppercase tracking-widest mb-4">LATEST UPDATES</p>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-primary text-center px-4">
             News and Technical Insights
           </h2>

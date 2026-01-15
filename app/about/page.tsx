@@ -89,40 +89,6 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Section 3: Video Placeholder */}
-      <section className="py-16 sm:py-20 md:py-24 lg:py-20 bg-background">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
-          <div className="text-center mb-10 sm:mb-12">
-            <div className="w-16 h-1 bg-accent mx-auto mb-6" />
-            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-primary tracking-tight">
-              Meet Our Leadership
-            </h2>
-          </div>
-
-          {/* Video Placeholder */}
-          <div className="relative aspect-video bg-primary/5 border border-border overflow-hidden group cursor-pointer">
-            <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-accent/10 border-2 border-accent flex items-center justify-center group-hover:bg-accent/20 transition-colors">
-                <Play className="w-8 h-8 sm:w-10 sm:h-10 text-accent ml-1" />
-              </div>
-              <p className="mt-6 text-sm sm:text-base text-foreground/60 font-sans">Video Coming Soon</p>
-            </div>
-            {/* Decorative corners */}
-            <div className="absolute top-4 left-4 w-8 h-8 border-l-2 border-t-2 border-accent/30" />
-            <div className="absolute top-4 right-4 w-8 h-8 border-r-2 border-t-2 border-accent/30" />
-            <div className="absolute bottom-4 left-4 w-8 h-8 border-l-2 border-b-2 border-accent/30" />
-            <div className="absolute bottom-4 right-4 w-8 h-8 border-r-2 border-b-2 border-accent/30" />
-          </div>
-
-          {/* Caption */}
-          <p className="text-center text-base sm:text-lg text-foreground/70 mt-6 sm:mt-8 italic">
-            Meet the Team: Insights from Zeeshan Khilji, Dan Crumplin, and Susie Moore.
-          </p>
-
-          {/* CTA Button */}
           <div className="text-center mt-10 sm:mt-12">
             <Link
               href="/team"

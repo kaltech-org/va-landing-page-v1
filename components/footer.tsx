@@ -11,13 +11,16 @@ export function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12 lg:gap-16 mb-12 sm:mb-16">
           <div>
             <div className="mb-5 sm:mb-6">
-              <Image
-                src="/tcg-logo.png"
-                alt="Tax Consulting Group"
-                width={180}
-                height={54}
-                className="h-12 sm:h-14 w-auto brightness-0 invert"
-              />
+              <Link href="/" className="flex items-center">
+                <div className="leading-none">
+                  <div className="font-serif font-bold text-base sm:text-lg md:text-xl text-accent tracking-tight">
+                    MIDDLE EAST
+                  </div>
+                  <div className="font-serif font-bold text-base sm:text-lg md:text-xl text-white tracking-tight">
+                    ADVISORY GROUP
+                  </div>
+                </div>
+              </Link>
             </div>
             {/* </CHANGE> */}
             <p className="text-xs sm:text-sm text-white/70 mt-5 sm:mt-6 font-light leading-relaxed">
@@ -35,7 +38,7 @@ export function Footer() {
               >
                 <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
-              <a href="mailto:info@tcg.com" className="text-accent hover:text-accent/80 transition" aria-label="Email">
+              <a href="mailto:enquiries@me-advisorygroup.com" className="text-accent hover:text-accent/80 transition" aria-label="Email">
                 <Mail className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a href="tel:+971000000000" className="text-accent hover:text-accent/80 transition" aria-label="Phone">

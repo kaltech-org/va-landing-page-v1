@@ -39,7 +39,7 @@ export default function ContactPage() {
       <section className="bg-primary py-20 md:py-28 text-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-6 leading-tight text-balance">
-            Get in Touch
+            Contact Us
           </h1>
           <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto font-sans">
             Find out more about our specialist services and how we can help.
@@ -93,10 +93,10 @@ export default function ContactPage() {
                   <div className="flex items-center gap-3">
                     <Mail className="w-4 h-4 text-accent" />
                     <a
-                      href="mailto:info@tcg.com"
+                      href="mailto:enquiries@me-advisorygroup.com"
                       className="text-sm text-white/80 hover:text-accent transition font-sans"
                     >
-                      info@tcg.com
+                      enquiries@me-advisorygroup.com
                     </a>
                   </div>
                   <div className="flex items-center gap-3">

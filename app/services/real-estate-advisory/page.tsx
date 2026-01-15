@@ -30,12 +30,13 @@ export default function RealEstateAdvisoryPage() {
 
       <section className="py-16 md:py-20 bg-[#F9F7F2]">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">About This Service</h2>
+          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6"> Expert guidance on real estate transactions across the GCC and Europe.</h2>
           <p className="text-base md:text-lg leading-relaxed text-primary/80 max-w-4xl font-sans">
-            Expert guidance on real estate transactions across the GCC and Europe. We advise investors, families and
-            institutions on real estate transactions, providing end-to-end support from deal sourcing through to
-            completion, ensuring structures are optimized for tax efficiency and aligned with long-term commercial
-            objectives.
+            We advise investors, families and developers on international real estate acquisitions, structuring and compliance with a focus on residential and commercial real estate investments across the GCC and European markets.
+            Whether clients are expanding into the UAE and Saudi Arabia real estate markets or Middle Eastern investors diversifying into prime UK property, we source, evaluate and support transactions across key global markets.
+            We advise on prime real estate across Dubai, Abu Dhabi, Ras Al-Khaimah and Saudi Arabia and also work closely with Middle Eastern clients with investments across the GCC and Europe, advising them on growing their portfolios internationally.
+            In conjunction with our tax advisory and compliance teams, we also ensure that your real estate strategies are commercially robust, tax efficient and aligned with long-term commercial objectives. 
+
           </p>
 
           {/* Core Offerings with reduced top margin */}

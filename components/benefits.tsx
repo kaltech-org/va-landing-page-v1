@@ -33,12 +33,15 @@ export function Benefits() {
   ]
 
   return (
-    <section id="services" className="bg-background py-20 sm:py-24 md:py-32 lg:py-40">
+    /* CHANGED: Reduced py-20/40 to py-10/16 */
+    <section id="services" className="bg-background py-10 sm:py-16 md:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
-        <div className="mb-16 sm:mb-20 text-center">
-          <p className="text-accent font-medium text-xs sm:text-sm uppercase tracking-widest mb-4">OUR SERVICES</p>
+
+        {/* CHANGED: Reduced mb-16/20 to mb-8/12 */}
+        <div className="mb-8 sm:mb-12 text-center">
+          <p className="text-accent font-medium text-xs sm:text-sm uppercase tracking-widest mb-3">OUR SERVICES</p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-foreground leading-tight text-balance mx-auto max-w-3xl px-4">
-            Comprehensive Advisory Solutions
+            OUR SPECIALIST SERVICES
           </h2>
         </div>
 
@@ -49,9 +52,11 @@ export function Benefits() {
               <Link
                 key={index}
                 href={`/services/${service.slug}`}
-                className="bg-card border border-border/30 p-8 sm:p-10 group hover:border-accent/40 transition-all duration-300 block"
+                /* CHANGED: Reduced p-8/10 to p-6/8 */
+                className="bg-card border border-border/30 p-6 sm:p-8 group hover:border-accent/40 transition-all duration-300 block"
               >
-                <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full border-2 border-accent flex items-center justify-center mb-6 sm:mb-8 group-hover:bg-accent/5 transition-colors duration-300">
+                {/* CHANGED: Reduced mb-6/8 to mb-4/6 */}
+                <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full border-2 border-accent flex items-center justify-center mb-4 sm:mb-6 group-hover:bg-accent/5 transition-colors duration-300">
                   <IconComponent className="w-6 h-6 sm:w-7 sm:h-7 text-accent" strokeWidth={1.5} />
                 </div>
                 <h3 className="text-lg sm:text-xl font-serif font-semibold text-foreground leading-tight">

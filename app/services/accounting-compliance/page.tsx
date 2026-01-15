@@ -30,12 +30,12 @@ export default function AccountingCompliancePage() {
 
       <section className="py-16 md:py-20 bg-[#F9F7F2]">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">About This Service</h2>
+          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">Comprehensive UAE accounting and tax compliance services.</h2>
           <p className="text-base md:text-lg leading-relaxed text-primary/80 max-w-4xl font-sans">
-            Comprehensive UAE accounting and tax compliance services. We provide fully integrated accounting and tax
-            compliance services to businesses operating in the UAE. Our team handles everything from day-to-day
-            bookkeeping through to corporate tax filings and regulatory correspondence, allowing you to focus on growing
-            your business.
+
+            We provide fully integrated accounting, financial reporting and tax compliance services to businesses operating in the UAE. Our team delivers proactive, accurate and commercially focused support, enabling clients to meet regulatory obligations while maintaining strong financial governance.
+            With a dedicated team of experienced accountants and tax compliance specialists with expertise across a range of industries, we provide proactive compliance support throughout the year, so you can focus on growing your business. 
+
           </p>
 
           {/* Core Offerings with reduced top margin */}

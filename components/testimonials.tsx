@@ -55,10 +55,13 @@ export function Testimonials() {
   }
 
   return (
-    <section className="bg-secondary py-20 sm:py-24 md:py-32 lg:py-40">
+    /* CHANGED: Reduced py-20/40 to py-10/16 */
+    <section className="bg-secondary py-10 sm:py-16 md:py-20">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
-        <div className="text-center mb-12 sm:mb-16">
-          <p className="text-accent font-medium text-xs sm:text-sm uppercase tracking-widest mb-4">
+
+        {/* CHANGED: Reduced mb-12/16 to mb-8/10 */}
+        <div className="text-center mb-8 sm:mb-10">
+          <p className="text-accent font-medium text-xs sm:text-sm uppercase tracking-widest mb-3">
             CLIENT TESTIMONIALS
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-foreground leading-tight text-balance px-4">
@@ -68,17 +71,19 @@ export function Testimonials() {
 
         <div className="relative">
           {/* Testimonial Content */}
-          <div className="text-center px-4 sm:px-8 md:px-16 py-8 sm:py-12">
-            {/* Large Opening Quote */}
-            <div className="text-accent text-6xl sm:text-8xl font-serif leading-none mb-6 sm:mb-8">"</div>
+          {/* CHANGED: Reduced py-8/12 to py-4/6 */}
+          <div className="text-center px-4 sm:px-8 md:px-16 py-4 sm:py-6">
 
-            {/* Quote Text */}
-            <blockquote className="text-xl sm:text-2xl md:text-3xl font-serif text-foreground leading-relaxed mb-10 sm:mb-12 text-balance">
+            {/* Large Opening Quote - Reduced MB */}
+            <div className="text-accent text-6xl sm:text-8xl font-serif leading-none mb-4 sm:mb-6">"</div>
+
+            {/* Quote Text - Reduced MB */}
+            <blockquote className="text-xl sm:text-2xl md:text-3xl font-serif text-foreground leading-relaxed mb-6 sm:mb-8 text-balance">
               {testimonials[currentIndex].quote}
             </blockquote>
 
-            {/* Gold Line Separator */}
-            <div className="w-20 sm:w-24 h-0.5 bg-accent mx-auto mb-6 sm:mb-8"></div>
+            {/* Gold Line Separator - Reduced MB */}
+            <div className="w-20 sm:w-24 h-0.5 bg-accent mx-auto mb-4 sm:mb-6"></div>
 
             {/* Author Info */}
             <div>
@@ -91,8 +96,8 @@ export function Testimonials() {
             </div>
           </div>
 
-          {/* Navigation Buttons */}
-          <div className="flex items-center justify-center gap-3 sm:gap-4 mt-8 sm:mt-12">
+          {/* Navigation Buttons - Reduced MT */}
+          <div className="flex items-center justify-center gap-3 sm:gap-4 mt-6 sm:mt-8">
             <Button
               variant="outline"
               size="icon"

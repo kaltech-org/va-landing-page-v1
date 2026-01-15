@@ -22,13 +22,14 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-background border-b border-border font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-6 sm:py-8 flex items-center justify-between">
         <Link href="/" className="flex items-center">
-          <Image
-            src="/tcg-logo.png"
-            alt="Tax Consulting Group"
-            width={200}
-            height={60}
-            className="h-10 sm:h-12 md:h-14 w-auto"
-          />
+          <div className="leading-none">
+            <div className="font-serif font-bold text-base sm:text-lg md:text-xl text-accent tracking-tight">
+              MIDDLE EAST
+            </div>
+            <div className="font-serif font-bold text-base sm:text-lg md:text-xl text-primary tracking-tight">
+              ADVISORY GROUP
+            </div>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
@@ -93,7 +94,7 @@ export function Header() {
         <div className="flex items-center gap-4">
           <Link href="/contact">
             <Button className="hidden sm:block bg-accent hover:bg-accent/90 text-accent-foreground font-medium tracking-wide text-sm px-6 py-2">
-              Get in Touch
+              Contact Us
             </Button>
           </Link>
 
@@ -157,7 +158,7 @@ export function Header() {
             </Link>
             <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
               <Button className="w-full sm:hidden bg-accent hover:bg-accent/90 text-accent-foreground font-medium tracking-wide mt-4">
-                Get in Touch
+                Contact Us
               </Button>
             </Link>
           </nav>

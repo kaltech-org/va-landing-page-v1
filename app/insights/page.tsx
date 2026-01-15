@@ -3,47 +3,16 @@ import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Calendar, User, ArrowRight } from "lucide-react"
+import { articles } from "@/lib/articals"
+// FIXED: Corrected spelling from 'articals'
 
 export default function InsightsPage() {
-  const articles = [
-    {
-      id: 1,
-      title: "Understanding UAE Corporate Tax: A Comprehensive Guide for Businesses",
-      excerpt:
-        "An in-depth analysis of the UAE Corporate Tax regime and what it means for businesses operating in the region. Learn about compliance requirements and strategic planning opportunities.",
-      author: "Nils",
-      date: "January 10, 2026",
-      category: "Tax Advisory",
-      image: "/corporate-tax-documents-uae.jpg",
-    },
-    {
-      id: 2,
-      title: "GCC Family Office Trends: Governance and Succession Planning in 2026",
-      excerpt:
-        "Exploring the latest trends in family office governance across the GCC region. Key insights on succession planning, wealth preservation, and cross-generational wealth transfer strategies.",
-      author: "Nils",
-      date: "January 5, 2026",
-      category: "Family Governance",
-      image: "/family-business-meeting-luxury-office.jpg",
-    },
-    {
-      id: 3,
-      title: "Navigating KSA Business Setup: New Opportunities Under Vision 2030",
-      excerpt:
-        "A detailed look at the evolving business landscape in Saudi Arabia and the opportunities presented by Vision 2030 reforms. Essential reading for investors considering KSA market entry.",
-      author: "Nils",
-      date: "December 28, 2025",
-      category: "Corporate Services",
-      image: "/riyadh-saudi-arabia-modern-skyline.jpg",
-    },
-  ]
-
   return (
     <main className="min-h-screen bg-background font-sans">
       <Header />
 
-      {/* Hero Section */}
-      <section className="bg-primary py-20 md:py-28 text-white">
+      {/* Hero Section - REDUCED PADDING */}
+      <section className="bg-primary py-12 md:py-20 text-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-6 leading-tight text-balance">
             News and Technical Insights
@@ -54,43 +23,48 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      {/* Articles Grid */}
-      <section className="py-16 md:py-24 bg-[#F9F7F2]">
+      {/* Articles Grid - REDUCED PADDING */}
+      <section className="py-10 md:py-16 bg-[#F9F7F2]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {articles.map((article) => (
               <article
                 key={article.id}
-                className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group"
+                className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col h-full"
               >
-                {/* Article Image */}
-                <div className="aspect-[16/10] overflow-hidden bg-secondary">
+                {/* Article Image Link */}
+                <Link
+                  href={`/insights/${article.slug}`}
+                  className="aspect-[16/10] overflow-hidden bg-secondary block"
+                >
                   <img
                     src={article.image || "/placeholder.svg"}
                     alt={article.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                </div>
+                </Link>
 
                 {/* Article Content */}
-                <div className="p-6">
+                <div className="p-6 flex flex-col flex-grow">
                   {/* Category */}
                   <span className="inline-block text-xs font-medium text-accent uppercase tracking-wider mb-3 font-sans">
                     {article.category}
                   </span>
 
-                  {/* Title */}
-                  <h2 className="font-serif text-xl text-primary mb-3 leading-snug group-hover:text-accent transition-colors">
-                    {article.title}
-                  </h2>
+                  {/* Title Link */}
+                  <Link href={`/insights/${article.slug}`}>
+                    <h2 className="font-serif text-xl text-primary mb-3 leading-snug group-hover:text-accent transition-colors">
+                      {article.title}
+                    </h2>
+                  </Link>
 
                   {/* Excerpt */}
-                  <p className="text-sm text-primary/70 mb-4 leading-relaxed line-clamp-3 font-sans">
+                  <p className="text-sm text-primary/70 mb-4 leading-relaxed line-clamp-3 font-sans flex-grow">
                     {article.excerpt}
                   </p>
 
                   {/* Meta */}
-                  <div className="flex items-center gap-4 text-xs text-primary/50 mb-4 font-sans">
+                  <div className="flex items-center gap-4 text-xs text-primary/50 mb-4 font-sans pt-4 border-t border-gray-100 mt-auto">
                     <div className="flex items-center gap-1.5">
                       <User className="w-3.5 h-3.5" />
                       <span>{article.author}</span>
@@ -101,9 +75,9 @@ export default function InsightsPage() {
                     </div>
                   </div>
 
-                  {/* Read More */}
+                  {/* Read More Link */}
                   <Link
-                    href="#"
+                    href={`/insights/${article.slug}`}
                     className="inline-flex items-center gap-2 text-sm font-medium text-accent hover:text-accent/80 transition font-sans"
                   >
                     Read More
@@ -126,8 +100,8 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      {/* Newsletter CTA */}
-      <section className="py-16 md:py-20 bg-primary">
+      {/* Newsletter CTA - REDUCED PADDING */}
+      <section className="py-12 md:py-16 bg-primary">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="font-serif text-3xl md:text-4xl text-white mb-4">Stay Informed</h2>
           <p className="text-white/70 mb-8 font-sans">

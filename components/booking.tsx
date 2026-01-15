@@ -5,18 +5,22 @@ import Link from "next/link"
 
 export function Booking() {
   return (
-    <section id="contact" className="bg-card py-20 sm:py-24 md:py-32 lg:py-40">
+    /* CHANGED: Reduced py-20/40 to py-10/16 */
+    <section id="contact" className="bg-card py-10 sm:py-16 md:py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
-        <div className="text-center mb-16 sm:mb-20">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-primary mb-6">Get in Touch</h2>
+
+        {/* CHANGED: Reduced mb-16/20 to mb-8/12 */}
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-primary mb-4">Contact Us</h2>
           <p className="text-lg sm:text-xl text-primary/70 max-w-2xl mx-auto leading-relaxed px-4 font-sans">
             Find out more about our specialist services and how we can help.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 mb-16 sm:mb-20">
+        {/* CHANGED: Reduced gap and removed bottom margin entirely */}
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Office Locations */}
-          <div className="space-y-6 sm:space-y-8">
+          <div className="space-y-6">
             {/* Dubai Office */}
             <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-accent">
               <h3 className="text-lg sm:text-xl font-serif font-bold text-primary mb-3">Dubai</h3>
@@ -95,10 +99,10 @@ export function Booking() {
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-accent" />
                   <a
-                    href="mailto:info@tcg.com"
+                    href="mailto:enquiries@me-advisorygroup.com"
                     className="text-sm text-primary/70 hover:text-accent transition font-sans"
                   >
-                    info@tcg.com
+                    enquiries@me-advisorygroup.com
                   </a>
                 </div>
               </div>

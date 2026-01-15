@@ -30,12 +30,15 @@ export default function FamilyGovernancePage() {
 
       <section className="py-16 md:py-20 bg-[#F9F7F2]">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">About This Service</h2>
+          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6"> Bespoke wealth preservation strategies, asset protection solutions and cross-border estate planning.</h2>
           <p className="text-base md:text-lg leading-relaxed text-primary/80 max-w-4xl font-sans">
-            Bespoke wealth preservation strategies, asset protection solutions and cross-border estate planning. We are
-            trusted advisers to GCC families on governance, wealth structuring and succession planning. Our team works
-            closely with families to develop bespoke strategies that preserve wealth across generations while ensuring
-            compliance with local and international regulations.
+
+
+            We are trusted advisers to Middle Eastern and international families, supporting them with complex cross‑border structuring, family governance, wealth preservation and succession planning. Our expertise spans tax‑efficient ownership structures, asset protection strategies and multi‑jurisdictional estate planning.
+            We can advise our clients on tax efficient cross-border structures and work in collaboration with our lawyers to navigate through the complex rules of inheritance and succession, ensuring efficient succession planning to intended beneficiaries, including trusts and foundation structures.
+            We support clients with trust planning, UAE foundations and work with our partners across multiple jurisdictions to advise clients on robust family governance frameworks and structures. We work closely with our clients to ensure our advice is tax efficient and in line with our clients’ commercial objectives and long-term strategies. Our experienced team can also advise on appropriate ownership structures, to ensure the smooth management of multiple asset portfolios.
+            We also provide ongoing compliance support to families as part of our accounting and tax compliance services. 
+
           </p>
 
           {/* Core Offerings with reduced top margin */}

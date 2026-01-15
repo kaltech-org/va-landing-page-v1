@@ -23,7 +23,7 @@ export default function AboutPage() {
       </section>
 
       {/* Section 1: Who We Are */}
-      <section className="py-16 sm:py-20 md:py-24 lg:py-32 bg-background">
+      <section className="py-16 sm:py-20 md:py-24 lg:py-20 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="space-y-8 sm:space-y-10 md:space-y-12">
             <div>
@@ -54,7 +54,7 @@ export default function AboutPage() {
       </section>
 
       {/* Section 2: Founder's Message */}
-      <section className="py-16 sm:py-20 md:py-24 lg:py-32 bg-secondary">
+      <section className="py-16 sm:py-20 md:py-24 lg:py-20 bg-secondary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 xl:gap-20 items-center">
             {/* CEO Image */}
@@ -74,9 +74,7 @@ export default function AboutPage() {
             {/* CEO Text */}
             <div className="order-1 lg:order-2 space-y-6 sm:space-y-8">
               <div className="w-16 h-1 bg-accent" />
-              <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-primary tracking-tight">
-                A Vision for Global Mobility and Excellence
-              </h2>
+
               <blockquote className="text-base sm:text-lg text-foreground/80 leading-relaxed italic border-l-2 border-accent pl-6">
                 I established Middle East Advisory Group with the objective of delivering Big Four level expertise and
                 world-class proactive advisory services to both GCC inbound and outbound clients. With global mobility
@@ -95,7 +93,7 @@ export default function AboutPage() {
       </section>
 
       {/* Section 3: Video Placeholder */}
-      <section className="py-16 sm:py-20 md:py-24 lg:py-32 bg-background">
+      <section className="py-16 sm:py-20 md:py-24 lg:py-20 bg-background">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="text-center mb-10 sm:mb-12">
             <div className="w-16 h-1 bg-accent mx-auto mb-6" />

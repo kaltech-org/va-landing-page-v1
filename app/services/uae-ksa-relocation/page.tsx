@@ -33,12 +33,13 @@ export default function UaeKsaRelocationPage() {
 
       <section className="py-16 md:py-20 bg-[#F9F7F2]">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">About This Service</h2>
+          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">            Comprehensive relocation support and corporate formation services for GCC inbound families and entrepreneurs.</h2>
           <p className="text-base md:text-lg leading-relaxed text-primary/80 max-w-4xl font-sans">
-            We deliver an integrated suite of relocation, corporate set up and regulatory support services for families,
-            founders, investors and businesses establishing a footprint across the GCC. Our team provides end-to-end
-            guidance across visa applications, company formation, PRO services, and compliance requirements with a full
-            concierge service.
+
+
+            We deliver an integrated suite of relocation, corporate set up and regulatory support services for families, founders, investors and businesses establishing a footprint across the GCC, particularly in the UAE and Saudi Arabia. Our model combines tailored and bespoke advisory with precise execution, ensuring clients enter the region with clarity and confidence, whilst ensuring their compliance and regulatory obligations are met.
+            Whether you are a business owner expanding your business to the GCC, a high-net-worth investor or a family relocating to the region, when relocating or expanding to a new jurisdiction, it is critical that business owners and families seek advice from local experts. With strong contacts at government level and extensive knowledge of the local market, we provide hands-on support throughout the process, ensuring an efficient and hassle-free move for your family and business.
+            We provide ongoing support to you and your business post set up, acting as your dedicated advisers, providing proactive tax compliance and advisory services to your business, including implementing and managing robust corporate governance frameworks. 
           </p>
 
           {/* Core Offerings with reduced top margin */}

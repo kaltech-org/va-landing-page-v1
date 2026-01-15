@@ -33,12 +33,13 @@ export default function TaxAdvisoryPage() {
 
       <section className="py-16 md:py-20 bg-[#F9F7F2]">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">About This Service</h2>
+          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">            Strategic tax planning, international structuring and cross-border compliance solutions for businesses and families.</h2>
           <p className="text-base md:text-lg leading-relaxed text-primary/80 max-w-4xl font-sans">
-            Strategic tax planning, international structuring and cross-border compliance solutions for businesses and
-            families. With global mobility on the rise and more high-net-worth families and businesses expanding to the
-            GCC, demand for technically strong and commercially focused cross-border advisory services has grown
-            significantly. Our team provides strategic tax planning, entity structuring advice, and compliance support.
+            With global mobility on the rise and more high‑net‑worth families transitioning into the GCC, demand for technically strong and commercial cross‑border tax advice has grown significantly. Our dedicated tax team provides expert cross-border structuring and residency planning for international clients entering or expanding within the UAE and Saudi Arabia. Our advice is pragmatic and aligned with long‑term family and business objectives.
+            With a highly experienced team consisting of ex-Big Four tax advisers, we specialise in providing practical and commercially driven tax advice across all areas of UK, UAE and KSA tax to help you navigate the evolving tax landscape and cross-border compliance obligations.
+            We carry out a thorough analysis of your personal and corporate tax positions, providing practical tax structuring advice which supports your long-term personal and business objectives.
+            With a large number of Middle Eastern clients with assets in the UK subject to significant Inheritance Tax liabilities, we extensively advise on implementing tax efficient structures to help mitigate long term IHT exposures. We also work with our tax insurance partners to implement policies to protect against such exposures. 
+
           </p>
 
           {/* Core Offerings with reduced top margin */}

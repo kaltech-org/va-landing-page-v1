@@ -17,13 +17,13 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Tax Consulting Group | Premium Corporate Advisory Services",
+  title: "Middle Eastadvisory Group",
   description: "Trusted advisers delivering Big-Four-level expertise across the GCC region",
-  generator: "v0.app",
+  generator: "v0.app", 
   icons: {
-    icon: [{ url: "/tcg-logo.png", type: "image/png" }],
-    shortcut: "/tcg-logo.png",
-    apple: "/tcg-logo.png",
+    icon: [{ url: "/new-logo.png", type: "image/png" }],
+    shortcut: "/new-logo.png",
+    apple: "/new-logo.png",
   },
   // </CHANGE>
 }
@@ -36,9 +36,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${shipporiMincho.variable} ${poppins.variable}`}>
       <head>
-        <link rel="icon" href="/tcg-logo.png" type="image/png" />
-        <link rel="shortcut icon" href="/tcg-logo.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/tcg-logo.png" />
+        <link rel="icon" href="/new-logo.png" type="image/png" />
+        <link rel="shortcut icon" href="/new-logo.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/new-logo.png" />
         {/* </CHANGE> */}
       </head>
       <body className={`font-sans antialiased`}>

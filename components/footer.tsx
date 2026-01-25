@@ -23,9 +23,7 @@ export function Footer() {
               </Link>
             </div>
             {/* </CHANGE> */}
-            <p className="text-xs sm:text-sm text-white/70 mt-5 sm:mt-6 font-light leading-relaxed">
-              Tax Consulting Group — A trusted advisory partner for the GCC region.
-            </p>
+
 
             {/* Social icons in gold */}
             <div className="flex gap-4 mt-6 sm:mt-8">
@@ -109,19 +107,14 @@ export function Footer() {
           {/* Offices */}
           <div>
             <h4 className="font-serif font-semibold mb-5 sm:mb-6 text-base sm:text-lg text-white">Offices</h4>
-            <div className="space-y-5 sm:space-y-6">
-              <div>
-                <p className="text-xs sm:text-sm font-medium text-accent mb-2">Dubai</p>
-                <p className="text-xs text-white/70 font-light leading-relaxed">Boulevard Plaza, Downtown Dubai</p>
-              </div>
-              <div>
-                <p className="text-xs sm:text-sm font-medium text-accent mb-2">London</p>
-                <p className="text-xs text-white/70 font-light leading-relaxed">Mayfair, London</p>
-              </div>
-              <div>
-                <p className="text-xs text-white/70 font-light">Also in Abu Dhabi, Saudi Arabia</p>
-              </div>
-            </div>
+            <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-white/70 font-light">
+              <p className="text-xs sm:text-sm  mb-3">Dubai</p>
+
+              <p className="text-xs sm:text-sm  mb-4">Abu Dhabi</p>
+              <p className="text-xs sm:text-sm  mb-4">Saudi Arabia</p>
+              <p className="text-xs sm:text-sm  mb-3">London</p>
+
+            </ul>
           </div>
         </div>
 

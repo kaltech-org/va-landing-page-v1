@@ -7,25 +7,25 @@ export default function ContactPage() {
   const offices = [
     {
       city: "Dubai",
-      address: "Boulevard Plaza, Tower 1, Level 20, Downtown Dubai, UAE",
-      phone: "+971 4 XXX XXXX",
+      address: "Boulevard Plaza, Tower 1, Level 9, Sheikh Mohammed Bin Rashid Boulevard, Dubai, United Arab Emirates",
+      phone: "+971 4 330 4177",
       status: "active",
     },
     {
       city: "Abu Dhabi",
-      address: "Address coming soon",
+      address: "ADGM Square, Al Sila Tower, Abu Dhabi, United Arab Emirates ",
       phone: "Coming Soon",
       status: "coming-soon",
     },
     {
       city: "Saudi Arabia",
-      address: "Address coming soon",
+      address: "6948 Eastern Ring Branch Road, Ar Rabwah, Riyadh 12824, Saudi Arabia",
       phone: "Coming Soon",
       status: "coming-soon",
     },
     {
       city: "London",
-      address: "Mayfair, London, W1K, United Kingdom",
+      address: "17 Hanover Square, London, W1S 1BN",
       phone: "+44 20 XXXX XXXX",
       status: "active",
     },
@@ -71,11 +71,11 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <MapPin className="w-6 h-6 text-primary mt-1 flex-shrink-0" strokeWidth={1.5} />
                   <address className="text-primary text-lg font-sans not-italic leading-relaxed">
-                    Boulevard Plaza, Tower 1,
+                    Boulevard Plaza, Tower 1, Level 9, 
                     <br />
-                    Level 20, Downtown Dubai,
+                    Sheikh Mohammed Bin Rashid Boulevard, Dubai, 
                     <br />
-                    U.A.E.
+                    United Arab Emirates
                   </address>
                 </div>
               </div>

@@ -39,8 +39,8 @@ export function Hero() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
             <Link href="/#services">
-              <Button className="bg-accent hover:bg-accent/90 text-white font-medium tracking-wide text-sm sm:text-base px-8 py-6">
-                Our Services
+              <Button className="bg-accent hover:bg-white hover:text-black  text-white font-medium tracking-wide text-sm sm:text-base px-8 py-6 transition-colors duration-300">
+                Our Specialist Services
               </Button>
             </Link>
          

@@ -93,8 +93,8 @@ export function Header() {
 
         <div className="flex items-center gap-4">
           <Link href="/contact">
-            <Button className="hidden sm:block bg-accent hover:bg-accent/90 text-accent-foreground font-medium tracking-wide text-sm px-6 py-2">
-              Contact Us
+            <Button className="hidden sm:block bg-accent hover:bg-white hover:text-black text-accent-foreground font-medium tracking-wide text-sm px-6 py-2">
+              Contact us
             </Button>
           </Link>
 
@@ -157,8 +157,8 @@ export function Header() {
               Contact
             </Link>
             <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
-              <Button className="w-full sm:hidden bg-accent hover:bg-accent/90 text-accent-foreground font-medium tracking-wide mt-4">
-                Contact Us
+              <Button className="w-full sm:hidden bg-accent hover:bg-white hover:text-white text-accent-foreground font-medium tracking-wide mt-4">
+                Contact us
               </Button>
             </Link>
           </nav>

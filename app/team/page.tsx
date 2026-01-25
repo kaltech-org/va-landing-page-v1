@@ -1,17 +1,16 @@
-"use client";
+"use client"
 
-import { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
-import { X } from "lucide-react";
+import { useState, useRef } from "react"
+import Image from "next/image"
+import Link from "next/link"
+import { Header } from "@/components/header"
+import { Footer } from "@/components/footer"
 
 interface TeamMember {
-  name: string;
-  title: string;
-  image: string;
-  bio: string;
+  name: string
+  title: string
+  image: string
+  bio: string
 }
 
 const teamMembers: TeamMember[] = [
@@ -19,93 +18,108 @@ const teamMembers: TeamMember[] = [
     name: "Zeeshan Khilji",
     title: "CEO",
     image: "/zeeshan-khilji-ceo.jpg",
-    bio: `Zeeshan is a UK qualified Big-Four trained accountant and tax adviser, having spent majority of his career working for Big Four and Top 10 firms, including PricewaterhouseCoopers, Ernst & Young and Azets. 
-He specialises in advising high-net-worth private clients, international families and corporates on cross-border structuring, real estate advisory and succession planning. He also has a strong background in M&A, having advised on international tax structuring of cross-border transactions including private equity deals, during his time in the Big Four.
-Zeeshan is also the author of Bloomsbury’s Property Tax Planning and co-author of Bloomsbury’s Taxation of Intellectual Property publications.
-Zeeshan’s clients predominantly consist of internationally mobile families with cross-border structures. He has an extensive network of professional advisers across Europe, GCC and Asia who he regularly collaborates with on cross-border advisory matters.`,
+    bio: `Zeeshan is a UK qualified Big-Four trained accountant and tax adviser, having spent the majority of his career with Big Four and Top 10 firms including PwC, EY and Azets.
+
+He specialises in advising high-net-worth individuals, international families and corporates on cross-border structuring, real estate advisory and succession planning. He also has extensive M&A experience, advising on international tax structuring of cross-border transactions including private equity deals.
+
+Zeeshan is the author of Bloomsbury’s Property Tax Planning and co-author of Bloomsbury’s Taxation of Intellectual Property publications.
+
+His clients are predominantly internationally mobile families with complex cross-border structures, supported by a strong professional network across Europe, GCC and Asia.`,
   },
   {
     name: "Susie Moore",
     title: "Senior Tax Advisory Specialist",
     image: "/Susie.jpg",
-    bio: `Susie is a Chartered Accountant, Chartered Tax Advisor and legally trained international tax specialist with over 20 years of experience in cross-border tax structuring, compliance and strategic advisory.
-With extensive experience in both the UK and the Middle East, Susie has developed deep regional expertise in UK–UAE taxation and a practical understanding of how international and domestic tax regimes interact. She specialises in helping business owners, multinational groups, high-net-worth individuals and family offices navigate the complexities of relocation, business expansion and corporate structuring between the UK, UAE and wider GCC region.
-Susie has held senior positions at leading global firms including PwC, BDO, and CGI in Dubai, where she advised on complex international tax planning, transfer pricing, intellectual property structuring, foundations and corporate residency across numerous jurisdictions including the UK, UAE, Europe, the US, and key GCC markets.
-Her expertise lies in designing and implementing tax-efficient, compliant and scalable structures that align with commercial objectives and support long-term growth, investment and exit strategies.`,
+    bio: `Susie is a Chartered Accountant, Chartered Tax Advisor and legally trained international tax specialist with over 20 years of experience in cross-border tax structuring and advisory.
+
+With deep UK and Middle East experience, Susie specialises in UK–UAE taxation, relocation planning and international structuring for multinational groups, business owners and family offices.
+
+She has held senior positions at PwC, BDO and CGI in Dubai, advising on transfer pricing, intellectual property structuring, foundations and corporate residency across the UK, UAE, Europe, US and GCC markets.`,
   },
   {
     name: "Dan Crumplin",
     title: "Head of Corporate Services",
     image: "/team-daniel-crumplin.jpg",
-    bio: `Dan has over a decade of hands-on experience across the UAE and Saudi Arabia, partnering with organisations from innovative start-ups to established Fortune 500 companies to simplify and accelerate their commercial establishments in the Middle East. 
-Dan specialises in market entry consultancy, corporate structuring and cross-border asset planning. His advisory work spans guiding both companies and individuals on efficient asset holding structures, navigating complex financial transactions and accessing leading financial institutions and investment channels globally.
-Over the past decade, Dan has served as a professional director for a wide range of client entities. In this role, he brings governance expertise, risk oversight and strategic input to ensure compliance, operational resilience and long-term value creation for international clients.`,
+    bio: `Dan has over a decade of experience across the UAE and Saudi Arabia, advising organisations from innovative start-ups to Fortune 500 companies.
+
+He specialises in market entry consultancy, corporate structuring and cross-border asset planning, helping businesses establish and scale efficiently across the Middle East.
+
+Dan has also served as a professional director for numerous international client entities, providing governance oversight, risk management and strategic direction.`,
   },
-  {
-    name: "Raju Baxi",
-    title: "Head of Accounts and Tax Compliance",
-    image: "/team-raju-baxi.jpg",
-    bio: `Raju qualified as a Chartered Accountant in 1988. With extensive professional experience spanning more than three decades, he has undertaken accounts, compliance and statutory audits of listed and unlisted public sector entities, insurance companies, public sector and private sector banks, private limited companies, non-corporate entities and charitable trusts.  
-His technical expertise, leadership and commitment to professional excellence have earned him recognition across the financial and business community.`,
-  },
-];
+
+]
 
 export default function TeamPage() {
-  const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null);
+  const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null)
+  const bioRef = useRef<HTMLDivElement | null>(null)
+
+  const handleViewProfile = (member: TeamMember) => {
+    setSelectedMember(member)
+    setTimeout(() => {
+      bioRef.current?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      })
+    }, 120)
+  }
 
   return (
     <div className="min-h-screen bg-background">
       <Header />
 
-      {/* Hero Section */}
-      <section className="relative bg-primary py-20 sm:py-24 md:py-28 lg:py-40 overflow-hidden">
-        <div className="absolute inset-0">
-          <Image
-            src="/hero-team-office.jpg"
-            alt="Modern corporate office"
-            fill
-            className="object-cover opacity-20"
-            priority
-          />
-        </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 text-center">
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-white mb-6">Our Leadership Team</h1>
+      {/* Hero */}
+      <section className="relative bg-primary py-28 lg:py-40 overflow-hidden">
+        <Image
+          src="/hero-team-office.jpg"
+          alt="Leadership team"
+          fill
+          priority
+          className="object-cover opacity-20"
+        />
+        <div className="relative max-w-7xl mx-auto px-6 text-center">
+          <h1 className="font-serif text-5xl md:text-6xl text-white">
+            Our Leadership Team
+          </h1>
         </div>
       </section>
 
-      {/* Team Grid Section */}
-      {/* Team Grid Section */}
-      <section className="py-16 sm:py-20 md:py-15 bg-[#F9F7F2]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
+      {/* Team Grid */}
+      <section
+        className={`py-20 bg-[#F9F7F2] transition-opacity duration-300 ${selectedMember ? "opacity-40" : "opacity-100"
+          }`}
+      >
+        {/* CHANGED: max-w-6xl to max-w-4xl to make cards smaller */}
+        <div className="max-w-4xl mx-auto px-6">
+          {/* CHANGED: gap-10 to gap-6 for tighter spacing */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {teamMembers.map((member, index) => (
               <div
                 key={index}
-                className="group bg-white rounded-lg overflow-hidden text-left transition-all duration-300 hover:shadow-lg flex flex-col"
+                className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition flex flex-col"
               >
-                {/* Portrait Image - 3:4 aspect ratio */}
-                <div className="relative aspect-[3/4] overflow-hidden">
+                {/* Image Aspect Ratio */}
+                <div className="relative aspect-[3/3]">
                   <Image
-                    src={member.image || "/placeholder.svg"}
+                    src={member.image}
                     alt={member.name}
                     fill
-                    className="object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
+                    className="object-cover grayscale hover:grayscale-0 transition"
                   />
                 </div>
 
-                {/* Text Content */}
-                <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between">
+                <div className="p-6 flex flex-col flex-1 justify-between">
                   <div>
-                    <h3 className="font-serif text-xl sm:text-2xl text-[#0F172A] mb-1">{member.name}</h3>
-                    <p className="font-sans text-xs sm:text-sm text-[#B4924F] font-medium tracking-wider uppercase">
+                    <h3 className="font-serif text-xl text-[#0F172A]">
+                      {member.name}
+                    </h3>
+                    <p className="text-xs uppercase tracking-widest text-[#B4924F] font-semibold mt-1">
                       {member.title}
                     </p>
                   </div>
 
-                  {/* View Profile Button aligned at bottom */}
                   <button
-                    onClick={() => setSelectedMember(member)}
-                    className="mt-4 inline-block bg-accent hover:bg-accent/90 text-accent-foreground font-medium text-sm px-4 py-2 rounded transition self-start"
+                    onClick={() => handleViewProfile(member)}
+                    className="mt-6 bg-accent text-accent-foreground text-sm px-4 py-2 rounded hover:bg-accent/90 self-start"
                   >
                     View Profile
                   </button>
@@ -116,78 +130,71 @@ export default function TeamPage() {
         </div>
       </section>
 
-
-      {/* CTA Section */}
-      <section className="py-16 sm:py-20 bg-secondary">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 text-center">
-          <h2 className="font-serif text-3xl sm:text-4xl text-primary mb-6">Work With Our Team</h2>
-          <p className="font-sans text-base text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Our leadership team is here to provide expert guidance tailored to your
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-accent hover:bg-accent/90 text-accent-foreground font-medium tracking-wide text-sm px-8 py-3 transition"
-          >
-            Contact Us
-          </Link>
-        </div>
-      </section>
-
-      <Footer />
-
-      {/* Bio Modal - FULL CONTENT, No Scroll */}
+      {/* Focused Bio Section */}
       {selectedMember && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm"
-          onClick={() => setSelectedMember(null)}
+        <section
+          ref={bioRef}
+          className="relative py-24 bg-white border-t-4 border-accent scroll-mt-24"
         >
-          <div
-            className="relative bg-white w-[90%] md:w-[80%] max-w-6xl rounded-xl shadow-2xl flex flex-col sm:flex-row overflow-hidden"
-            onClick={(e) => e.stopPropagation()}
-          >
-            {/* Close Button */}
-            <button
-              onClick={() => setSelectedMember(null)}
-              className="absolute top-4 right-4 z-20 w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 hover:bg-[#0F172A] text-[#0F172A] hover:text-white transition-colors shadow-sm"
-              aria-label="Close modal"
-            >
-              <X className="w-5 h-5" />
-            </button>
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="relative grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
 
-            {/* Left Side: Circular Profile Image */}
-            <div className="w-full sm:w-1/3 bg-[#F9F7F2] flex items-center justify-center p-6 sm:p-0 flex-shrink-0 border-b sm:border-b-0 sm:border-r border-gray-100">
-              <div className="relative w-32 h-32 sm:w-48 sm:h-48 rounded-full overflow-hidden border-4 border-white shadow-lg">
-                <Image
-                  src={selectedMember.image || "/placeholder.svg"}
-                  alt={selectedMember.name}
-                  fill
-                  className="object-cover"
-                />
+              {/* Close */}
+              <button
+                onClick={() => setSelectedMember(null)}
+                className="absolute right-0 -top-14 text-sm text-gray-500 hover:text-primary"
+              >
+                ✕ Close Profile
+              </button>
+
+              {/* Image */}
+              <div className="flex justify-center">
+                <div className="relative w-52 h-52 rounded-full overflow-hidden shadow-xl ring-4 ring-white">
+                  <Image
+                    src={selectedMember.image}
+                    alt={selectedMember.name}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
               </div>
-            </div>
 
-            {/* Right Side: Full Bio */}
-            <div className="flex-1 p-8 sm:p-10 bg-white overflow-auto max-h-[90vh]">
-              <div className="max-w-3xl">
-                <h3 className="font-serif text-3xl sm:text-4xl text-[#0F172A] mb-2">
+              {/* Bio */}
+              <div className="md:col-span-2">
+                <h3 className="font-serif text-4xl text-[#0F172A] mb-2">
                   {selectedMember.name}
                 </h3>
-                <p className="font-sans text-sm sm:text-base text-[#B4924F] font-bold tracking-widest uppercase mb-6">
+
+                <p className="uppercase tracking-widest text-sm text-[#B4924F] font-semibold mb-8">
                   {selectedMember.title}
                 </p>
 
-                <div className="prose prose-slate text-[#0F172A]/80 leading-relaxed font-sans text-justify text-sm sm:text-base">
-                  {selectedMember.bio.split("\n").map((paragraph, i) => (
-                    <p key={i} className="mb-4 last:mb-0 min-h-[1em]">
-                      {paragraph}
-                    </p>
+                <div className="prose prose-slate max-w-none text-justify leading-relaxed">
+                  {selectedMember.bio.split("\n").map((p, i) => (
+                    <p key={i}>{p}</p>
                   ))}
                 </div>
               </div>
+
             </div>
           </div>
-        </div>
+        </section>
       )}
+
+      {/* CTA */}
+      <section className="py-20 bg-secondary text-center">
+        <h2 className="font-serif text-4xl text-primary mb-6">
+          Work With Our Team
+        </h2>
+        <Link
+          href="/contact"
+          className="inline-block bg-accent text-accent-foreground px-8 py-3 text-sm font-medium  bg-accent hover:bg-white hover:text-black  text-white"
+        >
+          Contact us
+        </Link>
+      </section>
+
+      <Footer />
     </div>
-  );
+  )
 }

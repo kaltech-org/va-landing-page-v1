@@ -39,19 +39,43 @@ export default function UaeKsaRelocationPage() {
       </section>
 
       <section className="py-16 md:py-20 bg-[#F9F7F2]">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">            Comprehensive relocation support and corporate formation services for UAE and KSA inbound families and entrepreneurs.</h2>
-          <p className="text-base md:text-lg leading-relaxed text-primary/80 max-w-4xl font-sans">
+        {/* Changed max-w-6xl to max-w-4xl and updated px to match the previous section */}
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 text-justify">
 
+          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6 text-justify">
+            Comprehensive relocation support and corporate formation services for UAE and KSA inbound families and entrepreneurs.
+          </h2>
 
-            We deliver an integrated suite of relocation, corporate set up and regulatory support services for families, founders, investors and businesses establishing a footprint across the GCC, particularly in the UAE and Saudi Arabia. Our model combines tailored and bespoke advisory with precise execution, ensuring clients enter the region with clarity and confidence, whilst ensuring their compliance and regulatory obligations are met.
-            Whether you are a business owner expanding your business to the GCC, a high-net-worth investor or a family relocating to the region, when relocating or expanding to a new jurisdiction, it is critical that business owners and families seek advice from local experts. With strong contacts at government level and extensive knowledge of the local market, we provide hands-on support throughout the process, ensuring an efficient and hassle-free move for your family and business.
-            We provide ongoing support to you and your business post set up, acting as your dedicated advisers, providing proactive tax compliance and advisory services to your business, including implementing and managing robust corporate governance frameworks. 
-          </p>
+          <div className="space-y-6 text-justify font-sans text-base md:text-lg leading-relaxed text-primary/80">
+            <p>
+              We deliver an integrated suite of relocation, corporate set up and regulatory support
+              services for families, founders, investors and businesses establishing a footprint across
+              the GCC, particularly in the UAE and Saudi Arabia. Our model combines tailored and bespoke
+              advisory with precise execution, ensuring clients enter the region with clarity and
+              confidence, whilst ensuring their compliance and regulatory obligations are met.
+            </p>
 
-          {/* Core Offerings with reduced top margin */}
+            <p>
+              Whether you are a business owner expanding your business to the GCC, a high-net-worth
+              investor or a family relocating to the region, when relocating or expanding to a new
+              jurisdiction, it is critical that business owners and families seek advice from local
+              experts. With strong contacts at government level and extensive knowledge of the local
+              market, we provide hands-on support throughout the process, ensuring an efficient and
+              hassle-free move for your family and business.
+            </p>
+
+            <p>
+              We provide ongoing support to you and your business post set up, acting as your dedicated
+              advisers, providing proactive tax compliance and advisory services to your business,
+              including implementing and managing robust corporate governance frameworks.
+            </p>
+          </div>
+
+          {/* Core Offerings */}
           <h3 className="font-serif text-2xl md:text-3xl text-primary mt-12 mb-8">Core Offerings</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          {/* Adjusted grid for the narrower container (2 columns looks better than 3 at this width) */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {offerings.map((offering, index) => (
               <div key={index} className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
                 <div className="flex items-start gap-4">
@@ -70,12 +94,12 @@ export default function UaeKsaRelocationPage() {
       {/* CTA Section */}
       <section className="py-16 md:py-20 bg-secondary">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">Ready to Get Started?</h2>
+
           <p className="text-base md:text-lg text-primary/70 mb-8 leading-relaxed font-sans">
             Contact our team to discuss your relocation and corporate services requirements
           </p>
           <Link href="/contact">
-            <Button className="bg-accent hover:bg-accent/90 text-white font-medium px-8 py-6 text-base font-sans">
+            <Button className="bg-accent hover:bg-white hover:text-black text-white font-medium px-8 py-6 text-base font-sans">
               Contact Us Today
             </Button>
           </Link>

@@ -28,12 +28,12 @@ export function Booking() {
                 <div className="flex items-start gap-3">
                   <MapPin className="w-4 h-4 text-accent mt-1 flex-shrink-0" />
                   <p className="text-sm text-primary/70 font-sans">
-                    Boulevard Plaza, Tower 1, Level 20, Downtown Dubai, UAE
+                    Boulevard Plaza, Tower 1, Level 9, Sheikh Mohammed Bin Rashid Boulevard, Dubai, United Arab Emirates
                   </p>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-accent flex-shrink-0" />
-                  <span className="text-sm text-primary/70 font-sans">+971 4 XXX XXXX</span>
+                  <span className="text-sm text-primary/70 font-sans">+971 4 330 4177</span>
                 </div>
               </div>
             </div>
@@ -43,11 +43,9 @@ export function Booking() {
               <h3 className="text-lg sm:text-xl font-serif font-bold text-primary mb-3">Abu Dhabi</h3>
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-accent mt-1 flex-shrink-0" />
-                <p className="text-sm text-primary/70 font-sans">Address coming soon</p>
+                <p className="text-sm text-primary/70 font-sans">ADGM Square, Al Sila Tower, Abu Dhabi, United Arab Emirates </p>
               </div>
-              <span className="inline-block mt-3 text-xs font-medium text-accent bg-accent/10 px-3 py-1 rounded-full font-sans">
-                Coming Soon
-              </span>
+
             </div>
 
             {/* Saudi Arabia Office */}
@@ -55,11 +53,10 @@ export function Booking() {
               <h3 className="text-lg sm:text-xl font-serif font-bold text-primary mb-3">Saudi Arabia</h3>
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-accent mt-1 flex-shrink-0" />
-                <p className="text-sm text-primary/70 font-sans">Address coming soon</p>
+                <p className="text-sm text-primary/70 font-sans">6948 Eastern Ring Branch Road, Ar Rabwah, Riyadh 12824, Saudi Arabia
+                </p>
               </div>
-              <span className="inline-block mt-3 text-xs font-medium text-accent bg-accent/10 px-3 py-1 rounded-full font-sans">
-                Coming Soon
-              </span>
+
             </div>
 
             {/* London Office */}
@@ -68,12 +65,9 @@ export function Booking() {
               <div className="space-y-2">
                 <div className="flex items-start gap-3">
                   <MapPin className="w-4 h-4 text-accent mt-1 flex-shrink-0" />
-                  <p className="text-sm text-primary/70 font-sans">Mayfair, London, W1K, United Kingdom</p>
+                  <p className="text-sm text-primary/70 font-sans">17 Hanover Square, London, W1S 1BN</p>
                 </div>
-                <div className="flex items-center gap-3">
-                  <Phone className="w-4 h-4 text-accent flex-shrink-0" />
-                  <span className="text-sm text-primary/70 font-sans">+44 20 XXXX XXXX</span>
-                </div>
+
               </div>
             </div>
           </div>
@@ -81,13 +75,13 @@ export function Booking() {
           {/* CTA Card */}
           <div className="flex flex-col justify-center">
             <div className="bg-primary p-8 md:p-10 rounded-xl text-center">
-              <h3 className="font-serif text-2xl md:text-3xl text-white mb-4">Ready to Get Started?</h3>
+
               <p className="text-white/80 mb-8 font-sans">
                 Click below to send us a message with your enquiry.
               </p>
               <Link href="/contact">
-                <Button className="bg-accent hover:bg-accent/90 text-white font-medium px-10 py-6 text-base font-sans">
-                  Contact Us
+                <Button className="bg-accent hover:bg-white hover:text-black text-white font-medium px-10 py-6 text-base font-sans">
+                  Contact us
                 </Button>
               </Link>
             </div>

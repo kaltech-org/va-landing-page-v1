@@ -797,7 +797,7 @@ export const articles = [
     author: "Middle East Advisory Group",
     date: "December 15, 2026",
     category: "Individual Tax Residency",
-    image: "/5.jpeg",
+    image: "/headquater-.png",
   },
   {
     id: 9,

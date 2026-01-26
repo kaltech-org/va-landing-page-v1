@@ -166,12 +166,8 @@ export default function TeamPage() {
 
               {/* Bio */}
               <div className="md:col-span-2">
-                <h3 className="font-serif text-4xl text-[#0F172A] mb-2">
-                  {selectedMember.name}
-                </h3>
-
-                <p className="uppercase tracking-widest text-sm text-[#B4924F] font-semibold mb-8">
-                  {selectedMember.title}
+                <p className="font-serif text-2xl text-[#0F172A] italic underline underline-offset-4 mb-8">
+                  {selectedMember.name} – {selectedMember.title}
                 </p>
 
                 <div className="prose prose-slate max-w-none text-justify leading-relaxed">
@@ -186,13 +182,13 @@ export default function TeamPage() {
       )}
 
       {/* CTA */}
-      <section className="py-20 bg-secondary text-center">
+      {/* <section className="py-20 bg-secondary text-center">
         <h2 className="font-serif text-4xl text-primary mb-6">
           Work With Our Team
         </h2>
         Ready to discuss your advisory needs? Our leadership team is here to provide expert guidance tailored to your unique situation specific requirements.
 
-      </section>
+      </section> */}
 
       <Footer />
     </div>

@@ -9,14 +9,14 @@ import { articles } from "@/lib/articals"
 
 export function Insights() {
   // We only want to show the latest 3 articles on the Homepage
-  const recentArticles = articles.slice(0, 3)
+  const recentArticles = articles.slice(0, 6)
 
   return (
     <section id="insights" className="py-10 sm:py-16 md:py-15 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-primary text-center px-4">
-            News and Technical Insights
+            News and technical insights
           </h2>
         </div>
 

@@ -8,8 +8,6 @@ export const articles = [
       "An overview of how headquarter services qualify under the UAE Free Zone Tax Regime and why they are strategically important for multinational groups operating across the region.",
     content: `
     <p><strong>Headquarter services: A key Qualifying Activity under the UAE Free Zone Tax Regime</strong></p>
-    <p><em>By Middle East Advisory Group</em></p>
-
     <p >
       As global businesses reassess their international structures in light of new tax rules worldwide,
       the UAE has emerged as an attractive hub for regional and global headquarters.
@@ -166,7 +164,7 @@ export const articles = [
     </p>
   `,
     author: "Middle East Advisory Group",
-    date: "January 18, 2026",
+    date: "January 23, 2026",
     category: "Corporate Tax",
     image: "/head.jpeg",
   },
@@ -179,8 +177,6 @@ export const articles = [
     excerpt:
       "A practical guide for investors comparing UAE Free Zones and Mainland structures under the new Corporate Tax regime, focusing on tax, substance, and operational considerations.",
     content: `
-    <p><strong>By Middle East Advisory Group</strong></p>
-
 <p ">
       The UAE is home to more than 40 free zones, each offering its own regulatory framework and licensing model.
       For new investors, this abundance of choice can be overwhelming.
@@ -317,7 +313,7 @@ export const articles = [
     </p>
   `,
     author: "Middle East Advisory Group",
-    date: "January 10, 2026",
+    date: "January 05, 2026",
     category: "Corporate Tax",
     image: "/second.jpeg",
   },
@@ -329,8 +325,6 @@ export const articles = [
     excerpt:
       "A detailed overview of UAE Corporate Tax compliance obligations, including registration, audited financial statements, tax return filing, and transfer pricing documentation.",
     content: `
-    <p><strong>By Middle East Advisory Group</strong></p>
-
     <p>
       The introduction of Corporate Tax in the UAE has implemented a number of compliance
       obligations that apply to both resident and non-resident taxpayers.
@@ -507,7 +501,7 @@ export const articles = [
     </p>
   `,
     author: "Middle East Advisory Group",
-    date: "January 01, 2026",
+    date: "December 20, 2025",
     category: "Corporate Tax",
     image: "/4.jpeg",
   },
@@ -644,7 +638,7 @@ export const articles = [
     </p>
   `,
     author: "Middle East Advisory Group",
-    date: "December 25, 2026",
+    date: "December 05, 2025",
     category: "Corporate Tax",
     image: "/3.jpeg", 
   },
@@ -795,7 +789,7 @@ export const articles = [
     </p>
   `,
     author: "Middle East Advisory Group",
-    date: "December 15, 2026",
+    date: "November 20, 2025",
     category: "Individual Tax Residency",
     image: "/5.jpeg",
   },
@@ -910,7 +904,7 @@ export const articles = [
     </p>
   `,
     author: "Middle East Advisory Group",
-    date: "December 09, 2026",
+    date: "November 05, 2025",
     category: "Corporate Tax",
     image: "/6.png",
   },

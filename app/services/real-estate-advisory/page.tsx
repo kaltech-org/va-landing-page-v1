@@ -41,7 +41,7 @@ export default function RealEstateAdvisoryPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
 
           <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6 ">
-            Expert guidance on real estate transactions across the UAE, KSA and Europe.
+            Expert guidance on real estate transactions across the GCC and Europe.
           </h2>
 
           {/* Text Block: Justified, spaced, and split into paragraphs */}
@@ -49,7 +49,7 @@ export default function RealEstateAdvisoryPage() {
             <p>
               We advise investors, families and developers on international real estate acquisitions,
               structuring and compliance with a focus on residential and commercial real estate
-              investments across the GCC (predominantly UAE and KSA) and European markets.
+              investments across the GCC and European markets.
 
 
 

@@ -56,17 +56,6 @@ export default function ContactPage() {
                   </a>
                 </div>
 
-                {/* Phone */}
-                <div className="flex items-start gap-4">
-                  <Phone className="w-6 h-6 text-primary mt-1 flex-shrink-0" strokeWidth={1.5} />
-                  <a
-                    href="tel:+971045276813"
-                    className="text-primary text-lg font-sans hover:text-accent transition-colors"
-                  >
-                    +971 04 527 6813
-                  </a>
-                </div>
-
                 {/* Address */}
                 <div className="flex items-start gap-4">
                   <MapPin className="w-6 h-6 text-primary mt-1 flex-shrink-0" strokeWidth={1.5} />
@@ -77,6 +66,19 @@ export default function ContactPage() {
                     <br />
                     United Arab Emirates
                   </address>
+                </div>
+
+                {/* Phone */}
+                <div className="flex items-start gap-4">
+                  <Phone className="w-6 h-6 text-primary mt-1 flex-shrink-0" strokeWidth={1.5} />
+                  {/* <a
+                    href="tel:+971045276813"
+                    className="text-primary text-lg font-sans hover:text-accent transition-colors"
+                  > */}
+                  <span className="text-primary text-lg font-sans">
+                    +971 04 527 6813
+                    </span>
+                  {/* </a> */}
                 </div>
               </div>
 

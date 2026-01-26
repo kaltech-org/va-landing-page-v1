@@ -22,7 +22,7 @@ export default function InsightsPage() {
         </div>
         <div className="relative max-w-5xl mx-auto px-6 text-center">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-6 leading-tight text-balance">
-            News and Technical Insights
+            News and technical insights
           </h1>
           <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto font-sans">
             Expert analysis, industry updates and thought leadership from our advisory team.

@@ -30,7 +30,7 @@ export function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-24 sm:py-32 md:py-4 lg:py-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-white leading-tight text-balance mb-6 sm:mb-8">
-            Your Strategic Growth Partners in the UAE and KSA 
+            Your Strategic Growth Partners in the UAE, KSA and wider GCC
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-white/80 leading-relaxed font-light max-w-3xl mx-auto px-4 mb-8 sm:mb-10">

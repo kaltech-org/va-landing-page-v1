@@ -8,18 +8,18 @@ export function AboutTrainer() {
     {
       icon: Globe,
       title: "International Presence",
-      description: "Offices in Dubai, Abu Dhabi, Saudi Arabia, and London.",
+      description: "Offices in Dubai, Abu Dhabi, Saudi Arabia and London",
     },
     {
       icon: Award,
       title: "Expertise",
-      description: "Independent partner-led service with Big Four expertise.",
+      description: "Independent partner-led service with an experienced ex-Big Four leadership team",
     },
     {
       icon: Handshake,
       title: "Partners to Professional Advisers",
       description:
-        "Specialist consultancy partners to international private banks, wealth managers, family offices, accountants and lawyers.",
+        "Specialist consultancy partners to international private banks, wealth managers, family offices, accountants and lawyers",
     },
   ]
 
@@ -29,7 +29,7 @@ export function AboutTrainer() {
 
         <div className="max-w-4xl mx-auto text-center mb-8 sm:mb-12">
           <p className="text-base sm:text-lg md:text-xl leading-relaxed text-secondary-foreground text-left md:text-justify">
-            Middle East Advisory (MEA) Group is one of the leading GCC-based advisory and corporate services firms, supporting UK, Middle Eastern and international families, entrepreneurs and high-net worth private clients with relocation, tax advisory, real estate and cross-border structuring services across the UAE and Saudi Arabia (KSA).
+            Middle East Advisory (MEA) Group is one of the leading GCC-based advisory and corporate services firms, supporting UK, Middle Eastern and international families, entrepreneurs and high-net worth private clients with relocation, tax advisory, real estate and cross-border structuring services across the UAE and Saudi Arabia (KSA) and the wider GCC region.
           </p>
 
         </div>
@@ -76,8 +76,7 @@ export function AboutTrainer() {
               Zeeshan Khilji
             </h3>
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-4">
-              Ex-Big Four | Author of Bloomsbury publications | International tax advisory, real estate and cross-border structuring specialist.
-            </p>
+Ex-PwC and EY l Author of Bloomsbury publications l UK, GCC and cross-border tax advisory, real estate and wealth structuring expert             </p>
             <div className="w-16 h-0.5 bg-accent mx-auto md:mx-0"></div>
           </div>
         </div>

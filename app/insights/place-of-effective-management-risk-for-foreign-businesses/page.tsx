@@ -11,7 +11,7 @@ export default function HeadquarterServicesPage() {
     author: "Middle East Advisory Group",
     date: "January 25, 2026",
     category: "Corporate Tax",
-    image: "/3.JPEG", 
+      image: "/3.jpeg", 
   }
 
   // Content with Justified Text and Inline Styles for Bullets

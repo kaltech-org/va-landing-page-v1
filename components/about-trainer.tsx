@@ -8,7 +8,7 @@ export function AboutTrainer() {
     {
       icon: Globe,
       title: "International Presence",
-      description: "Offices in Dubai, Abu Dhabi, Saudi Arabia, and London",
+      description: "Offices in Dubai, Abu Dhabi, Saudi Arabia, and London.",
     },
     {
       icon: Award,
@@ -28,11 +28,10 @@ export function AboutTrainer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
 
         <div className="max-w-4xl mx-auto text-center mb-8 sm:mb-12">
-          <p className="text-base sm:text-lg md:text-xl leading-relaxed text-secondary-foreground">
-            Middle East Advisory Group is one of the leading advisory and corporate services firms, supporting
-            UK, Middle Eastern and international families, entrepreneurs and high-net worth private clients with
-            relocation, tax advisory, real estate and cross-border structuring services across the UAE and Saudi Arabia.
+          <p className="text-base sm:text-lg md:text-xl leading-relaxed text-secondary-foreground text-left md:text-justify">
+            Middle East Advisory (MEA) Group is one of the leading GCC-based advisory and corporate services firms, supporting UK, Middle Eastern and international families, entrepreneurs and high-net worth private clients with relocation, tax advisory, real estate and cross-border structuring services across the UAE and Saudi Arabia (KSA).
           </p>
+
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-8 sm:mb-12">

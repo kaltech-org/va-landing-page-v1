@@ -37,31 +37,24 @@ export default function AboutPage() {
           <div className="space-y-8 sm:space-y-10 md:space-y-12 text-justify">
 
             <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">
-              Middle East Advisory Group was established as a specialist advisory firm providing holistic
-              solutions focused advisory services to UAE and KSA inbound UK and international
-              high-net-worth private clients and Middle Eastern families.
+              MEA Group was established as a specialist advisory firm providing holistic solutions focused advisory services to UAE and KSA inbound UK and international high-net-worth private clients and Middle Eastern families. 
             </p>
 
             <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">
-              With offices in the UK, Dubai, Abu Dhabi and Saudi Arabia, we partner with accountants,
-              international wealth managers, private banks, family offices and law firms, to provide an
-              independent partner led service to both private and corporate clients. Being based out of
-              both UK and GCC allows us to serve our international clients from our multiple office
-              locations.
+              With offices in the Dubai, Abu Dhabi, Saudi Arabia and the UK, we partner with accountants, international wealth managers, private banks, family offices and law firms, to provide an independent partner led service to both private and corporate clients. Being based out of both UK and GCC allows us to be serve our international clients from our multiple office locations. 
             </p>
 
             <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">
-              Our specialist teams can support our clients throughout the business lifecycle, from
-              corporate set ups to tax efficient exit planning. We have extensive experience with helping
-              our clients enter the UAE and KSA markets, implementing tax efficient corporate structures
-              and managing ongoing compliance.
+              Our specialist teams can support our clients throughout the business lifecycle, from corporate set ups to tax efficient exit planning.
+              We have extensive experience with helping our clients enter
+              the UAE and KSA markets, implementing tax efficient corporate
+              structures and managing ongoing compliance. We also work extensively
+              with Middle Eastern and international families, advising them on tax
+              efficient structuring of their international asset portfolios,
+              succession planning and family governance.
             </p>
 
-            <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">
-              We also work extensively with Middle Eastern and international families, advising them on
-              tax efficient structuring of their international asset portfolios, succession planning and
-              family governance.
-            </p>
+
 
           </div>
         </div>

@@ -8,7 +8,7 @@ export function AboutTrainer() {
     {
       icon: Globe,
       title: "International Presence",
-      description: "Offices in London, Dubai, Abu Dhabi and Saudi Arabia.",
+      description: "Offices in Dubai, Abu Dhabi, Saudi Arabia, and London",
     },
     {
       icon: Award,

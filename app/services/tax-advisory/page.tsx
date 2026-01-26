@@ -41,7 +41,7 @@ export default function TaxAdvisoryPage() {
       {/* Main Content Section */}
       <section className="py-16 md:py-20 bg-[#F9F7F2]">
         {/* Updated Container Width and Padding to match previous sections */}
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
 
           <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6 ">
             Strategic tax planning, international structuring and cross-border compliance solutions for businesses and families

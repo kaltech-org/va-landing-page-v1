@@ -38,7 +38,7 @@ export default function FamilyGovernancePage() {
       {/* Main Content Section */}
       <section className="py-16 md:py-20 bg-[#F9F7F2]">
         {/* Updated Container to max-w-4xl and exact responsive padding */}
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
 
           <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6 text-justify">
             Bespoke wealth preservation strategies, asset protection solutions and cross-border estate planning.

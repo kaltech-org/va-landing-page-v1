@@ -39,7 +39,7 @@ export function Footer() {
               <a href="mailto:enquiries@me-advisorygroup.com" className="text-accent hover:text-accent/80 transition" aria-label="Email">
                 <Mail className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
-              <a href="tel:+971000000000" className="text-accent hover:text-accent/80 transition" aria-label="Phone">
+              <a href="tel:+971045276813" className="text-accent hover:text-accent/80 transition" aria-label="Phone">
                 <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
             </div>

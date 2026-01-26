@@ -33,7 +33,7 @@ export default function AboutPage() {
 
       {/* Section 1: Who We Are */}
       <section className="py-16 sm:py-20 md:py-24 lg:py-20 bg-background">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="space-y-8 sm:space-y-10 md:space-y-12 text-justify">
 
             <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">

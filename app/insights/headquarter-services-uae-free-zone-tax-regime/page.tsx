@@ -11,13 +11,12 @@ export default function HeadquarterServicesPage() {
     author: "Middle East Advisory Group",
     date: "January 25, 2026",
     category: "Corporate Tax",
-    image: "/1.JPEG", // Make sure this image exists in your public folder
+    image: "/333.png", 
   }
 
-  // Cleaned up HTML content with proper structure
+  // Content with Justified Text and Inline Styles for Bullets
   const content = `
     <p class="text-justify">
-
       As global businesses reassess their international structures in light of new tax rules worldwide, 
       the UAE has emerged as an attractive hub for regional and global headquarters. The UAE Corporate 
       Tax Law further facilitates this by recognising “Headquarter services to Related Parties”
@@ -27,8 +26,9 @@ export default function HeadquarterServicesPage() {
       this activity is central to how a UAE Free Zone entity can legitimately operate as a management 
       and coordination centre for the wider group.
     </p>
-     <br/>
-    <h3 > <strong>1. What Are “Headquarter Services”?</strong></h3>
+    <br/>
+    
+    <h3><strong>1. What Are “Headquarter Services”?</strong></h3>
 
     <p class="text-justify">
       A Free Zone entity is considered to be providing headquarter services when it administers, 
@@ -37,7 +37,7 @@ export default function HeadquarterServicesPage() {
 
     <p>This can include providing:</p>
 
-<ul style="list-style-type: disc; padding-left: 20px;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
       <li>senior and general management</li>
       <li>strategic decision-making</li>
       <li>business planning and development</li>
@@ -52,16 +52,17 @@ export default function HeadquarterServicesPage() {
     </ul>
 
     <p class="text-justify">
-    In essence, a Free Zone headquarter company acts as the central hub for 
-    the group (or for a major segment of the group) driving key decisions and 
-    coordinating activities across multiple entities.
+      In essence, a Free Zone headquarter company acts as the central hub for 
+      the group (or for a major segment of the group) driving key decisions and 
+      coordinating activities across multiple entities.
     </p>
-<br>
-    <h3> <strong>2. Which Related Parties Qualify?</strong></h3>
+    <br>
+
+    <h3><strong>2. Which Related Parties Qualify?</strong></h3>
 
     <p>For this specific Qualifying Activity, “Related Parties” include:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
       <li>juridical persons (companies)</li>
       <li>branches of juridical persons</li>
       <li>foreign permanent establishments</li>
@@ -72,42 +73,44 @@ export default function HeadquarterServicesPage() {
       This is a broader scope than many businesses expect, and it allows both UAE and non-UAE group 
       entities to be serviced from a regional or global headquarter in a UAE Free Zone.
     </p>
-<br>
-    <h3><strong>3. Examples </strong></h3>
+    <br>
 
-    <p class="text-justify">A Free Zone entity may fall within this Qualifying Activity if it provides services such as:
+    <h3><strong>3. Examples</strong></h3>
 
-    Strategic and Management Functions</p>
-    <ul style="list-style-type: disc; padding-left: 20px;">
+    <p class="text-justify">A Free Zone entity may fall within this Qualifying Activity if it provides services such as:</p>
+    
+    <p><strong>Strategic and Management Functions</strong></p>
+    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
       <li>approving budgets and business plans</li>
       <li>setting sales or marketing strategies</li>
       <li>deciding on major acquisitions or contracts</li>
       <li>overseeing group-wide KPIs and performance</li>
     </ul>
- <br>
+
     <p><strong>Group Service Centre Functions</strong></p>
-    <ul style="list-style-type: disc; padding-left: 20px;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
       <li>procurement and vendor negotiations</li>
       <li>shared HR services (recruitment, policies, payroll support)</li>
       <li>shared IT services or technical support</li>
       <li>shared finance functions (budgeting, modelling, treasury support)</li>
     </ul>
- <br>
+
     <p><strong>Risk and Compliance Oversight</strong></p>
-    <ul style="list-style-type: disc; padding-left: 20px;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
       <li>group-wide compliance and reporting functions</li>
       <li>legal review and governance support</li>
       <li>enterprise-level risk management</li>
     </ul>
- <br>
+
     <p><strong>Other Support</strong></p>
-    <ul style="list-style-type: disc; padding-left: 20px;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
       <li>centralised training and development</li>
       <li>standardising processes across the group</li>
       <li>ensuring operational consistency between subsidiaries</li>
     </ul>
-<br>
-    <h3> <strong>4. Why “Headquarter Services” Are Strategically Important</strong></h3>
+    <br>
+
+    <h3><strong>4. Why “Headquarter Services” Are Strategically Important</strong></h3>
 
     <p class="text-justify">
       Establishing a UAE Free Zone entity to act as a group headquarters allows the group to centralise 
@@ -115,11 +118,11 @@ export default function HeadquarterServicesPage() {
       the requirements for the Free Zone Tax Regime, including substance, qualifying income, transfer 
       pricing compliance, de minimis limits, audited financials, it becomes eligible for a 
       0% corporate tax rate to the income derived from these headquarter services.
-    
+    </p>
 
-    This creates a legitimate and internationally recognised framework for:</p>
+    <p class="text-justify">This creates a legitimate and internationally recognised framework for:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
       <li>consolidating strategic management functions in the UAE,</li>
       <li>ensuring proper governance and coordination across global operations, and</li>
       <li>aligning group structures with a tax-efficient environment, provided transfer pricing regulations are applied correctly.</li>
@@ -130,12 +133,13 @@ export default function HeadquarterServicesPage() {
       Abu Dhabi for commercial reasons. The Free Zone Tax Regime reinforces the UAE’s attractiveness 
       for this purpose under the new tax landscape.
     </p>
-<br>
+    <br>
+
     <h3><strong>5. Important Compliance Notes for Headquarter Companies</strong></h3>
 
     <p>To qualify for the 0% rate, the Free Zone HQ company must ensure:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
       <li>adequate substance in the Free Zone;</li>
       <li>proper transfer pricing policies and documentation;</li>
       <li>charging arm’s length fees to Related Parties;</li>
@@ -148,12 +152,13 @@ export default function HeadquarterServicesPage() {
       If any requirement is breached the entity loses Free Zone Tax Regime eligibility for the current 
       year and the next four years. Careful structuring is therefore essential.
     </p>
-<br>
+    <br>
+
     <h3><strong>6. How Middle East Advisory Group Can Help</strong></h3>
 
     <p>We assist businesses with:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
       <li>structuring Free Zone headquarter companies;</li>
       <li>assessing whether planned HQ activities qualify under the regime;</li>
       <li>verifying whether a free zone is recognised as a Qualifying Free Zone;</li>
@@ -163,7 +168,7 @@ export default function HeadquarterServicesPage() {
       <li>navigating the Free Zone Tax Regime and avoiding disqualification</li>
     </ul>
 
-    <p class="text-justify"class="text-justify">
+    <p class="text-justify">
       The UAE is one of the world’s most attractive jurisdictions for establishing a headquarters—provided 
       the tax and compliance framework is understood and respected from the outset.
     </p>
@@ -175,12 +180,12 @@ export default function HeadquarterServicesPage() {
 
       <main className="pt-24 pb-16">
         {/* Navigation & Header Area */}
-        <div className="max-w-6xl mx-auto px-0 mb-10">
+        <div className="max-w-5xl mx-auto px-6 mb-10">
           <Link
             href="/insights"
             className="inline-flex items-center text-sm text-accent hover:text-accent/80 mb-8 transition-colors font-medium"
           >
-            <ArrowLeft className="w-6 h-4 mr-2" />
+            <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Insights
           </Link>
 
@@ -207,7 +212,6 @@ export default function HeadquarterServicesPage() {
                 <p className="text-xs text-muted-foreground">Middle East Advisory Group</p>
               </div>
             </div>
-
           </div>
         </div>
 
@@ -225,7 +229,7 @@ export default function HeadquarterServicesPage() {
         </div>
 
         {/* Article Content Body */}
-        <article className="max-w-3xl mx-auto px-6">
+        <article className="max-w-5xl mx-auto px-6">
           <div
             className="
               mx-auto 
@@ -233,13 +237,6 @@ export default function HeadquarterServicesPage() {
               prose prose-lg prose-slate 
               prose-headings:font-serif prose-headings:text-primary 
               prose-a:text-accent 
-              
-              /* 👇 BULLET POINT STYLING 👇 */
-              prose-ul:list-disc 
-              prose-ul:pl-6
-              prose-li:marker:text-accent
-              /* 👆 --------------------- 👆 */
-
               leading-relaxed
             "
             dangerouslySetInnerHTML={{ __html: content }}

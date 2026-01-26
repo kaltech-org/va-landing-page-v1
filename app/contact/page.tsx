@@ -60,10 +60,10 @@ export default function ContactPage() {
                 <div className="flex items-start gap-4">
                   <Phone className="w-6 h-6 text-primary mt-1 flex-shrink-0" strokeWidth={1.5} />
                   <a
-                    href="tel:+97143304177"
+                    href="tel:+971045276813"
                     className="text-primary text-lg font-sans hover:text-accent transition-colors"
                   >
-                    +971 4 330 4177
+                    +971 04 527 6813
                   </a>
                 </div>
 

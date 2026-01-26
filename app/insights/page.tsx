@@ -47,7 +47,7 @@ export default function InsightsPage() {
                   <img
                     src={article.image || "/placeholder.svg"}
                     alt={article.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   />
                 </Link>
 

@@ -7,14 +7,15 @@ export const articles = [
     excerpt:
       "An overview of how headquarter services qualify under the UAE Free Zone Tax Regime and why they are strategically important for multinational groups operating across the region.",
     content: `
-    <p><strong>By Middle East Advisory Group</strong></p>
+    <p><strong>Headquarter services: A key Qualifying Activity under the UAE Free Zone Tax Regime</strong></p>
+    <p><em>By Middle East Advisory Group</em></p>
 
-    <p>
+    <p >
       As global businesses reassess their international structures in light of new tax rules worldwide,
       the UAE has emerged as an attractive hub for regional and global headquarters.
       The UAE Corporate Tax Law further facilitates this by recognising
-      <strong>“Headquarter services to Related Parties”</strong> as a Qualifying Activity
-      under the Free Zone Tax Regime, offering a potential <strong>0% corporate tax rate</strong>
+      “Headquarter services to Related Parties” as a Qualifying Activity
+      under the Free Zone Tax Regime offering a potential 0% corporate tax rate
       when all conditions are met.
     </p>
 
@@ -24,11 +25,11 @@ export const articles = [
       as a management and coordination centre for the wider group.
     </p>
 
-    <h3>What Are “Headquarter Services”?</h3>
+    <h3><strong>1. What Are “Headquarter Services”? </strong></h3>
 
     <p>
       A Free Zone entity is considered to be providing headquarter services when it administers,
-      oversees, or manages the business activities of related parties, whether UAE-based or foreign.
+      oversees, or manages the business activities of related parties whether UAE-based or foreign.
     </p>
 
     <p>This can include providing:</p>
@@ -48,13 +49,14 @@ export const articles = [
     </ul>
 
     <p>
-      In essence, a Free Zone headquarter company acts as the central hub for the group,
-      driving key decisions and coordinating activities across multiple entities.
+      In essence, a Free Zone headquarter company acts as the central hub for the group
+      (or for a major segment of the group) driving key decisions and coordinating activities
+      across multiple entities.
     </p>
 
-    <h3>Which Related Parties Qualify?</h3>
+    <h3><strong>2. Which Related Parties qualify?</strong></h3>
 
-    <p>For this Qualifying Activity, “Related Parties” include:</p>
+    <p>For this specific Qualifying Activity, “Related Parties” include:</p>
 
     <ul>
       <li>juridical persons (companies)</li>
@@ -64,67 +66,109 @@ export const articles = [
     </ul>
 
     <p>
-      This broad scope allows both UAE and non-UAE group entities to be serviced
-      from a regional or global headquarter in a UAE Free Zone.
+      This is a broader scope than many businesses expect, and it allows both UAE and non-UAE
+      group entities to be serviced from a regional or global headquarter in a UAE Free Zone.
     </p>
 
-    <h3>Examples of Qualifying Headquarter Activities</h3>
+    <h3>Examples</h3>
 
+    <p>A Free Zone entity may fall within this Qualifying Activity if it provides services such as:</p>
+
+    <p><strong>Strategic and Management Functions</strong></p>
     <ul>
       <li>approving budgets and business plans</li>
       <li>setting sales or marketing strategies</li>
+      <li>deciding on major acquisitions or contracts</li>
       <li>overseeing group-wide KPIs and performance</li>
-      <li>shared HR, IT, finance, and procurement services</li>
-      <li>group-wide compliance, governance, and risk oversight</li>
-      <li>centralised training and operational standardisation</li>
     </ul>
 
-    <h3>Why Headquarter Services Are Strategically Important</h3>
+    <p><strong>Group Service Centre Functions</strong></p>
+    <ul>
+      <li>procurement and vendor negotiations</li>
+      <li>shared HR services (recruitment, policies, payroll support)</li>
+      <li>shared IT services or technical support</li>
+      <li>shared finance functions (budgeting, modelling, treasury support)</li>
+    </ul>
+
+    <p><strong>Risk and Compliance Oversight</strong></p>
+    <ul>
+      <li>group-wide compliance and reporting functions</li>
+      <li>legal review and governance support</li>
+      <li>enterprise-level risk management</li>
+    </ul>
+
+    <p><strong>Other Support</strong></p>
+    <ul>
+      <li>centralised training and development</li>
+      <li>standardising processes across the group</li>
+      <li>ensuring operational consistency between subsidiaries</li>
+    </ul>
+
+    <h3>Why “Headquarter Services” are of strategic importance</h3>
 
     <p>
-      Establishing a UAE Free Zone entity as a group headquarters allows the consolidation
-      of high-value functions in a globally competitive jurisdiction.
-      When all Free Zone Tax Regime requirements are met — including substance, qualifying income,
-      transfer pricing compliance, de minimis limits, and audited financials —
-      qualifying income may benefit from a <strong>0% corporate tax rate</strong>.
+      Establishing a UAE Free Zone entity to act as a group headquarters allows the group
+      to centralise high-value functions in a highly competitive jurisdiction.
+      When the Free Zone company meets all the requirements for the Free Zone Tax Regime,
+      including substance, qualifying income, transfer pricing compliance, de minimis limits,
+      audited financials, it becomes eligible for a <strong>0% corporate tax rate</strong>
+      to the income derived from these headquarter services.
     </p>
 
-    <h3>Important Compliance Notes</h3>
-
+    <p>This creates a legitimate and internationally recognised framework for:</p>
     <ul>
-      <li>adequate substance in the Free Zone</li>
-      <li>arm’s length transfer pricing policies</li>
-      <li>audited financial statements</li>
-      <li>qualifying-only activities or compliance with de minimis thresholds</li>
-      <li>incorporation in a recognised Qualifying Free Zone</li>
+      <li>consolidating strategic management functions in the UAE,</li>
+      <li>ensuring proper governance and coordination across global operations, and</li>
+      <li>aligning group structures with a tax-efficient environment, provided transfer pricing regulations are applied correctly.</li>
     </ul>
 
     <p>
-      Failure to meet these conditions results in loss of Free Zone Tax Regime eligibility
-      for the current year and the following four years.
+      Many global groups already operate their regional or international headquarters from
+      Dubai or Abu Dhabi for commercial reasons. The Free Zone Tax Regime reinforces the
+      UAE’s attractiveness for this purpose under the new tax landscape.
+    </p>
+
+    <h3>Important Compliance Notes for Headquarter Companies</h3>
+
+    <p>To qualify for the 0% rate, the Free Zone HQ company must ensure:</p>
+
+    <ul>
+      <li>adequate substance in the Free Zone;</li>
+      <li>proper transfer pricing policies and documentation;</li>
+      <li>charging arm’s length fees to Related Parties;</li>
+      <li>only providing Qualifying Activities or staying within de minimis limits;</li>
+      <li>maintaining audited financial statements; and</li>
+      <li>being incorporated in a recognised Qualifying Free Zone</li>
+    </ul>
+
+    <p>
+      If any requirement is breached the entity loses Free Zone Tax Regime eligibility
+      for the current year and the next four years. Careful structuring is therefore essential.
     </p>
 
     <h3>How Middle East Advisory Group Can Help</h3>
 
+    <p>We assist businesses with:</p>
+
     <ul>
-      <li>structuring Free Zone headquarter companies</li>
-      <li>assessing whether activities qualify under the regime</li>
-      <li>designing compliant transfer pricing policies</li>
-      <li>preparing intercompany agreements</li>
-      <li>implementing substance and governance frameworks</li>
+      <li>structuring Free Zone headquarter companies;</li>
+      <li>assessing whether planned HQ activities qualify under the regime;</li>
+      <li>verifying whether a free zone is recognised as a Qualifying Free Zone;</li>
+      <li>designing compliant transfer pricing policies;</li>
+      <li>preparing intercompany agreements;</li>
+      <li>implementing substance and governance frameworks; and</li>
       <li>navigating the Free Zone Tax Regime and avoiding disqualification</li>
     </ul>
 
     <p>
-      The UAE remains one of the world’s most attractive jurisdictions for establishing
-      a headquarters — provided tax and compliance frameworks are properly structured
-      from the outset.
+      The UAE is one of the world’s most attractive jurisdictions for establishing a headquarters—provided
+      the tax and compliance framework is understood and respected from the outset.
     </p>
   `,
     author: "Middle East Advisory Group",
     date: "January 18, 2026",
     category: "Corporate Tax",
-    image: "1.webp",
+    image: "/1.JPEG",
   },
 
   {
@@ -137,14 +181,13 @@ export const articles = [
     content: `
     <p><strong>By Middle East Advisory Group</strong></p>
 
-    <p>
+<p ">
       The UAE is home to more than 40 free zones, each offering its own regulatory framework and licensing model.
       For new investors, this abundance of choice can be overwhelming.
       Technology hubs like Dubai Internet City, logistics-driven zones such as JAFZA,
       media clusters such as TwoFour54, and financial centres like DIFC and ADGM
       all serve different strategic purposes.
     </p>
-
     <p>
       Historically, businesses were drawn to free zones primarily because they allowed
       100% foreign ownership at a time when mainland companies required a local partner.
@@ -274,7 +317,7 @@ export const articles = [
     </p>
   `,
     author: "Middle East Advisory Group",
-    date: "January 20, 2026",
+    date: "January 10, 2026",
     category: "Corporate Tax",
     image: "/2.jpeg",
   },
@@ -464,9 +507,9 @@ export const articles = [
     </p>
   `,
     author: "Middle East Advisory Group",
-    date: "January 22, 2026",
+    date: "January 01, 2026",
     category: "Corporate Tax",
-    image: "/3.jpeg",
+    image: "/4.jpeg",
   },
 
   {
@@ -601,9 +644,9 @@ export const articles = [
     </p>
   `,
     author: "Middle East Advisory Group",
-    date: "January 22, 2026",
+    date: "December 25, 2026",
     category: "Corporate Tax",
-    image: "/4.jpeg",
+    image: "/3.jpeg",
   },
   {
     id: 8,
@@ -752,9 +795,9 @@ export const articles = [
     </p>
   `,
     author: "Middle East Advisory Group",
-    date: "January 22, 2026",
+    date: "December 15, 2026",
     category: "Individual Tax Residency",
-    image: "/5.jpeg",
+    image: "/22.jpeg",
   },
   {
     id: 9,
@@ -867,9 +910,9 @@ export const articles = [
     </p>
   `,
     author: "Middle East Advisory Group",
-    date: "January 22, 2026",
+    date: "December 09, 2026",
     category: "Corporate Tax",
-    image: "/6.jpeg",
+    image: "/6.png",
   },
 
 

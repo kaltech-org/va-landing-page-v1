@@ -33,7 +33,7 @@ export function Booking() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-accent flex-shrink-0" />
-                  <span className="text-sm text-primary/70 font-sans">+971 4 330 4177</span>
+                  <span className="text-sm text-primary/70 font-sans">+971 04 527 6813</span>
                 </div>
               </div>
             </div>

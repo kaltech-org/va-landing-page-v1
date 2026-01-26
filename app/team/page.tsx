@@ -98,14 +98,20 @@ export default function TeamPage() {
                 className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition flex flex-col"
               >
                 {/* Image Aspect Ratio */}
-                <div className="relative aspect-[3/3]">
+                <div className="relative aspect-[3/3] overflow-hidden group">
                   <Image
                     src={member.image}
                     alt={member.name}
                     fill
-                    className="object-cover grayscale hover:grayscale-0 transition"
+                    className="
+      object-cover
+      transition-all duration-500 ease-in-out
+      group-hover:grayscale-0
+      group-hover:scale-105
+    "
                   />
                 </div>
+
 
                 <div className="p-6 flex flex-col flex-1 justify-between">
                   <div>

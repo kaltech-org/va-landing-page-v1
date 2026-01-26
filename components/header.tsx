@@ -87,7 +87,7 @@ export function Header() {
             href="/insights"
             className="text-sm font-medium text-foreground/70 hover:text-foreground transition tracking-wide"
           >
-            News
+            News & insights
           </Link>
           <Link
             href="/contact"
@@ -160,7 +160,7 @@ export function Header() {
               onClick={() => setMobileMenuOpen(false)}
               className="block text-sm font-medium text-foreground/70 hover:text-foreground transition py-2"
             >
-              News
+              News & insights
             </Link>
             <Link
               href="/contact"

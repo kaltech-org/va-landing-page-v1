@@ -21,11 +21,11 @@ const content = `
 <h3><strong>1. Why obtaining a UAE Tax Residency Certificate matters</strong></h3>
 
 <p class="text-justify">
-For many individuals living in or relocating to the UAE, proving tax residency has become increasingly important. Banks, foreign tax authorities, investment platforms and financial institutions often ask for formal confirmation of where an individual is resident for tax purposes. In the UAE, this confirmation takes the form of a Tax Residency Certificate (TRC) issued by the Federal Tax Authority.
+For many individuals living in or relocating to the UAE, proving tax residency has become increasingly important. Banks, foreign tax authorities, investment platforms and financial institutions often ask for formal confirmation of where an individual is resident for tax purposes. In the UAE, this confirmation takes the form of a  <strong>Tax Residency Certificate (TRC)</strong> issued by the Federal Tax Authority.
 </p>
 
 <p class="text-justify">
-A TRC is not an immigration document, nor does it affect your visa status. It is strictly a certificate that establishes where you are treated as tax resident during a specific 12-month period. It allows you to demonstrate to foreign authorities that your centre of life (whether through presence, home, work or personal ties) is in the UAE.
+A TRC is not an immigration document, nor does it affect your visa status. It is strictly a certificate that establishes where you are treated as <strong>tax resident</strong> during a specific 12-month period. It allows you to demonstrate to foreign authorities that your centre of life (whether through presence, home, work or personal ties) is in the UAE.
 </p>
 <br>
 <h3><strong>2. Understanding the different types of TRCs</strong></h3>
@@ -35,11 +35,11 @@ There are two broad types of TRCs issued to individuals.
 </p>
 
 <p class="text-justify">
-A domestic TRC confirms that someone is a tax resident under UAE law. Individuals often need this when foreign banks or investment providers ask for proof of residence, or when managing personal tax affairs abroad. The certificate is simply a confirmation that the person meets the domestic residency conditions.
+A <strong>domestic TRC</strong> confirms that someone is a tax resident under UAE law. Individuals often need this when foreign banks or investment providers ask for proof of residence, or when managing personal tax affairs abroad. The certificate is simply a confirmation that the person meets the domestic residency conditions.
 </p>
 
 <p class="text-justify">
-A treaty TRC, on the other hand, is used when someone wants to claim benefits under a double tax treaty between the UAE and another country, for example, reduced withholding tax on dividends or relief from tax in the other country. For this type of certificate, the Federal Tax Authority checks not only the UAE’s residency rules, but also the residency article of the relevant tax treaty.
+A <strong>treaty TRC</strong>, on the other hand, is used when someone wants to claim benefits under a double tax treaty between the UAE and another country, for example, reduced withholding tax on dividends or relief from tax in the other country. For this type of certificate, the Federal Tax Authority checks not only the UAE’s residency rules, but also the residency article of the relevant tax treaty.
 </p>
 <br>
 <h3><strong>3. UAE tax residency for individuals</strong></h3>
@@ -49,29 +49,38 @@ An individual does not automatically become a UAE tax resident simply by holding
 </p>
 <br>
 <p class="text-justify">
-<strong>183-day presence test</strong><br>
+<p class='underline'>183-day presence test</p><br>
 The simplest route to UAE tax residency is spending 183 days or more in the UAE during any period of twelve consecutive months. This test looks only at physical presence within the UAE’s borders. This is often the test used by individuals who have fully relocated to the UAE and spend most of the year here.
 </p>
 
 <p class="text-justify"> <br>
-<strong>90-day presence test</strong><br>
-To use this route, the person must have been in the UAE for at least 90 days in a twelve-month period. In addition, they must either be a UAE national, a GCC national, or hold a valid UAE residence permit. If those conditions are satisfied, one of the following must also apply:
+<p class='underline'>90-day presence test</p><br>
+To use this route, the person must have been in the UAE for at least 90 days in a twelve-month period. In addition, they must either be a UAE national, a GCC national, or hold a valid UAE residence permit.
 </p>
+<p class="my-2">If those conditions are satisfied, one of the following must also apply:</p>
 
-<ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+<ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
 <li>The person has a permanent place of residence in the UAE, meaning a home (owned or rented), that is continuously available to them; or</li>
 <li>The person has employment in the UAE; or</li>
 <li>The person carries on a business activity in the UAE.</li>
 </ul>
 
 <p class="text-justify"> <br>
-<strong>Primary place of residence or center of interest test</strong><br>
-Even without meeting any day-count threshold, a person can still be UAE tax resident if the UAE is both: Their usual or primary place of residence, meaning the country where they ordinarily live and spend most of their time as part of their regular routine); and The centre of their financial and personal interests, meaning that their essential personal life, family connections, work, business affairs, social relationships and community ties are chiefly based in the UAE.
-</p>
+<p class="underline mb-2">Primary place of residence or center of interest test</p>
+Even without meeting any day-count threshold, a person can still be UAE tax resident if the UAE is both:</p>
 
+<ol class="ml-3" style="list-style-type: decimal; padding-left: 20px; margin-bottom: 20px;">
+<li> Their <strong>usual or primary place of residence,</strong> meaning the country where they ordinarily live and spend most of their time as part of their regular routine); and The centre of their financial and personal interests, meaning that their essential personal life, family connections, work, business affairs, social relationships and community ties are chiefly based in the UAE.
+</li>
+<li>  The <strong>centre of their financial and personal interests,</strong> meaning that their essential personal life, family connections, work, business affairs, social relationships and community ties are chiefly based in the UAE.
+</li>
+
+</ol>
 <p class="text-justify">
 This test relies on a holistic review of a person’s life, and it is designed to capture situations where individuals have genuinely moved to the UAE, even if they travel frequently and have not yet accumulated many days in the country.
 </p>
+
+
 <br>
 <h3><strong>4. Documentary requirements</strong></h3>
 
@@ -79,15 +88,15 @@ This test relies on a holistic review of a person’s life, and it is designed t
 Depending on which test applies, the applicant may be asked for:
 </p>
 
-<ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-<li>Passport and visa details;</li>
-<li>Emirates ID;</li>
-<li>Entry and exit records issued by UAE authorities;</li>
-<li>Tenancy contracts or other evidence of long-term accommodation;</li>
-<li>Employment letters, salary certificates or professional licences;</li>
-<li>Evidence of business activity;</li>
-<li>Bank statements or documents showing economic ties to the UAE;</li>
-<li>A written explanation of why the UAE is their main place of residence (if relying on the centre-of-interests test).</li>
+<ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+<li class="mt-2">Passport and visa details;</li>
+<li class="mt-2">Emirates ID;</li>
+<li class="mt-2">Entry and exit records issued by UAE authorities;</li>
+<li class="mt-2">Tenancy contracts or other evidence of long-term accommodation;</li>
+<li class="mt-2">Employment letters, salary certificates or professional licences;</li>
+<li class="mt-2">Evidence of business activity;</li>
+<li class="mt-2">Bank statements or documents showing economic ties to the UAE;</li>
+<li class="mt-2">A written explanation of why the UAE is their main place of residence (if relying on the centre-of-interests test).</li>
 </ul>
 
 <p class="text-justify">
@@ -97,7 +106,7 @@ The FTA can request additional evidence if needed, and it will only issue a cert
 <h3><strong>6. How Middle East Advisory Group can help</strong></h3>
 
 <p class="text-justify">
-Understanding UAE tax residency can be complex, especially for individuals with international travel patterns, multiple homes or income streams in several countries. Middle East Advisory Group supports clients by analysing their specific circumstances, confirming which residency pathway applies, gathering the right documents, and preparing a clean and robust TRC application. We also advise on structuring personal and financial affairs to align with UAE residency requirements, particularly where individuals need to rely on international tax treaties.
+Understanding UAE tax residency can be complex, especially for individuals with international travel patterns, multiple homes or income streams in several countries.<br/> <strong>Middle East Advisory Group</strong> supports clients by analysing their specific circumstances, confirming which residency pathway applies, gathering the right documents, and preparing a clean and robust TRC application. We also advise on structuring personal and financial affairs to align with UAE residency requirements, particularly where individuals need to rely on international tax treaties.
 </p>
 
 <p class="text-justify">
@@ -143,7 +152,7 @@ If you need personalised guidance or wish to apply for a UAE Tax Residency Certi
                 <User className="w-5 h-5" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-primary">Written by {article.author}</p>
+                {/* <p className="text-sm font-semibold text-primary">Written by {article.author}</p> */}
                 <p className="text-xs text-muted-foreground">Middle East Advisory Group</p>
               </div>
             </div>

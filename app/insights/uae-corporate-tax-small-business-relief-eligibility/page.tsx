@@ -26,7 +26,7 @@ const content = `
       Below is a clear overview of the rules as they currently stand.
     </p>
 <br>
-    <h3><strong>1. What Is Small Business Relief?</strong></h3>
+    <h3 class="my-2"><strong>1. What Is Small Business Relief?</strong></h3>
 
     <p class="text-justify">
       Under the UAE Corporate Tax regime, resident taxpayers may elect to apply Small Business Relief 
@@ -38,23 +38,23 @@ const content = `
     
 <br>
 
-    <h3><strong>2. Revenue Threshold</strong></h3>
+    <h3 class="my-2"><strong>2. Revenue Threshold</strong></h3>
 
     <p class="text-justify">
       The main condition for Small Business Relief is that the business must have revenue below 
       <strong>AED 3 million</strong> for:
     </p>
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>The current Tax Period, <em>and</em></li>
-      <li>All previous Tax Periods ending on or after 1 June 2023.</li>
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">The current Tax Period, <em>and</em></li>
+      <li class="pt-2">All previous Tax Periods ending on or after 1 June 2023.</li>
     </ul>
 
     <p class="text-justify">
       If revenue exceeds AED 3 million in any period, the relief is no longer available going forward.
     </p>
 
-    <h3><strong>3. Members of Multinational Groups</strong></h3>
+    <h3 class="my-2"><strong>3. Members of Multinational Groups</strong></h3>
 
     <p class="text-justify">
       Businesses that are part of a Multinational Enterprise (MNE) Group with a total consolidated 
@@ -62,7 +62,7 @@ const content = `
       their revenue. This ensures the relief is used only by small domestic businesses.
     </p>
 <br>
-    <h3><strong>4. Qualifying Free Zone Persons</strong></h3>
+    <h3 class="my-2"><strong>4. Qualifying Free Zone Persons</strong></h3>
 
     <p class="text-justify">
       Likewise, Qualifying Free Zone Persons are also not permitted to use Small Business Relief. 
@@ -71,7 +71,7 @@ const content = `
       must therefore decide which regime best meets its needs.
     </p>
  <br>
-    <h3><strong>5. Temporary Relief</strong></h3>
+    <h3 class="my-2"><strong>5. Temporary Relief</strong></h3>
 
     <p class="text-justify">
       Small Business Relief applies only to Tax Periods that end on or before 31 December 2026. 
@@ -83,7 +83,7 @@ const content = `
       normal corporate tax rules.
     </p>
 <br>
-    <h3><strong>6. How Middle East Advisory Group can assist</strong></h3>
+    <h3 class="my-2"><strong>6. How Middle East Advisory Group can assist</strong></h3>
 
     <p class="text-justify">
       Determining whether Small Business Relief is the right option, and whether your business 

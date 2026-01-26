@@ -93,7 +93,7 @@ export function Header() {
             href="/contact"
             className="text-sm font-medium text-foreground/70 hover:text-foreground transition tracking-wide"
           >
-            Contact
+            Contact us
           </Link>
         </nav>
 
@@ -167,7 +167,7 @@ export function Header() {
               onClick={() => setMobileMenuOpen(false)}
               className="block text-sm font-medium text-foreground/70 hover:text-foreground transition py-2"
             >
-              Contact
+              Contact us
             </Link>
             <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
               <Button className="w-full sm:hidden bg-accent hover:bg-white hover:text-white text-accent-foreground font-medium tracking-wide mt-4">

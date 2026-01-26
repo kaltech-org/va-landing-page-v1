@@ -28,7 +28,7 @@ export default function HeadquarterServicesPage() {
     </p>
     <br/>
     
-    <h3><strong>1. What Are “Headquarter Services”?</strong></h3>
+    <h3 class="my-2"><strong>1. What Are “Headquarter Services”?</strong></h3>
 
     <p class="text-justify">
       A Free Zone entity is considered to be providing headquarter services when it administers, 
@@ -37,18 +37,18 @@ export default function HeadquarterServicesPage() {
 
     <p>This can include providing:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>senior and general management</li>
-      <li>strategic decision-making</li>
-      <li>business planning and development</li>
-      <li>risk management</li>
-      <li>group-wide administrative support</li>
-      <li>finance, budgeting and treasury coordination</li>
-      <li>procurement and vendor management</li>
-      <li>HR strategy and group hiring</li>
-      <li>IT, technical or operational support</li>
-      <li>legal, compliance and governance oversight</li>
-      <li>intellectual property administrative management</li>
+    <ul class="ml-3"  class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2" >senior and general management</li>
+      <li class="pt-2" >strategic decision-making</li>
+      <li class="pt-2" >business planning and development</li>
+      <li class="pt-2" >risk management</li>
+      <li class="pt-2" >group-wide administrative support</li>
+      <li class="pt-2" >finance, budgeting and treasury coordination</li>
+      <li class="pt-2" >procurement and vendor management</li>
+      <li class="pt-2" >HR strategy and group hiring</li>
+      <li class="pt-2" >IT, technical or operational support</li>
+      <li class="pt-2" >legal, compliance and governance oversight</li>
+      <li class="pt-2" >intellectual property administrative management</li>
     </ul>
 
     <p class="text-justify">
@@ -58,15 +58,15 @@ export default function HeadquarterServicesPage() {
     </p>
     <br>
 
-    <h3><strong>2. Which Related Parties Qualify?</strong></h3>
+    <h3 class="my-2"><strong>2. Which Related Parties Qualify?</strong></h3>
 
     <p>For this specific Qualifying Activity, “Related Parties” include:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>juridical persons (companies)</li>
-      <li>branches of juridical persons</li>
-      <li>foreign permanent establishments</li>
-      <li>domestic permanent establishments</li>
+    <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2" >juridical persons (companies)</li>
+      <li class="pt-2" >branches of juridical persons</li>
+      <li class="pt-2" >foreign permanent establishments</li>
+      <li class="pt-2" >domestic permanent establishments</li>
     </ul>
 
     <p class="text-justify">
@@ -75,42 +75,42 @@ export default function HeadquarterServicesPage() {
     </p>
     <br>
 
-    <h3><strong>3. Examples</strong></h3>
+    <h3 class="my-2"><strong>3. Examples</strong></h3>
 
     <p class="text-justify">A Free Zone entity may fall within this Qualifying Activity if it provides services such as:</p>
     
-    <p><strong>Strategic and Management Functions</strong></p>
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>approving budgets and business plans</li>
-      <li>setting sales or marketing strategies</li>
-      <li>deciding on major acquisitions or contracts</li>
-      <li>overseeing group-wide KPIs and performance</li>
+    <p class="my-2">  Strategic and Management Functions</p>
+    <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2" >approving budgets and business plans</li>
+      <li class="pt-2" >setting sales or marketing strategies</li>
+      <li class="pt-2" >deciding on major acquisitions or contracts</li>
+      <li class="pt-2" >overseeing group-wide KPIs and performance</li>
     </ul>
 
-    <p><strong>Group Service Centre Functions</strong></p>
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>procurement and vendor negotiations</li>
-      <li>shared HR services (recruitment, policies, payroll support)</li>
-      <li>shared IT services or technical support</li>
-      <li>shared finance functions (budgeting, modelling, treasury support)</li>
+    <p class="my-2">Group Service Centre Functions</p>
+    <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2" >procurement and vendor negotiations</li>
+      <li class="pt-2" >shared HR services (recruitment, policies, payroll support)</li>
+      <li class="pt-2" >shared IT services or technical support</li>
+      <li class="pt-2" >shared finance functions (budgeting, modelling, treasury support)</li>
     </ul>
 
-    <p><strong>Risk and Compliance Oversight</strong></p>
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>group-wide compliance and reporting functions</li>
-      <li>legal review and governance support</li>
-      <li>enterprise-level risk management</li>
+    <p class="my-2">Risk and Compliance Oversight</p>
+    <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2" >group-wide compliance and reporting functions</li>
+      <li class="pt-2" >legal review and governance support</li>
+      <li class="pt-2" >enterprise-level risk management</li>
     </ul>
 
-    <p><strong>Other Support</strong></p>
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>centralised training and development</li>
-      <li>standardising processes across the group</li>
-      <li>ensuring operational consistency between subsidiaries</li>
+    <p class="my-2">Other Support</p>
+    <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2" >centralised training and development</li>
+      <li class="pt-2" >standardising processes across the group</li>
+      <li class="pt-2" >ensuring operational consistency between subsidiaries</li>
     </ul>
     <br>
 
-    <h3><strong>4. Why “Headquarter Services” Are Strategically Important</strong></h3>
+    <h3 class="my-2"><strong>4. Why “Headquarter Services” Are Strategically Important</strong></h3>
 
     <p class="text-justify">
       Establishing a UAE Free Zone entity to act as a group headquarters allows the group to centralise 
@@ -122,10 +122,10 @@ export default function HeadquarterServicesPage() {
 
     <p class="text-justify">This creates a legitimate and internationally recognised framework for:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>consolidating strategic management functions in the UAE,</li>
-      <li>ensuring proper governance and coordination across global operations, and</li>
-      <li>aligning group structures with a tax-efficient environment, provided transfer pricing regulations are applied correctly.</li>
+    <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2" >consolidating strategic management functions in the UAE,</li>
+      <li class="pt-2" >ensuring proper governance and coordination across global operations, and</li>
+      <li class="pt-2" >aligning group structures with a tax-efficient environment, provided transfer pricing regulations are applied correctly.</li>
     </ul>
 
     <p class="text-justify">
@@ -135,17 +135,17 @@ export default function HeadquarterServicesPage() {
     </p>
     <br>
 
-    <h3><strong>5. Important Compliance Notes for Headquarter Companies</strong></h3>
+    <h3 class="my-2"><strong>5. Important Compliance Notes for Headquarter Companies</strong></h3>
 
     <p>To qualify for the 0% rate, the Free Zone HQ company must ensure:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>adequate substance in the Free Zone;</li>
-      <li>proper transfer pricing policies and documentation;</li>
-      <li>charging arm’s length fees to Related Parties;</li>
-      <li>only providing Qualifying Activities or staying within de minimis limits;</li>
-      <li>maintaining audited financial statements; and</li>
-      <li>being incorporated in a recognised Qualifying Free Zone</li>
+    <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2" >adequate substance in the Free Zone;</li>
+      <li class="pt-2" >proper transfer pricing policies and documentation;</li>
+      <li class="pt-2" >charging arm’s length fees to Related Parties;</li>
+      <li class="pt-2" >only providing Qualifying Activities or staying within de minimis limits;</li>
+      <li class="pt-2" >maintaining audited financial statements; and</li>
+      <li class="pt-2" >being incorporated in a recognised Qualifying Free Zone</li>
     </ul>
 
     <p class="text-justify">
@@ -154,24 +154,25 @@ export default function HeadquarterServicesPage() {
     </p>
     <br>
 
-    <h3><strong>6. How Middle East Advisory Group Can Help</strong></h3>
+    <h3 class="my-2"><strong>6. How Middle East Advisory Group Can Help</strong></h3>
 
     <p>We assist businesses with:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>structuring Free Zone headquarter companies;</li>
-      <li>assessing whether planned HQ activities qualify under the regime;</li>
-      <li>verifying whether a free zone is recognised as a Qualifying Free Zone;</li>
-      <li>designing compliant transfer pricing policies;</li>
-      <li>preparing intercompany agreements;</li>
-      <li>implementing substance and governance frameworks; and</li>
-      <li>navigating the Free Zone Tax Regime and avoiding disqualification</li>
+    <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2" >structuring Free Zone headquarter companies;</li>
+      <li class="pt-2" >assessing whether planned HQ activities qualify under the regime;</li>
+      <li class="pt-2" >verifying whether a free zone is recognised as a Qualifying Free Zone;</li>
+      <li class="pt-2" >designing compliant transfer pricing policies;</li>
+      <li class="pt-2" >preparing intercompany agreements;</li>
+      <li class="pt-2" >implementing substance and governance frameworks; and</li>
+      <li class="pt-2" >navigating the Free Zone Tax Regime and avoiding disqualification</li>
     </ul>
 
     <p class="text-justify">
       The UAE is one of the world’s most attractive jurisdictions for establishing a headquarters—provided 
       the tax and compliance framework is understood and respected from the outset.
     </p>
+    
   `
 
   return (
@@ -208,7 +209,7 @@ export default function HeadquarterServicesPage() {
                 <User className="w-5 h-5" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-primary">Written by {article.author}</p>
+                {/* <p className="text-sm font-semibold text-primary">Written by {article.author}</p> */}
                 <p className="text-xs text-muted-foreground">Middle East Advisory Group</p>
               </div>
             </div>

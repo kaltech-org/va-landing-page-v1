@@ -1,24 +1,30 @@
-import { Resend } from "resend"
-import { NextResponse } from "next/server"
+import { Resend } from "resend";
+import { NextResponse } from "next/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: Request) {
   try {
-    const { name, email, phone, subject, message } = await request.json()
+    const { name, email, phone, subject, message } = await request.json();
 
     // Validate required fields
     if (!name || !email || !subject || !message) {
       return NextResponse.json(
-        { error: "Missing required fields: name, email, subject, and message are required." },
+        {
+          error:
+            "Missing required fields: name, email, subject, and message are required.",
+        },
         { status: 400 },
-      )
+      );
     }
 
     // Email validation
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
-      return NextResponse.json({ error: "Invalid email address." }, { status: 400 })
+      return NextResponse.json(
+        { error: "Invalid email address." },
+        { status: 400 },
+      );
     }
 
     const { data, error } = await resend.emails.send({
@@ -98,7 +104,7 @@ export async function POST(request: Request) {
                     <tr>
                       <td style="background-color: #f9f9f9; padding: 20px 40px; text-align: center; border-top: 1px solid #eee;">
                         <p style="margin: 0; color: #888; font-size: 12px;">
-                          This email was sent from the Tax Consulting Group website contact form.
+                          This email was sent from the Middle East Advisory Group website contact form.
                         </p>
                       </td>
                     </tr>
@@ -109,16 +115,22 @@ export async function POST(request: Request) {
           </body>
         </html>
       `,
-    })
+    });
 
     if (error) {
-      console.error("Resend API Error:", error)
-      return NextResponse.json({ error: "Failed to send email. Please try again later." }, { status: 500 })
+      console.error("Resend API Error:", error);
+      return NextResponse.json(
+        { error: "Failed to send email. Please try again later." },
+        { status: 500 },
+      );
     }
 
-    return NextResponse.json({ success: true, data })
+    return NextResponse.json({ success: true, data });
   } catch (error) {
-    console.error("Server Error:", error)
-    return NextResponse.json({ error: "An unexpected error occurred. Please try again later." }, { status: 500 })
+    console.error("Server Error:", error);
+    return NextResponse.json(
+      { error: "An unexpected error occurred. Please try again later." },
+      { status: 500 },
+    );
   }
 }

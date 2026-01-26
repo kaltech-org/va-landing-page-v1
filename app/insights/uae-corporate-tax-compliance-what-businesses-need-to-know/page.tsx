@@ -27,21 +27,21 @@ export default function HeadquarterServicesPage() {
     </p>
     <br/>
     
-    <h3><strong>1. Corporate Tax registration </strong></h3>
+    <h3 class="my-2"><strong>1. Corporate Tax registration </strong></h3>
 
     <p class="text-justify">
 All businesses that fall within the scope of the Corporate Tax Law must
  register with the Federal
- Tax Authority (FTA), even if they do not expect to pay tax.
+ Tax Authority (FTA), even if they do not expect to pay tax.<br/>
 Resident taxpayers, including mainland and free zone entities, 
 are required to register for corporate tax regardless of whether they 
 earn taxable income or expect to claim reliefs or exemptions. This includes 
 natural persons carrying on a business or business activity in the
- UAE once their revenue exceeds AED 1 million in a Gregorian calendar year.
+ UAE once their revenue exceeds AED 1 million in a Gregorian calendar year. <br/>
 Non-resident taxpayers must also register if they have a Permanent
  Establishment (PE) or nexus in the UAE. A foreign company with no PE or 
  nexus in the UAE does not need to register, even if it derives UAE sourced 
- income which is subject to withholding tax, as the currently rate is set at 0%.
+ income which is subject to withholding tax, as the currently rate is set at 0%.<br/>
 The FTA has issued separate timelines for when different types of 
 taxpayers must complete registration, and late registration penalties may apply. In general,
  newly established businesses must register within three months following their date of 
@@ -49,12 +49,12 @@ taxpayers must complete registration, and late registration penalties may apply.
 
     </p>
      <br>
-    <p><strong>2. Requirement to maintain Audited Financial Statements</strong></p>
+    <p class="my-2"><strong>2. Requirement to maintain Audited Financial Statements</strong></p>
    <p>Under the UAE Corporate Tax framework, certain businesses are required 
    to maintain audited financial statements, namely:</p>
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>Businesses with revenue exceeding AED 50 million, and</li>
-      <li>Qualifying Free Zone Persons (QFZPs) seeking to benefit from the 0% Free Zone corporate tax regime.</li>
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">Businesses with revenue exceeding<strong> AED 50 million,</strong> and</li>
+      <li class="pt-2"><strong>Qualifying Free Zone Persons</strong> (QFZPs) seeking to benefit from the 0% Free Zone corporate tax regime.</li>
     </ul><p class="text-justify">
     It is worth noting, however, that most UAE companies were already 
     required to prepare and maintain audited financial statements under
@@ -71,16 +71,16 @@ For these businesses, the new requirement represents a significant change.
     </p>
     <br>
 
-    <h3><strong> 3. Standalone Financial Statements </strong></h3>
+    <h3 class="my-2"><strong> 3. Standalone Financial Statements </strong></h3>
     <p class="text-justify">For corporate tax purposes, businesses must prepare standalone financial statements for each entity within a group, even if they normally prepare consolidated accounts for other purposes. Taxable income and adjustments are computed based on the standalone results of the individual entity.
 Financial statements must be prepared using one of the following accounting frameworks:
 </p>
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>International Financial Reporting Standards (IFRS), or
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">International Financial Reporting Standards (IFRS), or
 
 </li>
-      <li>IFRS for SMEs, where applicable based on the size and nature of the entity.</li>
+      <li class="pt-2">IFRS for SMEs, where applicable based on the size and nature of the entity.</li>
     
     </ul><p class="text-justify">
      This requirement applies to resident taxpayers as well as to 
@@ -91,7 +91,7 @@ Financial statements must be prepared using one of the following accounting fram
     </p>
     <br>
 
-    <h3><strong>4. Corporate Tax Return filing and payment of Corporate Tax</strong></h3>
+    <h3 class="my-2"><strong>4. Corporate Tax Return filing and payment of Corporate Tax</strong></h3>
 
     <p class="text-justify">Every Taxable Person must file a corporate tax 
     return for each Tax Period. The return must be
@@ -100,16 +100,16 @@ For example:
 </p>
     
  
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>Financial year ending 31 December 2024 → return due 30 September 2025
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">Financial year ending 31 December 2024 → return due 30 September 2025
 </li>
-      <li>Financial year ending 30 June 2025 → return due 31 March 2026</li>
+      <li class="pt-2">Financial year ending 30 June 2025 → return due 31 March 2026</li>
     </ul>
     <p  class="text-justify">The return is filed electronically through the EmaraTax platform. Unlike VAT, there are no quarterly or monthly corporate tax returns. 
 The payment of corporate tax (if due) must also be made within the same nine-month deadline.
 </p>
 <br>
-    <p><strong>5. Transfer Pricing Documentation</strong></p>
+    <p class="my-2"><strong>5. Transfer Pricing Documentation</strong></p>
     <p class="text-justify">The UAE Corporate Tax Law adopts internationally aligned transfer pricing rules, requiring
      businesses to apply the arm’s length principle to all transactions with related parties
      and connected persons. In addition, several formal documentation obligations apply.</p>
@@ -123,16 +123,16 @@ The payment of corporate tax (if due) must also be made within the same nine-mon
  <br>
     <p><strong>Master File and Local File</strong></p>
     <p>Businesses must also prepare and maintain detailed transfer pricing documentation, including:</p>
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>A Master File describing the multinational group and its global activities, and
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">A <strong>Master File</strong> describing the multinational group and its global activities, and
 </li>
-      <li>A Local File providing detailed analysis of the UAE entity’s controlled transactions.</li>
+      <li class="pt-2">A <strong> Local File</strong> providing detailed analysis of the UAE entity’s controlled transactions.</li>
     </ul>
    <p class="text-justify">These documents follow OECD standards and must be prepared if the business 
    meets thresholds set by the Minister of Finance. 
    They must be provided to the FTA upon request, and failure to maintain them may lead to penalties and Transfer
     Pricing adjustments.</p><br>
-<p><strong>6. Staying compliant in the UAE's new tax environment</strong><p>
+<p class="my-2"><strong>6. Staying compliant in the UAE's new tax environment</strong><p>
     
     <p class="text-justify">The UAE tax system has transitioned rapidly from a no-corporate-tax environment 
     to a fully developed compliance framework. Even businesses with modest levels of activity
@@ -140,7 +140,7 @@ The payment of corporate tax (if due) must also be made within the same nine-mon
     is an area where many businesses underestimate their obligations.</p> <br>
   <p><strong>Middle East Advisory Group</strong></p>  <p class="text-justify">
        assists clients with corporate tax registration, preparation of standalone and audited financial statements, annual return filing, and transfer pricing documentation. We also advise on group structuring and tax governance to ensure that businesses remain compliant while optimising their tax position.
-If you need support with UAE corporate tax compliance or would like a tailored compliance roadmap, our team is ready to assist.
+<br/>If you need support with UAE corporate tax compliance or would like a tailored compliance roadmap, our team is ready to assist.
 
     </p>
   `
@@ -179,7 +179,7 @@ If you need support with UAE corporate tax compliance or would like a tailored c
                                 <User className="w-5 h-5" />
                             </div>
                             <div>
-                                <p className="text-sm font-semibold text-primary">Written by {article.author}</p>
+                                {/* <p className="text-sm font-semibold text-primary">Written by {article.author}</p> */}
                                 <p className="text-xs text-muted-foreground">Middle East Advisory Group</p>
                             </div>
                         </div>

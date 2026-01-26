@@ -182,7 +182,7 @@ export default function HeadquarterServicesPage() {
           >
             <ArrowLeft className="w-6 h-4 mr-2" />
             Back to Insights
-          </Link>
+          </Link> 
 
           <div className="flex items-center gap-4 mb-6">
             <span className="px-3 py-1 bg-accent/10 text-accent text-xs font-bold uppercase tracking-wider rounded-sm">
@@ -203,7 +203,7 @@ export default function HeadquarterServicesPage() {
                 <User className="w-5 h-5" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-primary">Written by {article.author}</p>
+                {/* <p className="text-sm font-semibold text-primary">Written by {article.author}</p> */}
                 <p className="text-xs text-muted-foreground">Middle East Advisory Group</p>
               </div>
             </div>

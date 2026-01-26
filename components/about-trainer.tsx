@@ -76,7 +76,7 @@ export function AboutTrainer() {
               Zeeshan Khilji
             </h3>
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-4">
-              Ex-Big Four | Author of Bloomsbury publications | International tax advisory, real estate and cross-border structuring specialist
+              Ex-Big Four | Author of Bloomsbury publications | International tax advisory, real estate and cross-border structuring specialist.
             </p>
             <div className="w-16 h-0.5 bg-accent mx-auto md:mx-0"></div>
           </div>

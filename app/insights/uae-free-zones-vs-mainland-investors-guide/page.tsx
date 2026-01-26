@@ -23,7 +23,7 @@ Historically, businesses were drawn to free zones primarily because they allowed
     </p>
     <br/>
     
-    <h3><strong>1. How do Free Zones and Mainland differ today?</strong></h3>
+    <h3 class="my-2"><strong>1. How do Free Zones and Mainland differ today?</strong></h3>
 
     <p class="text-justify">
 The biggest historical advantage of free zones, full foreign ownership, is now largely 
@@ -35,10 +35,10 @@ available on the mainland. Investors can now incorporate
 
     <p>Certain free zones operate under specialised legal systems, such as:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>DIFC and ADGM apply common law frameworks and have their own courts.</li>
-      <li>Sector-specific zones (e.g., Dubai Healthcare City, Dubai Media City) offer licensing tailored to particular industries.</li>
-      <li>Mainland companies, by contrast, are subject to UAE federal law and the relevant emirate’s Department of Economic Development (DED).</li>
+   <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+     <li class="pt-2" >DIFC and ADGM apply common law frameworks and have their own courts.</li>
+     <li class="pt-2" >Sector-specific zones (e.g., Dubai Healthcare City, Dubai Media City) offer licensing tailored to particular industries.</li>
+     <li class="pt-2" >Mainland companies, by contrast, are subject to UAE federal law and the relevant emirate’s Department of Economic Development (DED).</li>
    
     </ul>
 
@@ -47,7 +47,7 @@ available on the mainland. Investors can now incorporate
     </p>
     <br>
 
-    <h3><strong>2. Tax: a key new differentiator</strong></h3>
+    <h3 class="my-2"><strong>2. Tax: a key new differentiator</strong></h3>
 
     <p class="text-justify">For many years, free zones marketed multi-year tax holidays (e.g., 15–50 years). With the introduction of UAE Corporate Tax, this model no longer applies.
 Under the new tax regime, Free zone companies are considered UAE tax residents, not exempt entities, they are subject to corporate tax unless they qualify for a specific incentive: the Free Zone Tax Regime.
@@ -59,7 +59,7 @@ Despite this, many investors, and sometimes even corporate service providers, be
 
     <br>
 
-    <h3><strong>3. The Free Zone Tax Regime</strong></h3>
+    <h3 class="my-2"><strong>3. The Free Zone Tax Regime</strong></h3>
 
     <p class="text-justify">The UAE Corporate Tax Law provides a preferential 
     0% rate for “Qualifying Income” earned by a Qualifying Free Zone Person
@@ -67,7 +67,7 @@ Despite this, many investors, and sometimes even corporate service providers, be
       holidays of the past. To access the Free Zone Tax Regime, 
       a business must meet all of the following conditions:</p>
     <br>
-    <p><strong>A. Be incorporated in a Qualifying Free Zone
+    <p class="my-2"><strong>A. Be incorporated in a Qualifying Free Zone
 </strong></p>
    <p class="text-justify">Only free zones recognised by Cabinet Decision
     are eligible. A Cabinet Resolution was issued, but the decision itself 
@@ -75,59 +75,59 @@ Despite this, many investors, and sometimes even corporate service providers, be
      companies must confirm with their free zone authority whether 
      the zone has been formally recognised for CIT purposes.</p>
 <br>
-    <p><strong>B. Conduct “Qualifying Activities”</strong></p>
+    <p class="my-2"><strong>B. Conduct “Qualifying Activities”</strong></p>
     <p class="text-justify">Only certain activities are eligible for the 
     0% rate. Activities outside the list are generally taxed at 9%,
      even if the entity is in a free zone.</p>
 <br>
-      <p><strong>C. Maintain Sufficient Substance</strong></p>
+      <p class="my-2"><strong>C. Maintain Sufficient Substance</strong></p>
     <p class="text-justify"></p>This includes hiring adequate employees, maintaining adequate premises, and incurring adequate operational expenditure in the free zone itself.
 
 
-    <p><strong>D. Other requirements</strong></p>
+    <p class="my-2"><strong>D. Other requirements</strong></p>
     <p>Other requirements inlclude:</p>
 
 
 
-      <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-  <li>Preparing audited financial statements,</li>
-      <li>Maintaining transfer pricing documentation and complying with transfer pricing regulations,</li>
-      <li>staying within the de minimis limit, and</li>
-          <li>not electing for the standard tax regime.</li>
+     <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+ <li class="pt-2" >Preparing audited financial statements,</li>
+     <li class="pt-2" >Maintaining transfer pricing documentation and complying with transfer pricing regulations,</li>
+     <li class="pt-2" >staying within the de minimis limit, and</li>
+         <li class="pt-2" >not electing for the standard tax regime.</li>
     </ul>
  
 
     <p  class="text-justify">If a company fails any requirement (even unintentionally) it loses access to the Free Zone Tax Regime for the current financial year and the following four years.
 This “five-year lockout” makes strategic planning essential.</p>
 <br>
-    <p><strong>4. What Should Investors Consider?
+    <p class="my-2"><strong>4. What Should Investors Consider?
 </strong></p>
 <p>When deciding where to set up, investors should evaluate:</>
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>Whether their business model actually qualifies for the 0% Free Zone Tax Regime;</li>
-      <li>Where operations and employees will be based;</li>
-      <li>Whether clients are primarily in the UAE mainland or abroad;</li>
-      <li>Whether a specialised regulatory environment (e.g., DIFC, ADGM) is needed; and</li>
-      <li>Whether compliance costs and substance requirements align with the business model</li>
+   <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+     <li class="pt-2" >Whether their business model actually qualifies for the 0% Free Zone Tax Regime;</li>
+     <li class="pt-2" >Where operations and employees will be based;</li>
+     <li class="pt-2" >Whether clients are primarily in the UAE mainland or abroad;</li>
+     <li class="pt-2" >Whether a specialised regulatory environment (e.g., DIFC, ADGM) is needed; and</li>
+     <li class="pt-2" >Whether compliance costs and substance requirements align with the business model</li>
     </ul>
     <p class="text-justify">For many companies, especially those serving local markets, a 
     mainland entity may be simpler and more flexible. For others, a free zone structure provides strategic advantages, but only 
     if carefully aligned with tax and business objectives.</p>
     <br>
 
-    <h3><strong>5. How Middle East Advisory Group Can Help</strong></h3>
+    <h3 class="my-2"><strong>5. How Middle East Advisory Group Can Help</strong></h3>
     <p>At Middle East Advisory Group, we assist clients in:</p>
 
   
 
 
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>assessing whether a free zone or mainland setup best suits their business model,</li>
-      <li>determining whether a free zone qualifies as a Qualifying Free Zone,</li>
-      <li>planning operating structures to maintain Free Zone Tax Regime eligibility,</li>
-      <li>evaluating substance, transfer pricing and CIT implications, and</li>
-      <li>restructuring existing free zone businesses that may inadvertently breach the regime’s requirements.</li>
+   <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+     <li class="pt-2" >assessing whether a free zone or mainland setup best suits their business model,</li>
+     <li class="pt-2" >determining whether a free zone qualifies as a Qualifying Free Zone,</li>
+     <li class="pt-2" >planning operating structures to maintain Free Zone Tax Regime eligibility,</li>
+     <li class="pt-2" >evaluating substance, transfer pricing and CIT implications, and</li>
+     <li class="pt-2" >restructuring existing free zone businesses that may inadvertently breach the regime’s requirements.</li>
     </ul>
 
     <p class="text-justify">
@@ -172,7 +172,7 @@ This “five-year lockout” makes strategic planning essential.</p>
                 <User className="w-5 h-5" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-primary">Written by {article.author}</p>
+                {/* <p className="text-sm font-semibold text-primary">Written by {article.author}</p> */}
                 <p className="text-xs text-muted-foreground">Middle East Advisory Group</p>
               </div>
             </div>

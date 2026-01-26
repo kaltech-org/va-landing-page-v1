@@ -41,7 +41,7 @@ export default function FamilyGovernancePage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
 
           <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">
-            Bespoke wealth preservation strategies, asset protection solutions and cross-border estate planning.
+            Bespoke wealth preservation strategies, asset protection solutions and cross-border estate planning
           </h2>
 
           {/* Text Block: Justified, spaced, and split into paragraphs */}

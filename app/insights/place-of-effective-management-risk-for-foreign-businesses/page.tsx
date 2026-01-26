@@ -25,30 +25,30 @@ const content = `
       concept called Place of Effective Management (POEM).
     </p>
 
-    <p class="text-justify">
+    <p class="text-justify mt-2 mb-2">
       If your foreign company is effectively “run” from the UAE, you may already be considered 
       a UAE tax resident, regardless of where the entity was registered.
     </p>
 
     <h3><strong>1. The Risk in Simple Terms</strong></h3>
 
-    <p class="text-justify">
+    <p class="text-justify mt-2">
       Under UAE Corporate Tax Law, a foreign company becomes a UAE tax resident if it is effectively 
       managed and controlled from the UAE. In other words, if strategic decisions are made in the UAE, 
       the UAE may treat the company as resident.
     </p>
 
-    <p>This applies even when:</p>
+    <p class="mt-2">This applies even when:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+    <ul class="ml-3 mt-2" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
       <li>the company is legally incorporated abroad,</li>
-      <li>board minutes are drafted offshore, and</li>
-      <li>the company has no physical presence in the UAE.</li>
+      <li class="pt-2">board minutes are drafted offshore, and</li>
+      <li class="pt-2">the company has no physical presence in the UAE.</li>
     </ul>
 
-    <p class="text-justify">What matters is where the real, strategic decision-making happens.</p>
+    <p class="text-justify mb-2">What matters is where the real, strategic decision-making happens.</p>
 
-    <h3><strong>2. Why foreign companies are at risk</strong></h3>
+    <h3 class="mb-2"><strong>2. Why foreign companies are at risk</strong></h3>
 
     <p class="text-justify">
       Over the last decade, many entrepreneurs moved to Dubai or Abu Dhabi while keeping their operating, 
@@ -56,60 +56,60 @@ const content = `
       the UAE, approving budgets, signing off investments, engaging clients, negotiating contracts.
     </p>
 
-    <p class="text-justify">
+    <p class="text-justify mt-2 mb-2">
       This was harmless when the UAE had no corporate tax. Today, those same patterns can inadvertently 
       trigger UAE tax residency, exposing the foreign company to UAE tax on its worldwide income.
     </p>
 
-    <h3><strong>3. Practical Examples</strong></h3>
+    <h3 class="my-2"><strong>3. Practical Examples</strong></h3>
 
     <p>A foreign company may be considered effectively managed in the UAE if:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>the founder or key decision-maker lives in Dubai and approves strategy from here;</li>
-      <li>board meetings “on paper” take place abroad but the real discussions happen in the UAE;</li>
-      <li>the operational leadership team is based in the UAE; or</li>
-      <li>the offshore company has little genuine substance in its country of incorporation.</li>
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">the founder or key decision-maker lives in Dubai and approves strategy from here;</li>
+      <li class="pt-2">board meetings “on paper” take place abroad but the real discussions happen in the UAE;</li>
+      <li class="pt-2">the operational leadership team is based in the UAE; or</li>
+      <li class="pt-2">the offshore company has little genuine substance in its country of incorporation.</li>
     </ul>
 
     <p class="text-justify">
       In these cases, the FTA may conclude that the company’s “mind and management” is in the UAE.
     </p>
 
-    <h3><strong>4. Possible Consequences</strong></h3>
+    <h3 class="my-2"><strong>4. Possible Consequences</strong></h3>
 
-    <p>If a foreign company is treated as UAE tax resident, it may face:</p>
+    <p class="my-2">If a foreign company is treated as UAE tax resident, it may face:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>UAE Corporate Tax on <strong>worldwide income</strong>,</li>
-      <li><strong>dual tax residency</strong> issues,</li>
-      <li>disputes over which country has taxing rights, and</li>
-      <li>new filing, accounting and compliance obligations in the UAE.</li>
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">UAE Corporate Tax on <strong>worldwide income</strong>,</li>
+      <li class="pt-2"><strong>dual tax residency</strong> issues,</li>
+      <li class="pt-2">disputes over which country has taxing rights, and</li>
+      <li class="pt-2">new filing, accounting and compliance obligations in the UAE.</li>
     </ul>
 
     <p class="text-justify">For many founders, this can come as an unwelcome surprise.</p>
 
-    <h3><strong>5. What entrepreneurs should do to avoid POEM risk</strong></h3>
+    <h3 class="my-2"><strong>5. What entrepreneurs should do to avoid POEM risk</strong></h3>
 
     <p>If you live in the UAE and operate a foreign company, it is essential to review:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>where strategic decisions are truly made,</li>
-      <li>whether offshore governance is genuine, and</li>
-      <li>whether the company has real substance in its home jurisdiction.</li>
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">where strategic decisions are truly made,</li>
+      <li class="pt-2">whether offshore governance is genuine, and</li>
+      <li class="pt-2">whether the company has real substance in its home jurisdiction.</li>
     </ul>
 
     <p class="text-justify">A quick POEM review can save significant tax and compliance headaches later.</p>
 
-    <h3><strong>6. How Middle East Advisory Group can assist</strong></h3>
+    <h3 class="my-2"><strong>6. How Middle East Advisory Group can assist</strong></h3>
 
     <p>We regularly help entrepreneurs:</p>
 
-    <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>assess POEM exposure for foreign companies managed from the UAE,</li>
-      <li>structure board processes and substance to mitigate risk,</li>
-      <li>evaluate whether UAE tax residency is likely, and</li>
-      <li>prepare for potential corporate tax registration.</li>
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">assess POEM exposure for foreign companies managed from the UAE,</li>
+      <li class="pt-2">structure board processes and substance to mitigate risk,</li>
+      <li class="pt-2">evaluate whether UAE tax residency is likely, and</li>
+      <li class="pt-2">prepare for potential corporate tax registration.</li>
     </ul>
 
     <p class="text-justify">
@@ -152,7 +152,7 @@ const content = `
                 <User className="w-5 h-5" />
               </div>
               <div>
-                <p className="text-sm font-semibold text-primary">Written by {article.author}</p>
+                {/* <p className="text-sm font-semibold text-primary">Written by {article.author}</p> */}
                 <p className="text-xs text-muted-foreground">Middle East Advisory Group</p>
               </div>
             </div>

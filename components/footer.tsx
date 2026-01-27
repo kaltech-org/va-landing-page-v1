@@ -45,18 +45,19 @@ export function Footer() {
             </div>
           </div>
 
+
           {/* Services */}
           <div>
             <h4 className="font-serif font-semibold mb-5 sm:mb-6 text-base sm:text-lg text-white">Services</h4>
             <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-white/70 font-light">
               <li>
                 <Link href="/services/uae-ksa-relocation" className="hover:text-accent transition">
-                  UAE & KSA Relocation
+                  UAE and KSA Relocation and Corporate Services
                 </Link>
               </li>
               <li>
                 <Link href="/services/tax-advisory" className="hover:text-accent transition">
-                  Tax Advisory
+                  Tax Advisory and International Structuring
                 </Link>
               </li>
               <li>
@@ -66,12 +67,12 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/services/family-governance" className="hover:text-accent transition">
-                  Family Governance
+                  Family Governance and Succession Planning
                 </Link>
               </li>
               <li>
                 <Link href="/services/accounting-compliance" className="hover:text-accent transition">
-                  Accounting & Compliance
+                  UAE Accounting and Tax Compliance
                 </Link>
               </li>
             </ul>
@@ -88,12 +89,12 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/team" className="hover:text-accent transition">
-                  Our team
+                  Our leadership team
                 </Link>
               </li>
               <li>
                 <Link href="/insights" className="hover:text-accent transition">
-                  News & insights
+                  News and technical insights
                 </Link>
               </li>
               <li>

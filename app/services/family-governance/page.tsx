@@ -28,7 +28,7 @@ export default function FamilyGovernancePage() {
           />
         </div>
         <div className="relative max-w-5xl mx-auto px-6 text-center">
-          <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SPECIALIST SERVICES</p>
+          {/* <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SPECIALIST SERVICES</p> */}
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-8 leading-tight text-balance">
             Family Governance and Succession Planning
           </h1>
@@ -48,9 +48,8 @@ export default function FamilyGovernancePage() {
           <div className="space-y-6 text-justify font-sans text-base md:text-lg leading-relaxed text-primary/80">
             <p>
               We are trusted advisers to Middle Eastern and international families, supporting them
-              with complex cross‑border structuring, family governance, wealth preservation and
-              succession planning. Our expertise spans tax‑efficient ownership structures, asset
-              protection strategies and multi‑jurisdictional estate planning.
+              with complex cross‑border structuring, family governance and wealth preservation strategies. Our expertise spans tax‑efficient ownership structures, asset
+              protection and multi‑jurisdictional estate planning.
 
               We can advise our clients on tax efficient cross-border structures and work in
               collaboration with our lawyers to navigate through the complex rules of inheritance
@@ -62,7 +61,7 @@ export default function FamilyGovernancePage() {
               We support clients with trust planning, UAE foundations and work with our partners
               across multiple jurisdictions to advise clients on robust family governance frameworks
               and structures. We work closely with our clients to ensure our advice is tax efficient
-              and in line with our clients’ commercial objectives and long-term strategies. Our
+              and in line with our clients’ long term commercial and strategic objectives. Our
               experienced team can also advise on appropriate ownership structures, to ensure the
               smooth management of multiple asset portfolios.
             </p>

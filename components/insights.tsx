@@ -29,8 +29,8 @@ export function Insights() {
           className="relative"
           opts={{ align: "start", loop: true }}
         >
-          <CarouselPrevious className="left-0 -translate-x-1/2 top-1/2 -translate-y-1/2 z-999" />
-          <CarouselNext className="right-0 translate-x-1/2 top-1/2 -translate-y-1/2 z-999" />
+          <CarouselPrevious className="left-0 -translate-x-1/2 top-1/2 -translate-y-1/2 z-999 cursor-pointer hover:text-black hover:bg-white bg-accent text-white w-13 h-13" />
+          <CarouselNext className="right-0 translate-x-1/2 top-1/2 -translate-y-1/2 z-999 cursor-pointer hover:text-black hover:bg-white bg-accent text-white w-13 h-13" />
 
           <CarouselContent className="-ml-6 sm:-ml-8">
             {articles.map((article) => (
@@ -53,17 +53,17 @@ export function Insights() {
                   </div>
 
                   <div className="p-5 sm:p-6">
-                    <div className="text-xs sm:text-sm font-sans text-accent mb-3">
+                    {/* <div className="text-xs sm:text-sm font-sans text-accent mb-3">
                       {article.category}
-                    </div>
+                    </div> */}
 
-                    <h3 className="font-serif text-lg sm:text-xl text-primary mb-3 leading-tight group-hover:text-accent transition-colors line-clamp-3 h-20">
+                    <h3 className="font-serif text-lg sm:text-xl text-primary mb-3 leading-tight group-hover:text-accent transition-colors line-clamp-4 h-25">
                       {article.title}
                     </h3>
 
-                    <p className="font-sans text-xs sm:text-sm text-muted-foreground leading-relaxed mb-4 line-clamp-3">
+                    {/* <p className="font-sans text-xs sm:text-sm text-muted-foreground leading-relaxed mb-4 line-clamp-3">
                       {article.excerpt}
-                    </p>
+                    </p> */}
 
                     <div className="flex items-center gap-3 sm:gap-4 text-xs font-sans text-muted-foreground pt-4 border-t border-border">
                       <div className="flex items-center gap-1.5">

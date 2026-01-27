@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer"
 export default function HeadquarterServicesPage() {
   // Static data for this specific page
   const article = {
-    title: "Place of Effective Management Risk for Foreign Businesses",
+    title: "Place of Effective Management for Foreign Businesses",
     author: "Middle East Advisory Group",
     date: "January 25, 2026",
     category: "Corporate Tax",
@@ -41,9 +41,9 @@ const content = `
     <p class="mt-2">This applies even when:</p>
 
     <ul class="ml-3 mt-2" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li>the company is legally incorporated abroad,</li>
-      <li class="pt-2">board minutes are drafted offshore, and</li>
-      <li class="pt-2">the company has no physical presence in the UAE.</li>
+      <li>The company is legally incorporated abroad,</li>
+      <li class="pt-2">Board minutes are drafted offshore, and</li>
+      <li class="pt-2">The company has no physical presence in the UAE.</li>
     </ul>
 
     <p class="text-justify mb-2">What matters is where the real, strategic decision-making happens.</p>
@@ -66,10 +66,10 @@ const content = `
     <p>A foreign company may be considered effectively managed in the UAE if:</p>
 
     <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li class="pt-2">the founder or key decision-maker lives in Dubai and approves strategy from here;</li>
-      <li class="pt-2">board meetings “on paper” take place abroad but the real discussions happen in the UAE;</li>
-      <li class="pt-2">the operational leadership team is based in the UAE; or</li>
-      <li class="pt-2">the offshore company has little genuine substance in its country of incorporation.</li>
+      <li class="pt-2">The founder or key decision-maker lives in Dubai and approves strategy from here;</li>
+      <li class="pt-2">Board meetings “on paper” take place abroad but the real discussions happen in the UAE;</li>
+      <li class="pt-2">The operational leadership team is based in the UAE; or</li>
+      <li class="pt-2">The offshore company has little genuine substance in its country of incorporation.</li>
     </ul>
 
     <p class="text-justify">
@@ -82,9 +82,9 @@ const content = `
 
     <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
       <li class="pt-2">UAE Corporate Tax on <strong>worldwide income</strong>,</li>
-      <li class="pt-2"><strong>dual tax residency</strong> issues,</li>
-      <li class="pt-2">disputes over which country has taxing rights, and</li>
-      <li class="pt-2">new filing, accounting and compliance obligations in the UAE.</li>
+      <li class="pt-2"><Strong>dual tax residency</strong> issues,</li>
+      <li class="pt-2">Disputes over which country has taxing rights, and</li>
+      <li class="pt-2">New filing, accounting and compliance obligations in the UAE.</li>
     </ul>
 
     <p class="text-justify">For many founders, this can come as an unwelcome surprise.</p>
@@ -94,9 +94,9 @@ const content = `
     <p>If you live in the UAE and operate a foreign company, it is essential to review:</p>
 
     <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li class="pt-2">where strategic decisions are truly made,</li>
-      <li class="pt-2">whether offshore governance is genuine, and</li>
-      <li class="pt-2">whether the company has real substance in its home jurisdiction.</li>
+      <li class="pt-2">Where strategic decisions are truly made,</li>
+      <li class="pt-2">Whether offshore governance is genuine, and</li>
+      <li class="pt-2">Whether the company has real substance in its home jurisdiction.</li>
     </ul>
 
     <p class="text-justify">A quick POEM review can save significant tax and compliance headaches later.</p>
@@ -106,10 +106,10 @@ const content = `
     <p>We regularly help entrepreneurs:</p>
 
     <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li class="pt-2">assess POEM exposure for foreign companies managed from the UAE,</li>
-      <li class="pt-2">structure board processes and substance to mitigate risk,</li>
-      <li class="pt-2">evaluate whether UAE tax residency is likely, and</li>
-      <li class="pt-2">prepare for potential corporate tax registration.</li>
+      <li class="pt-2">Assess POEM exposure for foreign companies managed from the UAE,</li>
+      <li class="pt-2">Structure board processes and substance to mitigate risk,</li>
+      <li class="pt-2">Evaluate whether UAE tax residency is likely, and</li>
+      <li class="pt-2">Prepare for potential corporate tax registration.</li>
     </ul>
 
     <p class="text-justify">

@@ -28,7 +28,7 @@ export default function AccountingCompliancePage() {
           />
         </div>
         <div className="relative max-w-5xl mx-auto px-6 text-center">
-          <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SPECIALIST SERVICES</p>
+          {/* <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SPECIALIST SERVICES</p> */}
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-8 leading-tight text-balance">
             UAE Accounting and Tax Compliance
           </h1>
@@ -41,7 +41,7 @@ export default function AccountingCompliancePage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
 
           <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6 ">
-            Comprehensive UAE accounting and tax compliance services.
+            Comprehensive UAE accounting and tax compliance services
           </h2>
 
           {/* Text Block: Justified, spaced, and split into paragraphs */}
@@ -57,6 +57,10 @@ export default function AccountingCompliancePage() {
               With a dedicated team of experienced accountants and tax compliance specialists with
               expertise across a range of industries, we provide proactive compliance support throughout
               the year, so you can focus on growing your business.
+            </p>
+
+             <p>
+             We also provide outsourced CFO services to businesses, providing strategic support across every stage of the business lifecycle and advising businesses on building in house finance functions.
             </p>
           </div>
 

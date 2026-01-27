@@ -18,6 +18,9 @@ export default function HeadquarterServicesPage() {
   const content = `
     <p class="text-justify">
    The UAE is home to more than 40 free zones, each offering its own regulatory framework and licensing model. For new investors, this abundance of choice can be overwhelming. Technology hubs like Dubai Internet City, logistics-driven zones such as JAFZA, media clusters such as TwoFour54, and financial centres like DIFC and ADGM all serve different strategic purposes.
+
+    </p>
+    <p class="text-justify mt-2">
 Historically, businesses were drawn to free zones primarily because they allowed 100% foreign ownership at a time when mainland companies required a local partner or sponsor. With the relaxation of UAE commercial laws in recent years, full foreign ownership is now permitted for most mainland activities (with limited exceptions for strategic sectors). As a result, the choice between free zone and mainland is no longer driven by ownership but increasingly by tax, substance, regulatory environment and operational needs.
 
     </p>
@@ -33,7 +36,7 @@ available on the mainland. Investors can now incorporate
  number of sectors considered strategically sensitive.
     </p>
 
-    <p>Certain free zones operate under specialised legal systems, such as:</p>
+    <p class="my-3">Certain free zones operate under specialised legal systems, such as:</p>
 
    <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
      <li class="pt-2" >DIFC and ADGM apply common law frameworks and have their own courts.</li>
@@ -51,7 +54,8 @@ available on the mainland. Investors can now incorporate
 
     <p class="text-justify">For many years, free zones marketed multi-year tax holidays (e.g., 15–50 years). With the introduction of UAE Corporate Tax, this model no longer applies.
 Under the new tax regime, Free zone companies are considered UAE tax residents, not exempt entities, they are subject to corporate tax unless they qualify for a specific incentive: the Free Zone Tax Regime.
-Despite this, many investors, and sometimes even corporate service providers, believe the old tax holiday system still exists. This misconception can create compliance risks if businesses structure operations based on outdated assumptions.
+</p>
+<p class="text-justify mt-2">Despite this, many investors, and sometimes even corporate service providers, believe the old tax holiday system still exists. This misconception can create compliance risks if businesses structure operations based on outdated assumptions.
 </p>
 
  
@@ -92,8 +96,8 @@ Despite this, many investors, and sometimes even corporate service providers, be
      <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
  <li class="pt-2" >Preparing audited financial statements,</li>
      <li class="pt-2" >Maintaining transfer pricing documentation and complying with transfer pricing regulations,</li>
-     <li class="pt-2" >staying within the de minimis limit, and</li>
-         <li class="pt-2" >not electing for the standard tax regime.</li>
+     <li class="pt-2" >Staying within the de minimis limit, and</li>
+         <li class="pt-2" >Not electing for the standard tax regime.</li>
     </ul>
  
 
@@ -123,11 +127,11 @@ This “five-year lockout” makes strategic planning essential.</p>
 
 
    <ul class="ml-3"  style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-     <li class="pt-2" >assessing whether a free zone or mainland setup best suits their business model,</li>
-     <li class="pt-2" >determining whether a free zone qualifies as a Qualifying Free Zone,</li>
-     <li class="pt-2" >planning operating structures to maintain Free Zone Tax Regime eligibility,</li>
-     <li class="pt-2" >evaluating substance, transfer pricing and CIT implications, and</li>
-     <li class="pt-2" >restructuring existing free zone businesses that may inadvertently breach the regime’s requirements.</li>
+     <li class="pt-2" >Assessing whether a free zone or mainland setup best suits their business model,</li>
+     <li class="pt-2" >Determining whether a free zone qualifies as a Qualifying Free Zone,</li>
+     <li class="pt-2" >Planning operating structures to maintain Free Zone Tax Regime eligibility,</li>
+     <li class="pt-2" >Evaluating substance, transfer pricing and CIT implications, and</li>
+     <li class="pt-2" >Restructuring existing free zone businesses that may inadvertently breach the regime’s requirements.</li>
     </ul>
 
     <p class="text-justify">

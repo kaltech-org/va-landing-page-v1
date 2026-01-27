@@ -51,22 +51,22 @@ export function Header() {
             onMouseEnter={() => setServicesOpen(true)}
             onMouseLeave={() => setServicesOpen(false)}
           >
-            <button className="text-sm font-medium text-foreground/70 hover:text-foreground transition tracking-wide flex items-center gap-1 py-2">
+            <button className="text-sm font-medium text-foreground/70 hover:text-foreground transition tracking-wide flex items-center gap-1 py-2 cursor-pointer">
               Services
               <ChevronDown className={`w-3 h-3 transition-transform ${servicesOpen ? "rotate-180" : ""}`} />
             </button>
             <div
-              className={`absolute top-full left-0 pt-2 transition-all duration-200 ${
+              className={`absolute top-full left-0 pt-2 transition-all duration-200 cursor-pointer ${
                 servicesOpen ? "opacity-100 visible" : "opacity-0 invisible"
               }`}
             >
-              <div className="w-96 bg-background border border-border shadow-lg">
-                <div className="py-4">
+              <div className="w-96 bg-background border border-border shadow-lg cursor-pointer">
+                <div className="py-4 cursor-pointer">
                   {services.map((service, index) => (
                     <Link
                       key={index}
                       href={`/services/${service.slug}`}
-                      className="block px-6 py-3 text-sm text-foreground/70 hover:text-foreground hover:bg-secondary/30 transition"
+                      className="block px-6 py-3 text-sm text-foreground/70 hover:text-foreground hover:bg-secondary/30 cursor-pointer"
                       onClick={() => setServicesOpen(false)}
                     >
                       {service.name}
@@ -81,25 +81,25 @@ export function Header() {
             href="/team"
             className="text-sm font-medium text-foreground/70 hover:text-foreground transition tracking-wide"
           >
-            Our team
+            Our leadership team
           </Link>
           <Link
             href="/insights"
             className="text-sm font-medium text-foreground/70 hover:text-foreground transition tracking-wide"
           >
-            News & insights
+            News and technical insights
           </Link>
-          <Link
+          {/* <Link
             href="/contact"
             className="text-sm font-medium text-foreground/70 hover:text-foreground transition tracking-wide"
           >
             Contact us
-          </Link>
+          </Link> */}
         </nav>
 
         <div className="flex items-center gap-4">
           <Link href="/contact">
-            <Button className="hidden sm:block bg-accent hover:bg-white hover:text-black text-accent-foreground font-medium tracking-wide text-sm px-6 py-2">
+            <Button className="hidden sm:block bg-accent hover:bg-white hover:text-black text-accent-foreground font-medium tracking-wide text-sm px-6 py-2 cursor-pointer">
               Contact us
             </Button>
           </Link>
@@ -122,7 +122,7 @@ export function Header() {
             <Link
               href="/"
               onClick={() => setMobileMenuOpen(false)}
-              className="block text-sm font-medium text-foreground/70 hover:text-foreground transition py-2"
+              className="block text-sm font-medium text-foreground/70 hover:text-foreground transition py-2 cursor-pointer"
             >
               Home
             </Link>
@@ -134,14 +134,14 @@ export function Header() {
               About us
             </Link>
             <div className="space-y-2">
-              <p className="text-sm font-medium text-foreground/70 py-2">Services</p>
+              <p className="text-sm font-medium text-foreground/70 py-2 cursor-pointer">Services</p>
               <div className="pl-4 space-y-2">
                 {services.map((service, index) => (
                   <Link
                     key={index}
                     href={`/services/${service.slug}`}
                     onClick={() => setMobileMenuOpen(false)}
-                    className="block text-xs text-foreground/60 hover:text-foreground transition py-1.5"
+                    className="block text-xs text-foreground/60 hover:text-foreground transition py-1.5 cursor-pointer"
                   >
                     {service.name}
                   </Link>
@@ -153,24 +153,24 @@ export function Header() {
               onClick={() => setMobileMenuOpen(false)}
               className="block text-sm font-medium text-foreground/70 hover:text-foreground transition py-2"
             >
-              Our team
+              Our leadership team
             </Link>
             <Link
               href="/insights"
               onClick={() => setMobileMenuOpen(false)}
               className="block text-sm font-medium text-foreground/70 hover:text-foreground transition py-2"
             >
-              News & insights
+              News and technical insights
             </Link>
-            <Link
+            {/* <Link
               href="/contact"
               onClick={() => setMobileMenuOpen(false)}
               className="block text-sm font-medium text-foreground/70 hover:text-foreground transition py-2"
             >
               Contact us
-            </Link>
+            </Link> */}
             <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
-              <Button className="w-full sm:hidden bg-accent hover:bg-white hover:text-white text-accent-foreground font-medium tracking-wide mt-4">
+              <Button className="w-full sm:hidden bg-accent hover:bg-white hover:text-white text-accent-foreground font-medium tracking-wide mt-4 cursor-pointer">
                 Contact us
               </Button>
             </Link>

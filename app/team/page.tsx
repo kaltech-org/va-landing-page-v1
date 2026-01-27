@@ -17,15 +17,14 @@ const teamMembers: TeamMember[] = [
   {
     name: "Zeeshan Khilji",
     title: "CEO",
-    image: "/Zeeshan.jpg",
-    bio: `Zeeshan is a UK qualified Big-Four trained accountant and tax adviser, having spent majority of his career working for Big Four and Top 10 firms, including PricewaterhouseCoopers, Ernst & Young and Azets. 
+    image: "/Zeeshan1.jpg",
+    bio: `Zeeshan is a UK qualified Big-Four trained accountant and tax adviser, having spent majority of his career working for Big Four and Top 10 firms, including PricewaterhouseCoopers, Ernst & Young and Azets.
 
 He specialises in advising high-net-worth private clients, international families and corporates on cross-border structuring, real estate advisory and succession planning. He also has a strong background in M&A, having advised on international tax structuring of cross-border transactions including private equity deals, during his time in the Big Four.
 
 Zeeshan is also the author of Bloomsbury’s Property Tax Planning and co-author of Bloomsbury’s Taxation of Intellectual Property publications.
 
-Zeeshan’s clients predominantly consist of internationally mobile families with cross-border structures. He has an extensive network of professional advisers across Europe, GCC and Asia who he regularly collaborates with on cross-border advisory matters. 
-`,
+Zeeshan’s clients predominantly consist of internationally mobile families with cross-border structures. He has an extensive network of professional advisers across Europe, GCC and Asia who he regularly collaborates with on international advisory and structuring matters.`
   },
   {
     name: "Susie Moore",
@@ -125,7 +124,7 @@ export default function TeamPage() {
 
                   <button
                     onClick={() => handleViewProfile(member)}
-                    className="mt-6 bg-accent text-accent-foreground text-sm px-4 py-2 rounded hover:bg-white  hover:text-black self-start"
+                    className="mt-6 bg-accent text-accent-foreground text-sm px-4 py-2 rounded hover:bg-white  hover:text-black self-start cursor-pointer"
                   >
                     View Profile
                   </button>
@@ -166,13 +165,13 @@ export default function TeamPage() {
 
               {/* Bio */}
               <div className="md:col-span-2">
-                <p className="font-serif text-2xl text-[#0F172A] italic underline underline-offset-4 mb-8">
+                <strong className="font-serif text-2xl text-[#0F172A]  underline-offset-4">
                   {selectedMember.name} – {selectedMember.title}
-                </p>
+                </strong>
 
-                <div className="prose prose-slate max-w-none text-justify leading-relaxed">
+                <div className="prose prose-slate max-w-none text-justify leading-relaxed mt-6">
                   {selectedMember.bio.split("\n").map((p, i) => (
-                    <p key={i}>{p}</p>
+                    <p className="pt-2" key={i}>{p}</p>
                   ))}
                 </div>
               </div>

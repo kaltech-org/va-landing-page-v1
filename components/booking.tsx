@@ -21,6 +21,27 @@ export function Booking() {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Office Locations */}
           <div className="space-y-6">
+
+              <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-accent">
+              <h3 className="text-lg sm:text-xl font-serif font-bold text-primary mb-3">Contact</h3>
+              <div className="space-y-2">
+               
+                <div className="flex items-center gap-3">
+                  <Phone className="w-4 h-4 text-accent flex-shrink-0" />
+                  <span className="text-sm text-primary/70 font-sans">+971 04 527 6813</span>
+                </div>
+                 <div className="flex items-center gap-3">
+                  <Mail className="w-4 h-4 text-accent" />
+                  <a
+                    href="mailto:enquiries@me-advisorygroup.com"
+                    className="text-sm text-primary/70 hover:text-accent transition font-sans"
+                  >
+                    enquiries@me-advisorygroup.com
+                  </a>
+                </div>
+              </div>
+            </div>
+
             {/* Dubai Office */}
             <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-accent">
               <h3 className="text-lg sm:text-xl font-serif font-bold text-primary mb-3">Dubai</h3>
@@ -68,47 +89,24 @@ export function Booking() {
               </div>
             </div>
 
-              <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-accent">
-              <h3 className="text-lg sm:text-xl font-serif font-bold text-primary mb-3">Contact</h3>
-              <div className="space-y-2">
-               
-                <div className="flex items-center gap-3">
-                  <Phone className="w-4 h-4 text-accent flex-shrink-0" />
-                  <span className="text-sm text-primary/70 font-sans">+971 04 527 6813</span>
-                </div>
-              </div>
-            </div>
+            
           </div>
 
           {/* CTA Card */}
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col ">
             <div className="bg-primary p-8 md:p-10 rounded-xl text-center">
 
               <p className="text-white/80 mb-8 font-sans">
                 Click below to send us a message with your enquiry.
               </p>
               <Link href="/contact">
-                <Button className="bg-accent hover:bg-white hover:text-black text-white font-medium px-10 py-6 text-base font-sans">
+                <Button className="bg-accent hover:bg-white hover:text-black text-white font-medium px-10 py-6 text-base font-sans cursor-pointer">
                   Contact us
                 </Button>
               </Link>
             </div>
 
-            {/* General Enquiries */}
-            <div className="mt-6 bg-secondary p-6 rounded-xl">
-              <h3 className="font-serif text-lg text-primary mb-4">General Enquiries</h3>
-              <div className="space-y-3">
-                <div className="flex items-center gap-3">
-                  <Mail className="w-4 h-4 text-accent" />
-                  <a
-                    href="mailto:enquiries@me-advisorygroup.com"
-                    className="text-sm text-primary/70 hover:text-accent transition font-sans"
-                  >
-                    enquiries@me-advisorygroup.com
-                  </a>
-                </div>
-              </div>
-            </div>
+        
           </div>
         </div>
       </div>

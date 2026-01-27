@@ -43,22 +43,7 @@ export default function ContactPage() {
               <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-primary mb-12 leading-tight">
                 Contact us
               </h1>
-
-             
-
-              {/* Additional Offices */}
-              <div className="">
-                {/* <h2 className="font-serif text-2xl text-primary mb-6">Offices</h2> */}
-                <div className="space-y-4 text-primary/70 font-sans">
-                  {offices.map((office, index) => (
-                    <p key={index}>
-                      <span className="text-primary font-medium">{office.city}:</span> {office.address}
-                    </p>
-                  ))}
-                </div>
-              </div>
-
-               <div className="space-y-8 mt-5 pt-12 border-t border-primary/10">
+              <div className="space-y-8 my-5">
                 {/* Email */}
                 <div className="flex items-start gap-4">
                   <Mail className="w-6 h-6 text-primary mt-1 flex-shrink-0" strokeWidth={1.5} />
@@ -85,6 +70,22 @@ export default function ContactPage() {
                   {/* </a> */}
                 </div>
               </div>
+
+             
+
+              {/* Additional Offices */}
+              <div className=" pt-8 border-t border-primary/10">
+                {/* <h2 className="font-serif text-2xl text-primary mb-6">Offices</h2> */}
+                <div className="space-y-4 text-primary/70 font-sans">
+                  {offices.map((office, index) => (
+                    <p key={index}>
+                      <span className="text-primary font-medium">{office.city}:</span> {office.address}
+                    </p>
+                  ))}
+                </div>
+              </div>
+
+               
             </div>
 
             {/* Right Side - Contact Form */}

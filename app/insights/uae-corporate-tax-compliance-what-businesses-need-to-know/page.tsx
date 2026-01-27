@@ -32,16 +32,27 @@ export default function HeadquarterServicesPage() {
     <p class="text-justify">
 All businesses that fall within the scope of the Corporate Tax Law must
  register with the Federal
- Tax Authority (FTA), even if they do not expect to pay tax.<br/>
+ Tax Authority (FTA), even if they do not expect to pay tax.
+
+    </p>
+       <p class="text-justify mt-2">
+
 Resident taxpayers, including mainland and free zone entities, 
 are required to register for corporate tax regardless of whether they 
 earn taxable income or expect to claim reliefs or exemptions. This includes 
 natural persons carrying on a business or business activity in the
- UAE once their revenue exceeds AED 1 million in a Gregorian calendar year. <br/>
+ UAE once their revenue exceeds AED 1 million in a Gregorian calendar year. 
+
+    </p>
+     </p>
+       <p class="text-justify mt-2">
 Non-resident taxpayers must also register if they have a Permanent
  Establishment (PE) or nexus in the UAE. A foreign company with no PE or 
  nexus in the UAE does not need to register, even if it derives UAE sourced 
- income which is subject to withholding tax, as the currently rate is set at 0%.<br/>
+ income which is subject to withholding tax, as the currently rate is set at 0%.
+
+    </p>
+      <p class="text-justify mt-2">
 The FTA has issued separate timelines for when different types of 
 taxpayers must complete registration, and late registration penalties may apply. In general,
  newly established businesses must register within three months following their date of 
@@ -63,17 +74,19 @@ taxpayers must complete registration, and late registration penalties may apply.
       rules). As a result, the corporate tax audit requirement generally affects
        only those businesses that previously operated without any mandatory audit
         obligations and must now adopt formal audit processes for tax compliance.
-For these businesses, the new requirement represents a significant change.
+
+    </p>
+    <p class="mt-2">For these businesses, the new requirement represents a significant change.
  Preparing audited financial statements requires proper bookkeeping, timely 
  closing processes, and adherence to the applicable accounting standards, and 
  businesses should ensure they have the right systems in place well before their first
-  tax filing deadline.
-    </p>
+  tax filing deadline.</p>
     <br>
 
     <h3 class="my-2"><strong> 3. Standalone Financial Statements </strong></h3>
     <p class="text-justify">For corporate tax purposes, businesses must prepare standalone financial statements for each entity within a group, even if they normally prepare consolidated accounts for other purposes. Taxable income and adjustments are computed based on the standalone results of the individual entity.
-Financial statements must be prepared using one of the following accounting frameworks:
+</p>
+<p class="text-justify mt-2">Financial statements must be prepared using one of the following accounting frameworks:
 </p>
 
     <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
@@ -96,8 +109,10 @@ Financial statements must be prepared using one of the following accounting fram
     <p class="text-justify">Every Taxable Person must file a corporate tax 
     return for each Tax Period. The return must be
      submitted within nine months from the end of the financial year.
-For example:
+
 </p>
+<p class="text-justify mt-2">For example:</p>
+
     
  
     <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
@@ -138,7 +153,7 @@ The payment of corporate tax (if due) must also be made within the same nine-mon
     to a fully developed compliance framework. Even businesses with modest levels of activity
      must register, maintain proper accounting records, prepare financial statements, and file an annual tax return. Transfer pricing documentation, in particular, 
     is an area where many businesses underestimate their obligations.</p> <br>
-  <p><strong>Middle East Advisory Group</strong></p>  <p class="text-justify">
+  <p><strong>Middle East Advisory Group</strong>
        assists clients with corporate tax registration, preparation of standalone and audited financial statements, annual return filing, and transfer pricing documentation. We also advise on group structuring and tax governance to ensure that businesses remain compliant while optimising their tax position.
 <br/>If you need support with UAE corporate tax compliance or would like a tailored compliance roadmap, our team is ready to assist.
 

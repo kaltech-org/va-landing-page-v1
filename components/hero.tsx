@@ -34,12 +34,12 @@ export function Hero() {
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-white/80 leading-relaxed font-light max-w-3xl mx-auto px-4 mb-8 sm:mb-10">
-            Specialist relocation, tax advisory, and real estate advisers to UK, Middle Eastern and international families and entrepreneurs.
+            Specialist relocation, tax advisory and real estate advisers to UK, Middle Eastern and international families and entrepreneurs
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
             <Link href="/#services">
-              <Button className="bg-accent hover:bg-white hover:text-black  text-white font-medium tracking-wide text-sm sm:text-base px-8 py-6 transition-colors duration-300">
+              <Button className="bg-accent hover:bg-white hover:text-black  text-white font-medium tracking-wide text-sm sm:text-base px-8 py-6 transition-colors duration-300 cursor-pointer">
                 Our Specialist Services
               </Button>
             </Link>

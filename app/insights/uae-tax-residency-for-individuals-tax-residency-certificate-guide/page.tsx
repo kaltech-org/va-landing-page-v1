@@ -24,21 +24,21 @@ const content = `
 For many individuals living in or relocating to the UAE, proving tax residency has become increasingly important. Banks, foreign tax authorities, investment platforms and financial institutions often ask for formal confirmation of where an individual is resident for tax purposes. In the UAE, this confirmation takes the form of a  <strong>Tax Residency Certificate (TRC)</strong> issued by the Federal Tax Authority.
 </p>
 
-<p class="text-justify">
+<p class="text-justify mt-2">
 A TRC is not an immigration document, nor does it affect your visa status. It is strictly a certificate that establishes where you are treated as <strong>tax resident</strong> during a specific 12-month period. It allows you to demonstrate to foreign authorities that your centre of life (whether through presence, home, work or personal ties) is in the UAE.
 </p>
 <br>
 <h3><strong>2. Understanding the different types of TRCs</strong></h3>
 
-<p class="text-justify">
+<p class="text-justify mt-2">
 There are two broad types of TRCs issued to individuals.
 </p>
 
-<p class="text-justify">
+<p class="text-justify mt-2">
 A <strong>domestic TRC</strong> confirms that someone is a tax resident under UAE law. Individuals often need this when foreign banks or investment providers ask for proof of residence, or when managing personal tax affairs abroad. The certificate is simply a confirmation that the person meets the domestic residency conditions.
 </p>
 
-<p class="text-justify">
+<p class="text-justify mt-2">
 A <strong>treaty TRC</strong>, on the other hand, is used when someone wants to claim benefits under a double tax treaty between the UAE and another country, for example, reduced withholding tax on dividends or relief from tax in the other country. For this type of certificate, the Federal Tax Authority checks not only the UAE’s residency rules, but also the residency article of the relevant tax treaty.
 </p>
 <br>
@@ -60,9 +60,9 @@ To use this route, the person must have been in the UAE for at least 90 days in 
 <p class="my-2">If those conditions are satisfied, one of the following must also apply:</p>
 
 <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-<li>The person has a permanent place of residence in the UAE, meaning a home (owned or rented), that is continuously available to them; or</li>
-<li>The person has employment in the UAE; or</li>
-<li>The person carries on a business activity in the UAE.</li>
+<li class="mt-2">The person has a permanent place of residence in the UAE, meaning a home (owned or rented), that is continuously available to them; or</li>
+<li class="mt-2">The person has employment in the UAE; or</li>
+<li class="mt-2">The person carries on a business activity in the UAE.</li>
 </ul>
 
 <p class="text-justify"> <br>
@@ -70,9 +70,9 @@ To use this route, the person must have been in the UAE for at least 90 days in 
 Even without meeting any day-count threshold, a person can still be UAE tax resident if the UAE is both:</p>
 
 <ol class="ml-3" style="list-style-type: decimal; padding-left: 20px; margin-bottom: 20px;">
-<li> Their <strong>usual or primary place of residence,</strong> meaning the country where they ordinarily live and spend most of their time as part of their regular routine); and The centre of their financial and personal interests, meaning that their essential personal life, family connections, work, business affairs, social relationships and community ties are chiefly based in the UAE.
+<li class="mt-2"> Their <strong>usual or primary place of residence,</strong> meaning the country where they ordinarily live and spend most of their time as part of their regular routine); and The centre of their financial and personal interests, meaning that their essential personal life, family connections, work, business affairs, social relationships and community ties are chiefly based in the UAE.
 </li>
-<li>  The <strong>centre of their financial and personal interests,</strong> meaning that their essential personal life, family connections, work, business affairs, social relationships and community ties are chiefly based in the UAE.
+<li class="mt-2">  The <strong>centre of their financial and personal interests,</strong> meaning that their essential personal life, family connections, work, business affairs, social relationships and community ties are chiefly based in the UAE.
 </li>
 
 </ol>
@@ -84,7 +84,7 @@ This test relies on a holistic review of a person’s life, and it is designed t
 <br>
 <h3><strong>4. Documentary requirements</strong></h3>
 
-<p class="text-justify">
+<p class="text-justify mt-2">
 Depending on which test applies, the applicant may be asked for:
 </p>
 
@@ -103,13 +103,15 @@ Depending on which test applies, the applicant may be asked for:
 The FTA can request additional evidence if needed, and it will only issue a certificate once it is satisfied that the residency requirements have been properly met.
 </p>
 <br>
-<h3><strong>6. How Middle East Advisory Group can help</strong></h3>
+<h3 class="my-2"><strong>6. How Middle East Advisory Group can help</strong></h3>
 
 <p class="text-justify">
-Understanding UAE tax residency can be complex, especially for individuals with international travel patterns, multiple homes or income streams in several countries.<br/> <strong>Middle East Advisory Group</strong> supports clients by analysing their specific circumstances, confirming which residency pathway applies, gathering the right documents, and preparing a clean and robust TRC application. We also advise on structuring personal and financial affairs to align with UAE residency requirements, particularly where individuals need to rely on international tax treaties.
+Understanding UAE tax residency can be complex, especially for individuals with international travel patterns, multiple homes or income streams in several countries.
+</p>
+<p class="text-justify mt-2"><strong>Middle East Advisory Group</strong> supports clients by analysing their specific circumstances, confirming which residency pathway applies, gathering the right documents, and preparing a clean and robust TRC application. We also advise on structuring personal and financial affairs to align with UAE residency requirements, particularly where individuals need to rely on international tax treaties.
 </p>
 
-<p class="text-justify">
+<p class="text-justify mt-2">
 If you need personalised guidance or wish to apply for a UAE Tax Residency Certificate, our team would be pleased to assist confidentially.
 </p>
 `;

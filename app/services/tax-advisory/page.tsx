@@ -31,7 +31,7 @@ export default function TaxAdvisoryPage() {
           />
         </div>
         <div className="relative max-w-5xl mx-auto px-6 text-center">
-          <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SPECIALIST SERVICES</p>
+          {/* <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SPECIALIST SERVICES</p> */}
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-8 leading-tight text-balance">
             Tax Advisory and International Structuring
           </h1>
@@ -69,8 +69,7 @@ export default function TaxAdvisoryPage() {
             </p>
 
             <p>
-              With a large number of Middle Eastern clients with assets in the UK subject to significant
-              Inheritance Tax liabilities, we extensively advise on implementing tax efficient structures
+              With a large number of Middle Eastern clients with assets in the UK subject to significant inheritance tax (IHT) liabilities, we extensively advise on implementing tax efficient structures
               to help mitigate long term IHT exposures. We also work with our tax insurance partners to
               implement policies to protect against such exposures.
             </p>

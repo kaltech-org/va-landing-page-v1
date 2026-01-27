@@ -510,7 +510,7 @@ export const articles = [
     id: 7,
     slug: "place-of-effective-management-risk-for-foreign-businesses",
     title:
-      "Place of Effective Management Risk for Foreign Businesses",
+      "Place of Effective Management for Foreign Businesses",
     excerpt:
       "With UAE Corporate Tax now in force, foreign companies managed from the UAE may be treated as UAE tax residents under Place of Effective Management (POEM) rules. This article explains the risks and how entrepreneurs can mitigate them.",
     content: `

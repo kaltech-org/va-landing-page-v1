@@ -40,9 +40,9 @@ export function Benefits() {
         {/* CHANGED: Reduced mb-16/20 to mb-8/12 */}
         <div className="mb-8 sm:mb-12 text-center">
 
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-foreground leading-tight text-balance mx-auto max-w-3xl px-4">
+           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-foreground leading-tight text-balance mx-auto max-w-3xl px-4">
             OUR SPECIALIST SERVICES
-          </h2>
+          </h2> 
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">

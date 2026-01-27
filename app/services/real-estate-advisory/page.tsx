@@ -11,7 +11,7 @@ export default function RealEstateAdvisoryPage() {
     { icon: Calculator, title: "Property tax planning and advisory" },
     { icon: Landmark, title: "Real estate financing via our mortgage broker partnerships" },
     { icon: FolderKanban, title: "Portfolio management and compliance" },
-    { icon: Layers, title: "SPV and cross-border group structuring implementation" },
+    { icon: Layers, title: "SPV and cross-border structuring implementation" },
   ]
 
   return (
@@ -28,7 +28,7 @@ export default function RealEstateAdvisoryPage() {
           />
         </div>
         <div className="relative max-w-5xl mx-auto px-6 text-center">
-          <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SPECIALIST SERVICES</p>
+          {/* <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SPECIALIST SERVICES</p> */}
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-8 leading-tight text-balance">
             Real Estate Advisory
           </h1>
@@ -41,31 +41,29 @@ export default function RealEstateAdvisoryPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
 
           <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6 ">
-            Expert guidance on real estate transactions across the GCC and Europe.
+            Expert guidance on real estate transactions across the GCC and Europe
           </h2>
 
           {/* Text Block: Justified, spaced, and split into paragraphs */}
           <div className="space-y-6 text-justify font-sans text-base md:text-lg leading-relaxed text-primary/80">
             <p>
-              We advise investors, families and developers on international real estate acquisitions,
-              structuring and compliance with a focus on residential and commercial real estate
+              We advise investors, families and developers on international real estate acquisitions and
+              structuring with a focus on residential and commercial real estate
               investments across the GCC and European markets.
 
 
 
-              Whether clients are expanding into the UAE and KSA real estate markets or Middle Eastern
+              Whether clients are expanding into the UAE and KSA or Middle Eastern
               investors diversifying into prime UK property, we source, evaluate and support transactions
               across key global markets.
             </p>
 
             <p>
-              We advise on prime real estate across Dubai, Abu Dhabi, Ras Al-Khaimah and Saudi Arabia
-              and also work closely with Middle Eastern clients with investments advising them on
-              growing their portfolios internationally.
+              We advise on prime real estate across Dubai, Abu Dhabi, Ras Al-Khaimah and Saudi Arabia and also work closely with Middle Eastern clients, advising them on their international real estate portfolios.
             </p>
 
             <p>
-              In conjunction with our tax advisory and compliance teams, we also ensure that your real
+              In conjunction with our tax advisory and compliance teams, we ensure that your real
               estate strategies are commercially robust, tax efficient and aligned with long-term
               commercial objectives.
             </p>

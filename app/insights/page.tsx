@@ -25,7 +25,7 @@ export default function InsightsPage() {
             News and technical insights
           </h1>
           <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto font-sans">
-            Expert analysis, industry updates and thought leadership from our advisory team.
+            Expert analysis, industry updates and thought leadership from our advisory team
           </p>
         </div>
       </section>
@@ -54,9 +54,9 @@ export default function InsightsPage() {
                 {/* Article Content */}
                 <div className="p-6 flex flex-col flex-grow">
                   {/* Category */}
-                  <span className="inline-block text-xs font-medium text-accent uppercase tracking-wider mb-3 font-sans">
+                  {/* <span className="inline-block text-xs font-medium text-accent uppercase tracking-wider mb-3 font-sans">
                     {article.category}
-                  </span>
+                  </span> */}
 
                   {/* Title Link */}
                   <Link href={`/insights/${article.slug}`}>
@@ -66,9 +66,9 @@ export default function InsightsPage() {
                   </Link>
 
                   {/* Excerpt */}
-                  <p className="text-sm text-primary/70 mb-4 leading-relaxed line-clamp-3 font-sans flex-grow">
+                  {/* <p className="text-sm text-primary/70 mb-4 leading-relaxed line-clamp-3 font-sans flex-grow">
                     {article.excerpt}
-                  </p>
+                  </p> */}
 
                   {/* Meta */}
                   <div className="flex items-center gap-4 text-xs text-primary/50 mb-4 font-sans pt-4 border-t border-gray-100 mt-auto">
@@ -85,7 +85,7 @@ export default function InsightsPage() {
                   {/* Read More Link */}
                   <Link
                     href={`/insights/${article.slug}`}
-                    className="inline-flex items-center gap-2 text-sm font-medium text-accent hover:text-accent/80 transition font-sans"
+                    className="inline-flex items-center gap-2 text-sm font-medium bg-accent text-white w-fit py-2 px-4 hover:text-black hover:bg-white transition font-sans"
                   >
                     Read More
                     <ArrowRight className="w-4 h-4" />

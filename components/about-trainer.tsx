@@ -75,7 +75,7 @@ Middle East Advisory (MEA) Group is one of the leading GCC-based advisory and co
               Zeeshan Khilji
             </h3>
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-4">
-Ex-PwC and EY l Author of Bloomsbury publications l UK, GCC and cross-border tax advisory, real estate and wealth structuring expert             </p>
+Ex-PwC and EY l UK, GCC and cross-border tax advisory, real estate and wealth structuring expert l Author of Bloomsbury publications</p>
             <div className="w-16 h-0.5 bg-accent mx-auto md:mx-0"></div>
           </div>
         </div>

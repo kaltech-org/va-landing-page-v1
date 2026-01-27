@@ -57,7 +57,7 @@ export function Insights() {
                       {article.category}
                     </div>
 
-                    <h3 className="font-serif text-lg sm:text-xl text-primary mb-3 leading-tight group-hover:text-accent transition-colors line-clamp-3">
+                    <h3 className="font-serif text-lg sm:text-xl text-primary mb-3 leading-tight group-hover:text-accent transition-colors line-clamp-3 h-20">
                       {article.title}
                     </h3>
 

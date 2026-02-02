@@ -46,7 +46,13 @@ Her expertise lies in designing and implementing tax-efficient, compliant and sc
 
 Dan specialises in market entry consultancy, corporate structuring and cross-border asset planning. His advisory work spans guiding both companies and individuals on efficient asset holding structures, navigating complex financial transactions and accessing leading financial institutions and investment channels globally.
 Over the past decade, Dan has served as a professional director for a wide range of client entities. In this role, he bring governance expertise, risk oversight and strategic input to ensure compliance, operational resilience and long-term value creation for international clients.`  },
+{
+    name: "Imran Noon",
+    title: "Strategic adviser/Non-Exec",
+    image: "/imran_noon.jpg",
+    bio: `Imran is the former Managing Director and Head of NRP at LGT UAE. He has held senior leadership roles across leading international banks, including ABN AMRO, Credit Suisse, and ING Bank. With over 30 years of experience in global and regional banking, he brings deep expertise in wealth management and a strong network across the region's senior banking leadership.`  },
 ];
+
 
 export default function TeamPage() {
   const [selectedMember, setSelectedMember] = useState<TeamMember | null>(null);
@@ -89,9 +95,9 @@ export default function TeamPage() {
         }`}
       >
         {/* CHANGED: max-w-6xl to max-w-4xl to make cards smaller */}
-        <div className="max-w-4xl mx-auto px-6">
+        <div className="max-w-5xl mx-auto px-6">
           {/* CHANGED: gap-10 to gap-6 for tighter spacing */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {teamMembers.map((member, index) => (
               <div
                 key={index}

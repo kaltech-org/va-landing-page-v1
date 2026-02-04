@@ -218,7 +218,7 @@ export function ContactForm() {
             Sending...
           </>
         ) : (
-          "Submit. "
+          "Submit"
         )}
       </Button>
 

@@ -3,6 +3,7 @@
 import type React from "react"
 import { useState } from "react"
 import { Loader2, CheckCircle, AlertCircle, ChevronDown } from "lucide-react"
+import { Button } from "./ui/button"
 
 type FormStatus = "idle" | "loading" | "success" | "error"
 
@@ -95,14 +96,20 @@ export function ContactForm() {
         <p className="text-primary/70 font-sans mb-8 max-w-md mx-auto">
           Your message has been sent to our team. We will get back to you shortly.
         </p>
-        <button
+        {/* <button
           onClick={() => setStatus("idle")}
           className="bg-primary hover:bg-primary/90 text-white font-medium px-8 py-3 font-sans transition-colors"
         >
           Send Another Message
-        </button>
+        </button> */}
+        <Button
+          onClick={() => setStatus("idle")}
+          className="bg-accent hover:bg-white hover:text-black text-white font-medium px-10 py-6 text-base font-sans cursor-pointer"
+        >
+          Send Another Message
+        </Button>
       </div>
-    )
+    );
   }
 
   return (
@@ -200,8 +207,22 @@ export function ContactForm() {
           className={`${inputClass} resize-none`}
         />
       </div>
+      <Button
+        type="submit"
+        disabled={status === "loading"}
+        className="bg-accent hover:bg-white hover:text-black text-white font-medium px-10 py-6 text-base font-sans cursor-pointer"
+      >
+        {status === "loading" ? (
+          <>
+            <Loader2 className="w-4 h-4 animate-spin" />
+            Sending...
+          </>
+        ) : (
+          "Submit. "
+        )}
+      </Button>
 
-      <button
+      {/* <button
         type="submit"
         disabled={status === "loading"}
         className="bg-primary hover:bg-primary/90 text-white font-medium px-10 py-3 font-sans transition-colors disabled:opacity-70 flex items-center gap-2"
@@ -214,7 +235,7 @@ export function ContactForm() {
         ) : (
           "Submit"
         )}
-      </button>
+      </button> */}
     </form>
   )
 }

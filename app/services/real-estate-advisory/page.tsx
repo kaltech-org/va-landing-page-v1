@@ -6,11 +6,11 @@ import { Building, Globe, Calculator, Landmark, FolderKanban, Layers } from "luc
 
 export default function RealEstateAdvisoryPage() {
   const offerings = [
-    { icon: Building, title: "UAE and KSA real estate acquisitions and structuring" },
-    { icon: Globe, title: "International real estate transaction support for Middle Eastern investors" },
-    { icon: Calculator, title: "Property tax planning and advisory" },
+    { icon: Building, title: "GCC and UK real estate acquisitions and structuring" },
+    { icon: Globe, title: "Real estate transaction support for Middle Eastern investors" },
+    { icon: Calculator, title: "Property tax advisory" },
     { icon: Landmark, title: "Real estate financing via our mortgage broker partnerships" },
-    { icon: FolderKanban, title: "Portfolio management and compliance" },
+    { icon: FolderKanban, title: "Property Portfolio compliance" },
     { icon: Layers, title: "SPV and cross-border structuring implementation" },
   ]
 
@@ -42,7 +42,7 @@ export default function RealEstateAdvisoryPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
 
           <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6 ">
-            Expert guidance on real estate transactions across the GCC and Europe
+            Expert guidance on real estate transactions across the GCC and UK
           </h2>
 
           {/* Text Block: Justified, spaced, and split into paragraphs */}
@@ -50,12 +50,12 @@ export default function RealEstateAdvisoryPage() {
             <p>
               We advise investors, families and developers on international real estate acquisitions and
               structuring with a focus on residential and commercial real estate
-              investments across the GCC and European markets.
+              investments across the GCC and UK.
 
 
 
-              Whether clients are expanding into the UAE and KSA or Middle Eastern
-              investors diversifying into prime UK property, we source, evaluate and support transactions
+              Whether clients are expanding into the GCC or Middle Eastern
+              investors diversifying into prime London property, we source, evaluate and support transactions
               across key global markets.
             </p>
 

@@ -45,7 +45,7 @@ export default function AboutPage() {
             </p>
 
             <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">
-              Our specialist teams can support our clients throughout the business lifecycle, from corporate set ups to tax efficient exit planning.
+              Our team of experts can support our clients throughout the business lifecycle, from corporate set ups to tax efficient exit planning.
               We have extensive experience with helping our clients enter
               the GCC market, implementing tax efficient corporate
               structures and managing ongoing compliance. We also work extensively

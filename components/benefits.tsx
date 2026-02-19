@@ -7,7 +7,7 @@ export function Benefits() {
   const services = [
     {
       icon: Building2,
-      title: "UAE and KSA Relocation and Corporate Services",
+      title: "UAE and Saudi Arabia Relocation and Corporate Services",
       slug: "uae-ksa-relocation",
     },
     {

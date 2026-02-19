@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react"
 
 const services = [
   {
-    title: "UAE and KSA Relocation and Corporate Services",
+    title: "UAE and Saudi Arabia Relocation and Corporate Services",
     description:
       "We deliver an integrated suite of relocation, corporate set-up and regulatory support services for families, founders, investors and businesses entering the GCC. Our team provides end-to-end guidance across visa applications, company formation, PRO services, and compliance requirements.",
     features: [

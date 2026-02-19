@@ -52,7 +52,7 @@ export function Footer() {
             <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-white/70 font-light">
               <li>
                 <Link href="/services/uae-ksa-relocation" className="hover:text-accent transition">
-                  UAE and KSA Relocation and Corporate Services
+                  UAE and Saudi Arabia Relocation and Corporate Services
                 </Link>
               </li>
               <li>
@@ -129,6 +129,9 @@ export function Footer() {
           </Link>
           <Link href="/privacy-policy" className="text-xs sm:text-sm text-white/60 hover:text-accent transition">
             Privacy Policy
+          </Link>
+          <Link href="/cookie-policy" className="text-xs sm:text-sm text-white/60 hover:text-accent transition">
+            Cookie Policy
           </Link>
          
         </div>

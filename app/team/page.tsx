@@ -18,17 +18,17 @@ const teamMembers: TeamMember[] = [
     name: "Zeeshan Khilji",
     title: "CEO",
     image: "/Zeeshan1.jpg",
-    bio: `Zeeshan is a UK qualified Big-Four trained accountant and tax adviser, having spent majority of his career working for Big Four and Top 10 firms, including PricewaterhouseCoopers, Ernst & Young and Azets.
+    bio: `Zeeshan is an ex-Big-Four tax and real estate adviser, having spent majority of his career working for Big Four and Top 10 firms, including PricewaterhouseCoopers, Ernst & Young and Azets.
 
-He specialises in advising high-net-worth private clients, international families and corporates on cross-border structuring, real estate advisory and succession planning. He also has a strong background in M&A, having advised on international tax structuring of cross-border transactions including private equity deals, during his time in the Big Four.
+He specialises in advising high & ultra-high-net-worth private clients, international families and corporates on cross-border tex, real estate and private wealth structuring matters. He also has a strong background in M&A, having advised on tax structuring of cross-border and real estate transactions including private equity deals.
 
-Zeeshan is also the author of Bloomsbury’s Property Tax Planning and co-author of Bloomsbury’s Taxation of Intellectual Property publications.
+Zeeshan is also the author of Bloomsbury’s Property Planning and co-author of Taxation of Intellectual Property publications.He completed the ACCA and Chartered Tax Adviser (CTA) qualifications in 2012 and 2015 respectively.
 
-Zeeshan’s clients predominantly consist of internationally mobile families with cross-border structures. He has an extensive network of professional advisers across Europe, GCC and Asia who he regularly collaborates with on international advisory and structuring matters.`
+Zeeshan’s clients predominantly consist of internationally mobile families with cross-border structures. He has an extensive network of professional advisers across Europe, GCC and Asia who he regularly collaborates with on international advisory and structuring matters.`,
   },
   {
     name: "Susie Moore",
-    title: "Senior Tax Advisory Specialist",
+    title: "Head of Tax Advisory",
     image: "/Susie.jpg",
     bio: `Susie is a Chartered Accountant, Chartered Tax Advisor and legally trained international tax specialist with over 20 years of experience in cross-border tax structuring, compliance and strategic advisory.
 
@@ -45,12 +45,31 @@ Her expertise lies in designing and implementing tax-efficient, compliant and sc
     bio: `Dan has over a decade of hands-on experience across the UAE and Saudi Arabia, partnering with organisations from innovative start-ups to established Fortune 500 companies to simplify and accelerate their commercial establishments in the Middle East.
 
 Dan specialises in market entry consultancy, corporate structuring and cross-border asset planning. His advisory work spans guiding both companies and individuals on efficient asset holding structures, navigating complex financial transactions and accessing leading financial institutions and investment channels globally.
-Over the past decade, Dan has served as a professional director for a wide range of client entities. In this role, he bring governance expertise, risk oversight and strategic input to ensure compliance, operational resilience and long-term value creation for international clients.`  },
+Over the past decade, Dan has served as a professional director for a wide range of client entities. In this role, he bring governance expertise, risk oversight and strategic input to ensure compliance, operational resilience and long-term value creation for international clients.`,
+  },
+  {
+    name: "Alex Evagora",
+    title: "Head of Real Estate",
+    image: "/alex_evagora.png",
+    bio: `Alex is a GCC and UK real estate specialist with a decade-long career in real estate at prominent companies in the UK and UAE, including CBRE and DDRE Global.
+    Originally from the UK, Alex previously worked in prime central London before moving to Dubai. As a real estate specialist, Alex is a well-rounded and knowledgeable advisor, having gained a large following with his client focused and relationship driven work style.
+    Alex is fluent in English and Greek. His invaluable experience and record-breaking career make him a go to real estate adviser for investors interested in real estate sales and acquisitions predominantly across Dubai, Abu Dhabi and prime central London.
+    `,
+  },
 {
+    name: "Rob Baines",
+    title: "Head of Outsourced CFO Services",
+    image: "/dummy_profile.png",
+    bio: `Rob is a Fellow Chartered Certified Accountant with 25+ years of blue-chip and private equity experience across the UK and UAE, including a decade in executive leadership. He has a proven track record in complex M&A execution, offering expertise across the entire business lifecycle from long-term scaling to exit planning.
+    Now based in the UAE, Rob advises boards and entrepreneurs on cross-border strategies, UAE corporate tax advisory and integration of ESG reporting frameworks. He leverages AI-driven financial systems to deliver lean, world-class operations and robust internal controls that drive long-term investor value.
+    `,
+  },
+  {
     name: "Imran Noon",
-    title: "Strategic adviser/Non-Exec",
+    title: "Senior Strategic Adviser and Non-Executive Board Member",
     image: "/imran_noon.jpg",
-    bio: `Imran is the former Managing Director and Head of NRP at LGT UAE. He has held senior leadership roles across leading international banks, including ABN AMRO, Credit Suisse, and ING Bank. With over 30 years of experience in global and regional banking, he brings deep expertise in wealth management and a strong network across the region's senior banking leadership.`  },
+    bio: `Imran is an experienced banker and has held senior leadership roles across leading international banks, including ABN AMRO, Credit Suisse, and ING Bank. With over 30 years of experience in global and regional banking, he brings deep expertise in private wealth with a strong network across the region's senior banking leadership.`,
+  },
 ];
 
 

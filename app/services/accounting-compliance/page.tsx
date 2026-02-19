@@ -61,7 +61,7 @@ UAE Accounting and Outsourced CFO Services
             </p>
 
              <p>
-             We also provide outsourced CFO services to businesses, providing strategic support across every stage of the business lifecycle and advising businesses on building in house finance functions.
+             We also provide outsourced CFO services to businesses, providing strategic support across every stage of the business lifecycle and advising businesses on building in-house finance functions.
             </p>
           </div>
 

@@ -10,23 +10,20 @@ export default function PrivacyPolicyPage() {
         <div className="max-w-5xl mx-auto px-6 md:px-10">
           <div className="space-y-4 ">
             <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl text-primary text-center">
-              PRIVACY POLICY
+              Privacy Policy
             </h1>
             <p className="text-sm sm:text-base text-foreground/70">
-              Middle East Advisory Group L.L.C
+              MEA Group
             </p>
             <p className="text-xs sm:text-sm text-foreground/60">
-              Last Updated: 19th of January, 2026
+              Last updated: 18th February 2026
             </p>
           </div>
 
           <div className="mt-12 space-y-8 text-sm sm:text-base text-foreground/80 leading-relaxed">
             <p>
               This Privacy Policy explains how{" "}
-              <strong>
-                MIDDLE EAST ADVISORY GROUP L.L.C ("ME Advisory Group", "we",
-                "us", "our")
-              </strong>{" "}
+              <strong>MEA Group ("we", "our", "us")</strong>{" "}
               collects, uses, discloses, and protects{" "}
               <strong>Personal Data</strong> when you:
               <ol className="mt-3 pl-10" style={{ listStyleType: "decimal" }}>
@@ -37,9 +34,9 @@ export default function PrivacyPolicyPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 underline"
-                    href="https://me-advisorygroup.com"
+                    href="https://www.me-advisorygroup.com"
                   >
-                    https://me-advisorygroup.com
+                    www.me-advisorygroup.com
                   </a>{" "}
                   (the "Website"), and/or
                 </li>
@@ -68,21 +65,13 @@ export default function PrivacyPolicyPage() {
               </h2>
               <ul className="space-y-2">
                 <li>
-                  <strong>Data Controller:</strong> MIDDLE EAST ADVISORY GROUP
-                  L.L.C
+                  <strong>Data Controller:</strong> MEA Group
                 </li>
                 <li>
                   <strong>Location:</strong> Dubai, United Arab Emirates
                 </li>
                 <li>
-                  <strong>
-                    Contact (Privacy): privacy@me-advisorygroup.com
-                  </strong>
-                </li>
-                <li>
-                  <strong> Address:</strong> Boulevard Plaza, Tower 1, Level 9,
-                  Sheikh Mohammed Bin Rashid Boulevard, Dubai, United Arab
-                  Emirates
+                  <strong>Contact (Privacy): enquiries@me-advisorygroup.com</strong>
                 </li>
               </ul>
               <p>
@@ -538,7 +527,7 @@ export default function PrivacyPolicyPage() {
                 </li>
               </ul>
               <p>
-                To exercise your rights, email privacy@me-advisorygroup.com. We
+                To exercise your rights, email enquiries@me-advisorygroup.com. We
                 may need to verify your identity before responding. If you are
                 acting on behalf of another person/entity, we may require proof
                 of authority.
@@ -556,7 +545,7 @@ export default function PrivacyPolicyPage() {
               </p>
               <ul className="list-disc pl-10 space-y-2">
                 <li>Using the unsubscribe link (where included), or</li>
-                <li>Emailing privacy@me-advisorygroup.com with your request</li>
+                <li>Emailing enquiries@me-advisorygroup.com with your request</li>
               </ul>
               <p>
                 Opting out of marketing does not affect service-related
@@ -590,7 +579,7 @@ export default function PrivacyPolicyPage() {
                 not knowingly collect Personal Data from individuals under the
                 age where parental consent would be required under applicable
                 law. If you believe a child has provided data to us, contact
-                privacy@me-advisorygroup.com.
+                enquiries@me-advisorygroup.com.
               </p>
             </div>
 
@@ -626,12 +615,18 @@ export default function PrivacyPolicyPage() {
               <p>For privacy-related questions, requests, or complaints:</p>
               <ul className="list-disc pl-10 space-y-2">
                 <li>
-                  <strong>Email:</strong> privacy@me-advisorygroup.com
+                  <strong>Email:</strong> enquiries@me-advisorygroup.com
                 </li>
                 <li>
-                  <strong>Address:</strong> Boulevard Plaza, Tower 1, Level 9,
-                  Sheikh Mohammed Bin Rashid Boulevard, Dubai, United Arab
-                  Emirates
+                  <strong>Website:</strong>{" "}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 underline"
+                    href="https://www.me-advisorygroup.com"
+                  >
+                    www.me-advisorygroup.com
+                  </a>
                 </li>
               </ul>
             </div>

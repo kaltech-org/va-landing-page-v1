@@ -9,7 +9,7 @@ export default function UaeKsaRelocationPage() {
     { icon: Building2, title: "Free Zone and mainland company formations" },
     { icon: Globe, title: "Tax efficient cross-border structuring" },
     { icon: Users, title: "UAE residency visas and advisory services for families and entrepreneurs" },
-    { icon: FileCheck, title: "KSA residency programs including Iqama services" },
+    { icon: FileCheck, title: "Saudi Arabia residency programs including Iqama services" },
     { icon: Briefcase, title: "Corporate structuring, licensing and regulatory approvals" },
     { icon: Home, title: "Family relocation, PRO services and government relations support" },
     { icon: Scale, title: "Constitutional support and business governance" },
@@ -34,7 +34,7 @@ export default function UaeKsaRelocationPage() {
         <div className="relative max-w-5xl mx-auto px-6 text-center">
           {/* <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SPECIALIST SERVICES</p> */}
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-8 leading-tight text-balance">
-            UAE and KSA Relocation and Corporate Services
+            UAE and Saudi Arabia Relocation and Corporate Services
           </h1>
         </div>
       </section>
@@ -44,8 +44,7 @@ export default function UaeKsaRelocationPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
 
           <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">
-            Comprehensive relocation support and corporate formation services for UAE and KSA inbound families and entrepreneurs
-          </h2>
+Comprehensive relocation support and corporate formation services for UAE and Saudi Arabia inbound families and entrepreneurs          </h2>
 
           <div className="space-y-6 text-justify font-sans text-base md:text-lg leading-relaxed text-primary/80">
             <p>

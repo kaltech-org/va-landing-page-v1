@@ -11,7 +11,7 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const services = [
-    { name: "UAE and KSA Relocation and Corporate Services", slug: "uae-ksa-relocation" },
+    { name: "UAE and Saudi Arabia Relocation and Corporate Services", slug: "uae-ksa-relocation" },
     { name: "Tax Advisory and International Structuring", slug: "tax-advisory" },
     { name: "Real Estate Advisory", slug: "real-estate-advisory" },
     { name: "Family Governance and Succession Planning", slug: "family-governance" },

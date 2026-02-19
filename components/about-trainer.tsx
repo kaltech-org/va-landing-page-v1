@@ -29,7 +29,7 @@ export function AboutTrainer() {
 
         <div className="max-w-4xl mx-auto text-center mb-8 sm:mb-12">
           <p className="text-base sm:text-lg md:text-xl leading-relaxed text-secondary-foreground text-left md:text-justify">
-Middle East Advisory (MEA) Group is one of the leading GCC-based advisory and corporate services firms, supporting UK, Middle Eastern and international families, entrepreneurs and high-net-worth private clients with relocation, tax advisory, real estate and cross-border structuring services across the UAE, Saudi Arabia (KSA) and the wider GCC region.          </p>
+Middle East Advisory (MEA) Group is one of the leading GCC-based advisory and corporate services firms, supporting UK, Middle Eastern and international families, entrepreneurs and high-net-worth private clients with relocation, cross-border tax, real estate and wealth structuring services across the UAE, Saudi Arabia (KSA) and the wider GCC region.          </p>
 
         </div>
 
@@ -52,8 +52,7 @@ Middle East Advisory (MEA) Group is one of the leading GCC-based advisory and co
           })}
         </div>
 
-        <div className="grid md:grid-cols-2 gap-3 md:gap-3 items-center bg-card p-6 sm:p-10 rounded-lg">
-          {/* CEO Image */}
+        {/* <div className="grid md:grid-cols-2 gap-3 md:gap-3 items-center bg-card p-6 sm:p-10 rounded-lg">
           <div className="flex justify-center md:justify-start">
             <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56  ml-3 rounded-full overflow-hidden border-4 border-accent/20">
               <Image
@@ -67,7 +66,6 @@ Middle East Advisory (MEA) Group is one of the leading GCC-based advisory and co
             </div>
           </div>
 
-          {/* CEO Info */}
           <div className="text-center md:text-left mt-4 md:mt-0">
             <span className="block text-sm uppercase tracking-wide text-accent mb-1">
               CEO
@@ -79,7 +77,7 @@ Middle East Advisory (MEA) Group is one of the leading GCC-based advisory and co
 Ex-PwC and EY l UK, GCC and cross-border tax advisory, real estate and wealth structuring expert l Author of Bloomsbury publications</p>
             <div className="w-16 h-0.5 bg-accent mx-auto md:mx-0"></div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

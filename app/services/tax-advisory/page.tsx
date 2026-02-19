@@ -6,14 +6,14 @@ import { Globe, Building2, Receipt, FileText, Scale, BadgeCheck } from "lucide-r
 
 export default function TaxAdvisoryPage() {
   const offerings = [
-    { icon: Globe, title: "Cross-border tax structuring and residency advisory services " },
-    { icon: Building2, title: "UK – UAE corporate structuring" },
-    { icon: Receipt, title: "KSA Zakat, VAT and Corporate Income Tax advisory" },
-    { icon: FileText, title: "UK inheritance tax planning" },
+    { icon: Globe, title: "Cross-border tax structuring" },
+    { icon: Building2, title: "UK – UAE and KSA personal tax residency" },
+    { icon: Receipt, title: "UK – UAE and KSA corporate structuring" },
+    { icon: FileText, title: "KSA Zakat, VAT and Corporate Income Tax advisory" },
     { icon: Scale, title: "Double tax treaty reviews" },
     {
       icon: BadgeCheck,
-      title: "Federal Tax Authority (FTA) and Zakat, Tax and Customs Authority (ZATCA) residency certificates",
+      title: "Federal Tax Authority (FTA) AND Zakat, Tax and Customs Authority (ZATCA) residency certificates",
     },
   ]
 
@@ -54,13 +54,13 @@ export default function TaxAdvisoryPage() {
               With global mobility on the rise and more high‑net‑worth families transitioning into the GCC,
               demand for technically strong and commercial cross‑border tax advice has grown significantly.
               Our dedicated tax team provides expert cross-border structuring and residency planning for
-              international clients entering or expanding within the UAE and Saudi Arabia. Our advice is
+              international clients entering or expanding within the GCC. Our advice is
               pragmatic and aligned with long‑term family and business objectives.
             </p>
 
             <p>
               With a highly experienced team consisting of ex-Big Four tax advisers, we specialise in
-              providing practical and commercially driven tax advice across all areas of UK, UAE and KSA
+              providing practical and commercially driven tax advice across UK, GCC and cross-border
               tax to help you navigate the evolving tax landscape and cross-border compliance obligations.
             </p>
 
@@ -70,9 +70,7 @@ export default function TaxAdvisoryPage() {
             </p>
 
             <p>
-              With a large number of Middle Eastern clients with assets in the UK subject to significant inheritance tax (IHT) liabilities, we extensively advise on implementing tax efficient structures
-              to help mitigate long term IHT exposures. We also work with our tax insurance partners to
-              implement policies to protect against such exposures.
+              With a large number of Middle Eastern clients with assets in the UK particularly real estate portfolios, we extensively advise families on implementing tax efficient structures to help mitigate long term tax exposures. We also work with our tax insurance partners to implement policies to protect against such exposures.
             </p>
           </div>
 

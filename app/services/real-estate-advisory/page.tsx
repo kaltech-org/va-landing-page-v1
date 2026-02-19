@@ -1,18 +1,34 @@
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
-import { Building, Globe, Calculator, Landmark, FolderKanban, Layers } from "lucide-react"
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import {
+  Building,
+  Globe,
+  Calculator,
+  Landmark,
+  FolderKanban,
+  Layers,
+} from "lucide-react";
 
 export default function RealEstateAdvisoryPage() {
   const offerings = [
-    { icon: Building, title: "GCC and UK real estate acquisitions and structuring" },
-    { icon: Globe, title: "Real estate transaction support for Middle Eastern investors" },
+    {
+      icon: Building,
+      title: "GCC and UK real estate acquisitions and structuring",
+    },
+    {
+      icon: Globe,
+      title: "Real estate transaction support for Middle Eastern investors",
+    },
     { icon: Calculator, title: "Property tax advisory" },
-    { icon: Landmark, title: "Real estate financing via our mortgage broker partnerships" },
+    {
+      icon: Landmark,
+      title: "Real estate financing via our mortgage broker partnerships",
+    },
     { icon: FolderKanban, title: "Property Portfolio compliance" },
     { icon: Layers, title: "SPV and cross-border structuring implementation" },
-  ]
+  ];
 
   return (
     <main className="min-h-screen bg-background font-sans">
@@ -38,50 +54,60 @@ export default function RealEstateAdvisoryPage() {
 
       {/* Main Content Section */}
       <section className="py-16 md:py-20 bg-[#F9F7F2]">
-        {/* Updated Container to max-w-4xl and exact responsive padding */}
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
-
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6 ">
+        <div className="relative max-w-5xl mx-auto px-8 text-center">
+          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6 leading-tight text-balance">
             Expert guidance on real estate transactions across the GCC and UK
           </h2>
-
+        </div>
+        {/* Updated Container to max-w-4xl and exact responsive padding */}
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           {/* Text Block: Justified, spaced, and split into paragraphs */}
           <div className="space-y-6 text-justify font-sans text-base md:text-lg leading-relaxed text-primary/80">
             <p>
-              We advise investors, families and developers on international real estate acquisitions and
-              structuring with a focus on residential and commercial real estate
-              investments across the GCC and UK.
-
-
-
+              We advise investors, families and developers on international real
+              estate acquisitions and structuring with a focus on residential
+              and commercial real estate investments across the GCC and UK.
               Whether clients are expanding into the GCC or Middle Eastern
-              investors diversifying into prime London property, we source, evaluate and support transactions
-              across key global markets.
+              investors diversifying into prime London property, we source,
+              evaluate and support transactions across key global markets.
             </p>
 
             <p>
-              We advise on prime real estate across Dubai, Abu Dhabi, Ras Al-Khaimah and Saudi Arabia and also work closely with Middle Eastern clients, advising them on their international real estate portfolios.
+              We advise on prime real estate across Dubai, Abu Dhabi, Ras
+              Al-Khaimah and Saudi Arabia and also work closely with Middle
+              Eastern clients, advising them on their international real estate
+              portfolios.
             </p>
 
             <p>
-              In conjunction with our tax advisory and compliance teams, we ensure that your real
-              estate strategies are commercially robust, tax efficient and aligned with long-term
-              commercial objectives.
+              In conjunction with our tax advisory and compliance teams, we
+              ensure that your real estate strategies are commercially robust,
+              tax efficient and aligned with long-term commercial objectives.
             </p>
           </div>
 
           {/* Core Offerings */}
-          <h3 className="font-serif text-2xl md:text-3xl text-primary mt-12 mb-8">Core Offerings</h3>
+          <h3 className="font-serif text-2xl md:text-3xl text-primary mt-12 mb-8">
+            Core Offerings
+          </h3>
 
           {/* Grid adjusted to 2 columns to fit the max-w-4xl container */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {offerings.map((offering, index) => (
-              <div key={index} className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div
+                key={index}
+                className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow"
+              >
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0">
-                    <offering.icon className="w-6 h-6 text-accent" strokeWidth={1.5} />
+                    <offering.icon
+                      className="w-6 h-6 text-accent"
+                      strokeWidth={1.5}
+                    />
                   </div>
-                  <p className="text-primary font-medium leading-relaxed font-sans">{offering.title}</p>
+                  <p className="text-primary font-medium leading-relaxed font-sans">
+                    {offering.title}
+                  </p>
                 </div>
               </div>
             ))}
@@ -91,8 +117,7 @@ export default function RealEstateAdvisoryPage() {
 
       {/* CTA Section */}
 
-
       <Footer />
     </main>
-  )
+  );
 }

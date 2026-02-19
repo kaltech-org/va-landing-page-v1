@@ -10,10 +10,10 @@ export default function TermsPage() {
         <div className="max-w-5xl mx-auto px-6 md:px-10">
           <div className="space-y-4">
             <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl text-primary text-center">
-              MEA Group Terms &amp; Conditions
+              MEA Group Terms &amp; service
             </h1>
             <p className="text-sm sm:text-base text-foreground/70">
-              Please read these terms and conditions carefully before engaging
+              Please read these terms and service carefully before engaging
               our services.
             </p>
             <p className="text-xs sm:text-sm text-foreground/60">
@@ -27,7 +27,7 @@ export default function TermsPage() {
                 1. DEFINITIONS &amp; INTERPRETATION
               </h2>
               <p>
-                In these Terms and Conditions of Business ("T&amp;Cs"), the
+                In these Terms and service of Business ("T&amp;Cs"), the
                 following definitions apply:
               </p>
               <ul className="space-y-2">

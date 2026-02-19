@@ -125,7 +125,7 @@ export function Footer() {
             © 2025 Middle East Advisory Group. All rights reserved.
           </p>
           <Link href="/terms" className="text-xs sm:text-sm text-white/60 hover:text-accent transition">
-            Terms &amp; Conditions
+            Terms &amp; service
           </Link>
           <Link href="/privacy-policy" className="text-xs sm:text-sm text-white/60 hover:text-accent transition">
             Privacy Policy

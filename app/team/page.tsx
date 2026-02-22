@@ -20,7 +20,7 @@ const teamMembers: TeamMember[] = [
     image: "/Zeeshan1.jpg",
     bio: `Zeeshan is an ex-Big-Four tax and real estate adviser, having spent majority of his career working for Big Four and Top 10 firms, including PricewaterhouseCoopers, Ernst & Young and Azets.
 
-He specialises in advising high & ultra-high-net-worth private clients, international families and corporates on cross-border tex, real estate and private wealth structuring matters. He also has a strong background in M&A, having advised on tax structuring of cross-border and real estate transactions including private equity deals.
+He specialises in advising high & ultra-high-net-worth private clients, international families and corporates on cross-border tax, real estate and private wealth structuring matters. He also has a strong background in M&A, having advised on tax structuring of cross-border and real estate transactions including private equity deals.
 
 Zeeshan is also the author of Bloomsbury’s Property Planning and co-author of Taxation of Intellectual Property publications.He completed the ACCA and Chartered Tax Adviser (CTA) qualifications in 2012 and 2015 respectively.
 

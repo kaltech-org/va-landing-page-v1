@@ -57,7 +57,7 @@ export default function UaeKsaRelocationPage() {
         <div className="relative max-w-5xl mx-auto px-8 text-center">
           {/* <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SPECIALIST SERVICES</p> */}
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-8 leading-tight text-balance">
-            UAE and Saudi Arabia Relocation and Corporate Services h
+            UAE and Saudi Arabia Relocation and Corporate Services
           </h1>
         </div>
       </section>

@@ -68,7 +68,7 @@ Over the past decade, Dan has served as a professional director for a wide range
     name: "Imran Noon",
     title: "Senior Strategic Adviser and Non-Executive Board Member",
     image: "/imran_noon.jpg",
-    bio: `Imran is an experienced banker and has held senior leadership roles across leading international banks, including ABN AMRO, Credit Suisse, and ING Bank. With over 30 years of experience in global and regional banking, he brings deep expertise in private wealth with a strong network across the region's senior banking leadership.`,
+    bio: `Imran is an experienced banker and has held senior leadership roles across leading international banks, including ABN AMRO, Credit Suisse and ING Bank. With over 30 years of experience in global and regional banking, he brings deep expertise in private wealth with a strong network across the region's senior banking leadership.`,
   },
 ];
 

@@ -45,7 +45,7 @@ Her expertise lies in designing and implementing tax-efficient, compliant and sc
     bio: `Dan has over a decade of hands-on experience across the UAE and Saudi Arabia, partnering with organisations from innovative start-ups to established Fortune 500 companies to simplify and accelerate their commercial establishments in the Middle East.
 
 Dan specialises in market entry consultancy, corporate structuring and cross-border asset planning. His advisory work spans guiding both companies and individuals on efficient asset holding structures, navigating complex financial transactions and accessing leading financial institutions and investment channels globally.
-Over the past decade, Dan has served as a professional director for a wide range of client entities. In this role, he bring governance expertise, risk oversight and strategic input to ensure compliance, operational resilience and long-term value creation for international clients.`,
+Over the past decade, Dan has served as a professional director for a wide range of client entities. In this role, he brings governance expertise, risk oversight and strategic input to ensure compliance, operational resilience and long-term value creation for international clients.`,
   },
   {
     name: "Alex Evagora",

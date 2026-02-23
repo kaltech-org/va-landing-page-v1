@@ -16,7 +16,7 @@ const testimonials = [
       "We have partnered with MEA Group to support a number of our high-profile clients who were relocating from the UK to the UAE and needed expert advisory and structuring services. MEA Group’s excellent cross-border knowledge and expertise made our clients’ GCC market entry process seamless and efficient.",
     name: "Sherad Dewedi",
     role: "Managing Partner at Shenward Chartered Accountants (UK)",
-    image: "/dummy_profile.png",
+    image: "/sherad_dewedi.png",
   },
   {
     quote:
@@ -124,9 +124,9 @@ export default function Testimonials() {
                         <Image
                           src={testimonial.image}
                           alt={testimonial.name}
-                          width={260}
+                          width={300}
                           height={300}
-                          className="object-cover rounded-full"
+                          className="object-cover rounded-full h-[300px]"
                           loading="lazy"
                         />
                       {/* </div> */}

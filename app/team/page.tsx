@@ -59,7 +59,7 @@ Over the past decade, Dan has served as a professional director for a wide range
 {
     name: "Rob Baines",
     title: "Head of Outsourced CFO Services",
-    image: "/dummy_profile.png",
+    image: "/rob.jpg",
     bio: `Rob is a Fellow Chartered Certified Accountant with 25+ years of blue-chip and private equity experience across the UK and UAE, including a decade in executive leadership. He has a proven track record in complex M&A execution, offering expertise across the entire business lifecycle from long-term scaling to exit planning.
     Now based in the UAE, Rob advises boards and entrepreneurs on cross-border strategies, UAE corporate tax advisory and integration of ESG reporting frameworks. He leverages AI-driven financial systems to deliver lean, world-class operations and robust internal controls that drive long-term investor value.
     `,

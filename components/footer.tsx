@@ -122,7 +122,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-8 sm:pt-12 flex flex-col md:flex-row justify-between items-center gap-4 sm:gap-6">
           <p className="text-xs sm:text-sm text-white/60 font-light">
-            © 2025 Middle East Advisory Group. All rights reserved.
+            © 2026 Middle East Advisory Group. All rights reserved.
           </p>
           <Link href="/terms" className="text-xs sm:text-sm text-white/60 hover:text-accent transition">
             Terms &amp; service

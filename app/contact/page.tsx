@@ -11,24 +11,24 @@ export default function ContactPage() {
       phone: "+971 4 330 4177",
       status: "active",
     },
-    {
-      city: "Abu Dhabi",
-      address: "ADGM Square, Al Sila Tower, Abu Dhabi, United Arab Emirates ",
-      phone: "Coming Soon",
-      status: "coming-soon",
-    },
-    {
-      city: "Saudi Arabia",
-      address: "6948 Eastern Ring Branch Road, Ar Rabwah, Riyadh 12824, Saudi Arabia",
-      phone: "Coming Soon",
-      status: "coming-soon",
-    },
-    {
-      city: "London",
-      address: "17 Hanover Square, London, W1S 1BN",
-      phone: "+44 20 XXXX XXXX",
-      status: "active",
-    },
+    // {
+    //   city: "Abu Dhabi",
+    //   address: "ADGM Square, Al Sila Tower, Abu Dhabi, United Arab Emirates ",
+    //   phone: "Coming Soon",
+    //   status: "coming-soon",
+    // },
+    // {
+    //   city: "Saudi Arabia",
+    //   address: "6948 Eastern Ring Branch Road, Ar Rabwah, Riyadh 12824, Saudi Arabia",
+    //   phone: "Coming Soon",
+    //   status: "coming-soon",
+    // },
+    // {
+    //   city: "London",
+    //   address: "17 Hanover Square, London, W1S 1BN",
+    //   phone: "+44 20 XXXX XXXX",
+    //   status: "active",
+    // },
   ]
 
   return (

@@ -57,17 +57,17 @@ export function Booking() {
             </div>
 
             {/* Abu Dhabi Office */}
-            <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-primary/20">
+            {/* <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-primary/20">
               <h3 className="text-lg sm:text-xl font-serif font-bold text-primary mb-3">Abu Dhabi</h3>
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-accent mt-1 flex-shrink-0" />
                 <p className="text-sm text-primary/70 font-sans">ADGM Square, Al Sila Tower, Abu Dhabi, United Arab Emirates </p>
               </div>
 
-            </div>
+            </div> */}
 
             {/* Saudi Arabia Office */}
-            <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-primary/20">
+            {/* <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-primary/20">
               <h3 className="text-lg sm:text-xl font-serif font-bold text-primary mb-3">Saudi Arabia</h3>
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-accent mt-1 flex-shrink-0" />
@@ -75,10 +75,10 @@ export function Booking() {
                 </p>
               </div>
 
-            </div>
+            </div> */}
 
             {/* London Office */}
-            <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-accent">
+            {/* <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-accent">
               <h3 className="text-lg sm:text-xl font-serif font-bold text-primary mb-3">London</h3>
               <div className="space-y-2">
                 <div className="flex items-start gap-3">
@@ -87,7 +87,7 @@ export function Booking() {
                 </div>
 
               </div>
-            </div>
+            </div> */}
 
             
           </div>

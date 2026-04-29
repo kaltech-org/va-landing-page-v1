@@ -41,7 +41,7 @@ export default function AboutPage() {
             </p>
 
             <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">
-              With offices in Dubai, Abu Dhabi, Saudi Arabia and the UK, we partner with wealth managers, private banks, family offices, accountants and law firms, to provide an independent partner led service to high-net-worth private clients and corporates. Being based out of both UK and GCC allows us to serve our international clients from our multiple office locations. 
+              With office in Dubai, we partner with wealth managers, private banks, family offices, accountants and law firms, to provide an independent partner led service to high-net-worth private clients and corporates. Being based out of both UK and GCC allows us to serve our international clients from our multiple office locations. 
             </p>
 
             <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">

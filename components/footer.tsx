@@ -111,9 +111,9 @@ export function Footer() {
             <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-white/70 font-light">
               <p className="text-xs sm:text-sm  mb-3">Dubai</p>
 
-              <p className="text-xs sm:text-sm  mb-4">Abu Dhabi</p>
+              {/* <p className="text-xs sm:text-sm  mb-4">Abu Dhabi</p>
               <p className="text-xs sm:text-sm  mb-4">Saudi Arabia</p>
-              <p className="text-xs sm:text-sm  mb-3">London</p>
+              <p className="text-xs sm:text-sm  mb-3">London</p> */}
 
             </ul>
           </div>

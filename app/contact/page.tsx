@@ -6,8 +6,9 @@ import { Mail, Phone, MapPin } from "lucide-react"
 export default function ContactPage() {
   const offices = [
     {
-      city: "Dubai",
-      address: "Boulevard Plaza, Tower 1, Level 9, Sheikh Mohammed Bin Rashid Boulevard, Dubai, United Arab Emirates",
+      city: "",
+      address:
+        "Sustainability district, District Mangrove Quarter A, Expo City, Dubai, United Arab Emirates",
       phone: "+971 4 330 4177",
       status: "active",
     },
@@ -79,7 +80,7 @@ export default function ContactPage() {
                 <div className="space-y-4 text-primary/70 font-sans">
                   {offices.map((office, index) => (
                     <p key={index}>
-                      <span className="text-primary font-medium">{office.city}:</span> {office.address}
+                      <span className="text-primary font-medium">{office.city}</span> {office.address}
                     </p>
                   ))}
                 </div>

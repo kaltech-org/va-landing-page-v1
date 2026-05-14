@@ -1,5 +1,115 @@
 export const articles = [
   {
+    id: 10,
+    slug: "dubai-removes-minimum-property-value-investor-visas",
+    title: "Dubai Removes Minimum Property Value for Investor Visas",
+    excerpt:
+      "Dubai has eliminated the AED 750,000 minimum property value for the 2-year property investor visa for sole owners, while joint owners must hold a minimum share valued at AED 400,000 each. What this means for investors and residency planning.",
+    content: `
+    <p class="text-justify">
+      Dubai has just made a significant policy change that will reshape property investment and residency planning in the emirate. The minimum property value requirement of AED 750,000 for the 2-year property investor visa has been eliminated entirely for individual property owners.
+    </p>
+    <p class="text-justify mt-3">
+      This development arrives at a pivotal moment in Dubai's real estate market and carries important implications for both current investors and those considering UAE residency through property ownership.
+    </p>
+    <br/>
+    <h3 class="my-2"><strong>What Has Changed</strong></h3>
+    <p class="text-justify">
+      The Dubai Land Department has updated the eligibility criteria for the 2-year property investor visa with two key modifications:
+    </p>
+    <p class="text-justify mt-3"><strong>For Individual Owners:</strong> The previous minimum property value requirement of AED 750,000 has been removed. Property owners can now apply for the visa regardless of their property's value, provided they hold sole ownership.</p>
+    <p class="text-justify mt-3"><strong>For Joint Owners:</strong> Where property is owned by multiple parties, each investor must hold a minimum share valued at AED 400,000 to qualify for the visa. This threshold applies even when ownership is divided equally among parties.</p>
+    <p class="text-justify mt-3">
+      The property must be registered in Dubai (properties in other emirates or DIFC are not accepted) and ownership must be completed and registered.
+    </p>
+    <br/>
+    <h3 class="my-2"><strong>Why This Matters</strong></h3>
+    <p class="text-justify">
+      This policy shift represents more than an administrative adjustment. It signals a deliberate move toward an ownership-based residency model rather than a value-based eligibility framework.
+    </p>
+    <p class="text-justify mt-3">
+      The practical effect is to expand access to residency for a broader range of property investors, particularly those investing in mid-market and entry-level segments. Previously, investors purchasing properties below AED 750,000 were excluded from residency benefits despite holding legitimate property ownership in Dubai.
+    </p>
+    <p class="text-justify mt-3">
+      The change also creates a closer alignment between property ownership and residency rights, treating ownership as the qualifying criterion rather than the property's market value.
+    </p>
+    <br/>
+    <h3 class="my-2"><strong>Who Benefits Most</strong></h3>
+    <p class="text-justify">The removal of the minimum threshold opens residency pathways for several investor profiles:</p>
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">First-time property investors entering the market at lower price points</li>
+      <li class="pt-2">Buyers in established areas where property values may have stabilised below previous thresholds</li>
+      <li class="pt-2">Investors holding smaller units or studio apartments in prime locations</li>
+      <li class="pt-2">Those seeking a cost-effective route to UAE residency without the higher capital commitment previously required</li>
+    </ul>
+    <p class="text-justify">
+      For joint ownership structures, clarity now exists: each party must maintain a minimum AED 400,000 share to qualify individually.
+    </p>
+    <br/>
+    <h3 class="my-2"><strong>Application Requirements and Process</strong></h3>
+    <p class="text-justify">The visa application process remains straightforward. Required documentation includes:</p>
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">Title deed registered with Dubai Land Department</li>
+      <li class="pt-2">No Objection Certificate from the financing bank (if mortgaged) or payment statement from the developer (if under payment plan)</li>
+      <li class="pt-2">Valid passport (minimum 6 months validity)</li>
+      <li class="pt-2">UAE health insurance</li>
+      <li class="pt-2">Good conduct certificate from Dubai Police</li>
+      <li class="pt-2">Digital photograph meeting ICP specifications</li>
+      <li class="pt-2">Emirates ID (if renewing)</li>
+    </ul>
+    <p class="text-justify">
+      Applications are submitted online through the Dubai Land Department portal, with fees as follows:
+    </p>
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">New visa: AED 10,545</li>
+      <li class="pt-2">Renewal: AED 8,215</li>
+      <li class="pt-2">Cancellation: AED 1,239</li>
+    </ul>
+    <p class="text-justify">
+      The visa grants 2-year residency with the ability to sponsor family members, subject to meeting standard financial requirements for sponsorship.
+    </p>
+    <br/>
+    <h3 class="my-2"><strong>Strategic Considerations</strong></h3>
+    <p class="text-justify">
+      While the removal of the minimum value threshold increases accessibility, investors should consider the broader context of residency planning:
+    </p>
+    <p class="text-justify mt-3"><strong>Tax Residency:</strong> Property ownership alone does not establish tax residency in the UAE. Tax residency depends on meeting separate criteria under UAE tax regulations, including physical presence requirements and demonstrating that the UAE is the centre of financial and personal interests.</p>
+    <p class="text-justify mt-3"><strong>Substance Requirements:</strong> For corporate structures or businesses seeking to establish UAE tax residency, property ownership by the company may support substance claims, but central management and control must genuinely be exercised from the UAE to satisfy regulatory and banking scrutiny.</p>
+    <p class="text-justify mt-3"><strong>Banking and Compliance:</strong> UAE banks continue to assess residency applications based on commercial rationale and source of funds. Property ownership facilitates residency, but banking relationships still require clear explanations of business activities and income sources.</p>
+    <p class="text-justify mt-3"><strong>Long-Term Planning:</strong> The 2-year property visa is distinct from the 5-year or 10-year Golden Visa programs. Investors with long-term residency goals should evaluate whether they meet criteria for longer-term residency options based on investment levels, professional qualifications, or other pathways.</p>
+    <br/>
+    <h3 class="my-2"><strong>Market Implications</strong></h3>
+    <p class="text-justify">
+      The policy change is likely to increase demand in mid-market segments where properties were previously just below the AED 750,000 threshold. Developers and sellers in these segments now have a stronger value proposition when marketing to investors seeking residency.
+    </p>
+    <p class="text-justify mt-3">
+      The shift also reduces the concentration of investor demand at specific price thresholds, which may lead to more distributed activity across different market segments rather than clustering around minimum qualifying values.
+    </p>
+    <p class="text-justify mt-3">
+      For those holding joint ownership, the AED 400,000 per-investor requirement creates a new planning dynamic. Partnerships and family co-ownership structures must ensure that individual shareholdings meet this threshold if all parties wish to obtain residency.
+    </p>
+    <br/>
+    <h3 class="my-2"><strong>Practical Next Steps</strong></h3>
+    <p class="text-justify">For investors considering this visa route:</p>
+    <ol class="ml-3" style="list-style-type: decimal; padding-left: 24px; margin-bottom: 20px;">
+      <li class="pt-2">Verify that the property is registered with Dubai Land Department and that ownership is completed (off-plan purchases under construction do not qualify until registration is complete).</li>
+      <li class="pt-2">Confirm financing arrangements. If the property is mortgaged, obtain a No Objection Certificate from the bank. If under a payment plan with a developer, secure a payment statement.</li>
+      <li class="pt-2">Ensure compliance with all documentation requirements before initiating the application to avoid delays or rejections.</li>
+      <li class="pt-2">Consider the total residency cost, including visa fees, health insurance, and any ongoing obligations such as property service charges or mortgage payments.</li>
+      <li class="pt-2">Plan for the 2-year renewal cycle and assess whether longer-term residency options may become available or more suitable over time.</li>
+    </ol>
+    <br/>
+    <h3 class="my-2"><strong>How Middle East Advisory Group Can Help</strong></h3>
+    <p class="text-justify">
+      If you are considering property investment in Dubai or reviewing your residency and tax planning options, we can provide a confidential assessment and practical guidance on the most effective approach.
+    </p>
+  `,
+    author: "Middle East Advisory Group",
+    date: "May 14, 2026",
+    category: "Real Estate & Residency",
+    image: "/dubai-investor-visa-policy-update.jpg",
+  },
+  {
     id: 4,
     slug: "headquarter-services-uae-free-zone-tax-regime",
     title:

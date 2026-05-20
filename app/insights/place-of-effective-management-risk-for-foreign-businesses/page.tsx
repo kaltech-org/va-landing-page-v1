@@ -124,7 +124,7 @@ const content = `
 
       <main className="pt-24 pb-16">
         {/* Navigation & Header Area */}
-        <div className="max-w-6xl mx-auto px-6 mb-10">
+        <div className="max-w-5xl mx-auto px-6 mb-10">
           <Link
             href="/insights"
             className="inline-flex items-center text-sm text-accent hover:text-accent/80 mb-8 transition-colors font-medium"
@@ -176,7 +176,7 @@ const content = `
         <article className="max-w-5xl mx-auto px-6">
           <div
             className="
-              mx-auto 
+              max-w-none
               text-left 
               prose prose-lg prose-slate 
               prose-headings:font-serif prose-headings:text-primary 

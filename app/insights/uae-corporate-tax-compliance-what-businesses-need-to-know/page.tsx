@@ -166,7 +166,7 @@ The payment of corporate tax (if due) must also be made within the same nine-mon
 
             <main className="pt-24 pb-16">
                 {/* Navigation & Header Area */}
-                <div className="max-w-6xl mx-auto px-6 mb-10">
+                <div className="max-w-5xl mx-auto px-6 mb-10">
                     <Link
                         href="/insights"
                         className="inline-flex items-center text-sm text-accent hover:text-accent/80 mb-8 transition-colors font-medium"
@@ -218,12 +218,13 @@ The payment of corporate tax (if due) must also be made within the same nine-mon
                 <article className="max-w-5xl mx-auto px-6">
                     <div
                         className="
-              mx-auto 
+
               text-left 
               prose prose-lg prose-slate 
               prose-headings:font-serif prose-headings:text-primary 
               prose-a:text-accent 
               leading-relaxed
+              max-w-none
             "
                         dangerouslySetInnerHTML={{ __html: content }}
                     />

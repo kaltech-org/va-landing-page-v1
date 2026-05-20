@@ -16,7 +16,8 @@ export default function DubaiInvestorVisaPolicyPage() {
       <Header />
 
       <main className="pt-24 pb-16">
-        <div className="max-w-6xl mx-auto px-6 mb-10">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="mb-10">
           <Link
             href="/insights"
             className="inline-flex items-center text-sm text-accent hover:text-accent/80 mb-8 transition-colors font-medium"
@@ -36,19 +37,21 @@ export default function DubaiInvestorVisaPolicyPage() {
           </h1>
         </div>
 
-        <article className="max-w-5xl mx-auto px-6">
+        <article>
           <div
             className="
-              mx-auto 
+
               text-left 
               prose prose-lg prose-slate 
               prose-headings:font-serif prose-headings:text-primary 
               prose-a:text-accent 
               leading-relaxed
+              max-w-none
             "
             dangerouslySetInnerHTML={{ __html: article.content }}
           />
         </article>
+          </div>
       </main>
 
       <Footer />

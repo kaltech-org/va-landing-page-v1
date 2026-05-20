@@ -8,7 +8,7 @@ export default function ContactPage() {
     {
       city: "",
       address:
-        "Sustainability district, District Mangrove Quarter A, Expo City, Dubai, United Arab Emirates",
+        "Sustainability District, 2 Mangrove Quarter A, Expo City, Dubai, United Arab Emirates",
       phone: "+971 4 330 4177",
       status: "active",
     },

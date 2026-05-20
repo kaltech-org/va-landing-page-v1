@@ -44,12 +44,12 @@ export function Booking() {
 
             {/* Dubai Office */}
             <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-accent">
-              <h3 className="text-lg sm:text-xl font-serif font-bold text-primary mb-3">Dubai</h3>
+              {/* <h3 className="text-lg sm:text-xl font-serif font-bold text-primary mb-3">Dubai</h3> */}
               <div className="space-y-2">
                 <div className="flex items-start gap-3">
                   <MapPin className="w-4 h-4 text-accent mt-1 flex-shrink-0" />
                   <p className="text-sm text-primary/70 font-sans">
-                    Boulevard Plaza, Tower 1, Level 9, Sheikh Mohammed Bin Rashid Boulevard, Dubai, United Arab Emirates
+                   Sustainability District, 2 Mangrove Quarter A, Expo City, Dubai, United Arab Emirates
                   </p>
                 </div>
                

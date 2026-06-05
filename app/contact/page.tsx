@@ -1,4 +1,11 @@
+import type { Metadata } from "next"
 import { Header } from "@/components/header"
+
+export const metadata: Metadata = {
+  title: "Contact MEA Group | UAE & GCC Advisory Firm",
+  description:
+    "Contact Middle East Advisory Group's advisers in Dubai for relocation, tax, real estate and family governance services across the UAE, KSA and GCC.",
+}
 import { Footer } from "@/components/footer"
 import { ContactForm } from "@/components/contact-form"
 import { Mail, Phone, MapPin } from "lucide-react"
@@ -100,7 +107,7 @@ export default function ContactPage() {
       {/* Google Map - Full Width */}
       <section className="h-96 w-full">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.178509261037!2d55.27195807538768!3d25.197201977714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348f08f225%3A0x7c9a6a6a9a6a9a6a!2sBoulevard%20Plaza%20Tower%201!5e0!3m2!1sen!2sae!4v1704067200000!5m2!1sen!2sae"
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3824.3854725877!2d55.1506944!3d24.9609167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDU3JzM5LjMiTiA1NcKwMDknMDIuNSJF!5e1!3m2!1sen!2s!4v1779298768027!5m2!1sen!2s"
           width="100%"
           height="100%"
           style={{ border: 0 }}

@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { Header } from "@/components/header";
+
+export const metadata: Metadata = {
+  title: "UAE Accounting & Outsourced CFO Services | MEA Group",
+  description:
+    "MEA Group provides accounting, corporate tax and VAT compliance, bookkeeping, payroll and outsourced CFO services to businesses in the UAE.",
+};
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";

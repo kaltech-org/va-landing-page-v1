@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { Header } from "@/components/header";
+
+export const metadata: Metadata = {
+  title: "Family Governance & Succession Planning | UAE & GCC",
+  description:
+    "MEA Group advises Middle Eastern and international families on succession planning, UAE foundations, trusts, asset protection and wealth preservation.",
+};
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";

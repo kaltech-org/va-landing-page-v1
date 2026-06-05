@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { Header } from "@/components/header";
+
+export const metadata: Metadata = {
+  title: "Cross-Border Tax & Compliance Structuring | MEA Group",
+  description:
+    "MEA Group advises UK, GCC and international clients on UAE corporate tax, cross-border structuring, tax residency and FTA & ZATCA compliance.",
+};
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";

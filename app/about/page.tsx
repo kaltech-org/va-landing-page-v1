@@ -1,4 +1,11 @@
+import type { Metadata } from "next"
 import { Header } from "@/components/header"
+
+export const metadata: Metadata = {
+  title: "About MEA Group | UAE & GCC Advisory Firm",
+  description:
+    "Middle East Advisory Group is a UAE-based advisory firm working with wealth managers, private banks, family offices, accountants and law firms, serving HNW private clients and corporates.",
+}
 import { Footer } from "@/components/footer"
 import Image from "next/image"
 import Link from "next/link"

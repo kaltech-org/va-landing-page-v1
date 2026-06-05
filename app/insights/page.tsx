@@ -1,4 +1,11 @@
+import type { Metadata } from "next"
 import { Header } from "@/components/header"
+
+export const metadata: Metadata = {
+  title: "Latest UAE Tax & Relocation Insights | MEA Group",
+  description:
+    "Read Middle East Advisory Group's insights on UAE corporate tax, free zones, tax residency, Golden Visas and relocation to the UAE, KSA and GCC.",
+}
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"

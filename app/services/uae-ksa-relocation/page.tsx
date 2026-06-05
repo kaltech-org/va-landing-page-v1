@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { Header } from "@/components/header";
+
+export const metadata: Metadata = {
+  title: "Company Setup & Relocation Services in UAE | MEA Group",
+  description:
+    "MEA Group handles company formation, Golden Visa, residency and PRO services for businesses and families relocating to the UAE and Saudi Arabia.",
+};
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";

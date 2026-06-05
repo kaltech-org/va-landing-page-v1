@@ -12,9 +12,9 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Middle East Advisory Group",
+  title: "Corporate Tax & Accounting Advisory in Dubai UAE | MEA Group",
   description:
-    "Trusted advisers delivering Big-Four-level expertise",
+    "Middle East Advisory Group helps clients relocate to the UAE, Saudi Arabia and GCC with expert cross-border tax, real estate and wealth structuring services.",
   generator: "v0.app",
   icons: {
     icon: [{ url: "/new-logo.png", type: "image/png" }],

@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { Header } from "@/components/header";
+
+export const metadata: Metadata = {
+  title: "Real Estate Advisory & Property Structuring | UAE & UK",
+  description:
+    "MEA Group advises investors and families on prime property acquisitions, SPV structuring and property tax across Dubai, Abu Dhabi and the UK.",
+};
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";

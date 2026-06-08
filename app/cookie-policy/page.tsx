@@ -1,5 +1,14 @@
+import type { Metadata } from "next";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+
+export const metadata: Metadata = {
+  title: "Cookie Policy | MEA Group",
+  description:
+    "Read MEA Group's cookie policy to understand how we use cookies and similar technologies on our website.",
+  alternates: { canonical: "/cookie-policy" },
+  robots: { index: true, follow: true },
+};
 
 export default function CookiePolicyPage() {
   return (

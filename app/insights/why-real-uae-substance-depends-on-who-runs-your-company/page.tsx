@@ -1,8 +1,24 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft, Calendar, User, Share2 } from 'lucide-react';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
+
+export const metadata: Metadata = {
+  title: 'Why Real UAE Substance Depends on Who Runs Your Company | MEA Group',
+  description:
+    'MEA Group explains why Place of Effective Management and genuine UAE substance depend on who actually runs your company, not just its registered address.',
+  alternates: { canonical: '/insights/why-real-uae-substance-depends-on-who-runs-your-company' },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: 'Why Real UAE Substance Depends on Who Runs Your Company | MEA Group',
+    description:
+      'MEA Group explains why Place of Effective Management and genuine UAE substance depend on who actually runs your company, not just its registered address.',
+    url: '/insights/why-real-uae-substance-depends-on-who-runs-your-company',
+    images: [{ url: '/modern-dubai-skyline-business-district.jpg', width: 1200, height: 630, alt: 'UAE Corporate Substance' }],
+  },
+}
 
 export default function CorporateSubstancePage() {
     // Static data for this specific page

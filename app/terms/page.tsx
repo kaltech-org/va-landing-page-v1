@@ -1,5 +1,14 @@
+import type { Metadata } from "next";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+
+export const metadata: Metadata = {
+  title: "Terms of Service | MEA Group",
+  description:
+    "Read MEA Group's terms of service before engaging our advisory services across the UAE, KSA and GCC.",
+  alternates: { canonical: "/terms" },
+  robots: { index: true, follow: true },
+};
 
 export default function TermsPage() {
   return (

@@ -1,8 +1,24 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Calendar, User, Share2 } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+
+export const metadata: Metadata = {
+  title: "UAE Free Zones vs Mainland: What Investors Need to Know | MEA Group",
+  description:
+    "MEA Group compares UAE free zones and mainland for investors — covering tax treatment, ownership, licensing, and which structure suits your business goals.",
+  alternates: { canonical: "/insights/uae-free-zones-vs-mainland-investors-guide" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "UAE Free Zones vs Mainland: What Investors Need to Know | MEA Group",
+    description:
+      "MEA Group compares UAE free zones and mainland for investors — covering tax treatment, ownership, licensing, and which structure suits your business goals.",
+    url: "/insights/uae-free-zones-vs-mainland-investors-guide",
+    images: [{ url: "/uae_free_zones_vs_mainland.jpeg", width: 1200, height: 630, alt: "UAE Free Zones vs Mainland" }],
+  },
+}
 
 export default function HeadquarterServicesPage() {
   // Static data for this specific page

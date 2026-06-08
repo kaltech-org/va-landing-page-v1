@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "UAE Accounting & Outsourced CFO Services | MEA Group",
   description:
     "MEA Group provides accounting, corporate tax and VAT compliance, bookkeeping, payroll and outsourced CFO services to businesses in the UAE.",
+  alternates: { canonical: "/services/accounting-compliance" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "UAE Accounting & Outsourced CFO Services | MEA Group",
+    description: "MEA Group provides accounting, corporate tax and VAT compliance, bookkeeping, payroll and outsourced CFO services to businesses in the UAE.",
+    url: "/services/accounting-compliance",
+    images: [{ url: "/hero-accounting.jpg", width: 1200, height: 630, alt: "UAE Accounting Services – MEA Group" }],
+  },
 };
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";

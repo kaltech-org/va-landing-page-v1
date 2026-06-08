@@ -5,6 +5,17 @@ export const metadata: Metadata = {
   title: "About MEA Group | UAE & GCC Advisory Firm",
   description:
     "Middle East Advisory Group is a UAE-based advisory firm working with wealth managers, private banks, family offices, accountants and law firms, serving HNW private clients and corporates.",
+  alternates: {
+    canonical: "/about",
+  },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "About MEA Group | UAE & GCC Advisory Firm",
+    description:
+      "Middle East Advisory Group is a UAE-based advisory firm working with wealth managers, private banks, family offices, accountants and law firms, serving HNW private clients and corporates.",
+    url: "/about",
+    images: [{ url: "/hero-about-executive-boardroom.jpg", width: 1200, height: 630, alt: "MEA Group – About Us" }],
+  },
 }
 import { Footer } from "@/components/footer"
 import Image from "next/image"

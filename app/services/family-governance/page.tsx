@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Family Governance & Succession Planning | UAE & GCC",
   description:
     "MEA Group advises Middle Eastern and international families on succession planning, UAE foundations, trusts, asset protection and wealth preservation.",
+  alternates: { canonical: "/services/family-governance" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "Family Governance & Succession Planning | UAE & GCC",
+    description: "MEA Group advises Middle Eastern and international families on succession planning, UAE foundations, trusts, asset protection and wealth preservation.",
+    url: "/services/family-governance",
+    images: [{ url: "/hero-family-governance.jpg", width: 1200, height: 630, alt: "Family Governance – MEA Group" }],
+  },
 };
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";

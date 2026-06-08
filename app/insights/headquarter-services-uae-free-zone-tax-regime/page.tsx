@@ -1,8 +1,24 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Calendar, User, Share2 } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+
+export const metadata: Metadata = {
+  title: "Headquarter Services Under the UAE Free Zone Tax Regime | MEA Group",
+  description:
+    "MEA Group explains how headquarter services qualify as a Qualifying Activity under the UAE Free Zone Tax Regime, enabling a potential 0% corporate tax rate.",
+  alternates: { canonical: "/insights/headquarter-services-uae-free-zone-tax-regime" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "Headquarter Services Under the UAE Free Zone Tax Regime | MEA Group",
+    description:
+      "MEA Group explains how headquarter services qualify as a Qualifying Activity under the UAE Free Zone Tax Regime, enabling a potential 0% corporate tax rate.",
+    url: "/insights/headquarter-services-uae-free-zone-tax-regime",
+    images: [{ url: "/headquarter_services.jpeg", width: 1200, height: 630, alt: "UAE Free Zone Headquarter Services" }],
+  },
+}
 
 export default function HeadquarterServicesPage() {
   // Static data for this specific page

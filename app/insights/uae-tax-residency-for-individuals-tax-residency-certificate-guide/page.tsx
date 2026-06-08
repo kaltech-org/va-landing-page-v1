@@ -1,8 +1,24 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Calendar, User, Share2 } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+
+export const metadata: Metadata = {
+  title: "UAE Tax Residency for Individuals: Tax Residency Certificate Guide | MEA Group",
+  description:
+    "MEA Group explains how to obtain a UAE Tax Residency Certificate, who qualifies and the steps to establish individual tax residency in the UAE.",
+  alternates: { canonical: "/insights/uae-tax-residency-for-individuals-tax-residency-certificate-guide" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "UAE Tax Residency for Individuals: Tax Residency Certificate Guide | MEA Group",
+    description:
+      "MEA Group explains how to obtain a UAE Tax Residency Certificate, who qualifies and the steps to establish individual tax residency in the UAE.",
+    url: "/insights/uae-tax-residency-for-individuals-tax-residency-certificate-guide",
+    images: [{ url: "/tax_residency_for_individuals.jpeg", width: 1200, height: 630, alt: "UAE Tax Residency Certificate Guide" }],
+  },
+}
 
 export default function HeadquarterServicesPage() {
   // Static data for this specific page

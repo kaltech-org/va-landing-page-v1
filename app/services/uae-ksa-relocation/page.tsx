@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Company Setup & Relocation Services in UAE | MEA Group",
   description:
     "MEA Group handles company formation, Golden Visa, residency and PRO services for businesses and families relocating to the UAE and Saudi Arabia.",
+  alternates: { canonical: "/services/uae-ksa-relocation" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "Company Setup & Relocation Services in UAE | MEA Group",
+    description: "MEA Group handles company formation, Golden Visa, residency and PRO services for businesses and families relocating to the UAE and Saudi Arabia.",
+    url: "/services/uae-ksa-relocation",
+    images: [{ url: "/hero-relocation-dubai.jpg", width: 1200, height: 630, alt: "UAE & KSA Relocation – MEA Group" }],
+  },
 };
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";

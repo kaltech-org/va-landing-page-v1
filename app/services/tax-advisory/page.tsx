@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Cross-Border Tax & Compliance Structuring | MEA Group",
   description:
     "MEA Group advises UK, GCC and international clients on UAE corporate tax, cross-border structuring, tax residency and FTA & ZATCA compliance.",
+  alternates: { canonical: "/services/tax-advisory" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "Cross-Border Tax & Compliance Structuring | MEA Group",
+    description: "MEA Group advises UK, GCC and international clients on UAE corporate tax, cross-border structuring, tax residency and FTA & ZATCA compliance.",
+    url: "/services/tax-advisory",
+    images: [{ url: "/hero-tax-advisory.jpg", width: 1200, height: 630, alt: "Tax Advisory – MEA Group" }],
+  },
 };
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";

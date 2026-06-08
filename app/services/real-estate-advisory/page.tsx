@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Real Estate Advisory & Property Structuring | UAE & UK",
   description:
     "MEA Group advises investors and families on prime property acquisitions, SPV structuring and property tax across Dubai, Abu Dhabi and the UK.",
+  alternates: { canonical: "/services/real-estate-advisory" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "Real Estate Advisory & Property Structuring | UAE & UK",
+    description: "MEA Group advises investors and families on prime property acquisitions, SPV structuring and property tax across Dubai, Abu Dhabi and the UK.",
+    url: "/services/real-estate-advisory",
+    images: [{ url: "/hero-real-estate.jpg", width: 1200, height: 630, alt: "Real Estate Advisory – MEA Group" }],
+  },
 };
 import { Footer } from "@/components/footer";
 import { Button } from "@/components/ui/button";

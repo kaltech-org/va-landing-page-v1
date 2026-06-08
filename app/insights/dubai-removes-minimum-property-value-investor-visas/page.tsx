@@ -1,9 +1,25 @@
+import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { ArrowLeft, Calendar } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { articles } from "@/lib/articals"
+
+export const metadata: Metadata = {
+  title: "Dubai Removes Minimum Property Value for Investor Visas | MEA Group",
+  description:
+    "Dubai has removed the minimum property value requirement for investor visas. MEA Group explains what this policy change means for property investors in the UAE.",
+  alternates: { canonical: "/insights/dubai-removes-minimum-property-value-investor-visas" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "Dubai Removes Minimum Property Value for Investor Visas | MEA Group",
+    description:
+      "Dubai has removed the minimum property value requirement for investor visas. MEA Group explains what this policy change means for property investors in the UAE.",
+    url: "/insights/dubai-removes-minimum-property-value-investor-visas",
+    images: [{ url: "/dubai-investor-visa-policy-update.jpg", width: 1200, height: 630, alt: "Dubai Investor Visa Policy Update" }],
+  },
+}
 
 const SLUG = "dubai-removes-minimum-property-value-investor-visas"
 

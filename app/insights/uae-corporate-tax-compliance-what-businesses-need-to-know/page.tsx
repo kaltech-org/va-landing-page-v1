@@ -1,8 +1,24 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Calendar, User, Share2 } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+
+export const metadata: Metadata = {
+  title: "UAE Corporate Tax Compliance: What Businesses Need to Know | MEA Group",
+  description:
+    "A comprehensive guide to UAE corporate tax compliance for businesses, covering registration, filing, deadlines and key obligations under the UAE CT Law.",
+  alternates: { canonical: "/insights/uae-corporate-tax-compliance-what-businesses-need-to-know" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "UAE Corporate Tax Compliance: What Businesses Need to Know | MEA Group",
+    description:
+      "A comprehensive guide to UAE corporate tax compliance for businesses, covering registration, filing, deadlines and key obligations under the UAE CT Law.",
+    url: "/insights/uae-corporate-tax-compliance-what-businesses-need-to-know",
+    images: [{ url: "/uae_corporate_tax.jpeg", width: 1200, height: 630, alt: "UAE Corporate Tax Compliance" }],
+  },
+}
 
 export default function HeadquarterServicesPage() {
     // Static data for this specific page

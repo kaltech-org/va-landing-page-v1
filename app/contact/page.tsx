@@ -5,6 +5,17 @@ export const metadata: Metadata = {
   title: "Contact MEA Group | UAE & GCC Advisory Firm",
   description:
     "Contact Middle East Advisory Group's advisers in Dubai for relocation, tax, real estate and family governance services across the UAE, KSA and GCC.",
+  alternates: {
+    canonical: "/contact",
+  },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "Contact MEA Group | UAE & GCC Advisory Firm",
+    description:
+      "Contact Middle East Advisory Group's advisers in Dubai for relocation, tax, real estate and family governance services across the UAE, KSA and GCC.",
+    url: "/contact",
+    images: [{ url: "/professional-advisory-team-in-modern-middle-east-o.jpg", width: 1200, height: 630, alt: "Contact MEA Group" }],
+  },
 }
 import { Footer } from "@/components/footer"
 import { ContactForm } from "@/components/contact-form"

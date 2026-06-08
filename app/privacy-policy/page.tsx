@@ -1,5 +1,14 @@
+import type { Metadata } from "next";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | MEA Group",
+  description:
+    "Read MEA Group's privacy policy to understand how we collect, use and protect your personal data across our UAE and GCC advisory services.",
+  alternates: { canonical: "/privacy-policy" },
+  robots: { index: true, follow: true },
+};
 
 export default function PrivacyPolicyPage() {
   return (

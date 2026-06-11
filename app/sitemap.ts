@@ -113,6 +113,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/insights/uae-corporate-tax-penalty-waiver`,
+      lastModified: new Date("2026-06-11"),
+      changeFrequency: "yearly",
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/privacy-policy`,
       lastModified: new Date("2026-02-18"),
       changeFrequency: "yearly",

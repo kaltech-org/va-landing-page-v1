@@ -1,5 +1,75 @@
 export const articles = [
   {
+    id: 11,
+    slug: "uae-corporate-tax-penalty-waiver",
+    title: "UAE Corporate Tax Penalty Waiver: What Businesses Need to Know",
+    excerpt:
+      "The UAE's Federal Tax Authority expects 91,000 taxable persons to benefit from the Corporate Tax Late Registration Penalty Waiver, with 22,000 businesses still eligible to apply. Here is who qualifies and what to do before the deadline.",
+    content: `
+    <p class="text-justify">
+      The UAE's Federal Tax Authority (FTA) has reported that 91,000 taxable persons are expected to benefit from the Corporate Tax Late Registration Penalty Waiver initiative. Currently, 22,000 businesses remain eligible to apply.
+    </p>
+    <br/>
+    <h3 class="my-2"><strong>What Is the Initiative?</strong></h3>
+    <p class="text-justify">
+      The Corporate Tax Late Registration Penalty Waiver came into effect in April 2025. It applies to late corporate tax registration penalties incurred from 1 June 2023 onwards, subject to specific conditions set by Cabinet decision.
+    </p>
+    <br/>
+    <h3 class="my-2"><strong>Who Qualifies?</strong></h3>
+    <p class="text-justify">The waiver applies to:</p>
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">Taxable persons and certain exempt persons required to register with the FTA who submitted registration applications late</li>
+      <li class="pt-2">Those who registered late and were charged a penalty (whether paid or unpaid)</li>
+      <li class="pt-2">Those who registered but have not yet submitted a tax return or annual declaration</li>
+      <li class="pt-2">Those who have not registered but complete registration and submit the required return within the specified period</li>
+    </ul>
+    <br/>
+    <h3 class="my-2"><strong>Key Requirement: The 7-Month Window</strong></h3>
+    <p class="text-justify">
+      To qualify for the waiver, eligible businesses must submit their tax return or annual declaration within seven months from the end of their first tax period or first financial year. This is shorter than the standard nine-month filing period.
+    </p>
+    <p class="text-justify mt-3">
+      The initiative applies only to the first tax period of the taxable person or exempt person required to register.
+    </p>
+    <br/>
+    <h3 class="my-2"><strong>How the Waiver Works</strong></h3>
+    <p class="text-justify">
+      The waiver is automatic. Eligible businesses do not need to submit a separate reconsideration or waiver request.
+    </p>
+    <p class="text-justify mt-3"><strong>For businesses that have already paid the penalty:</strong> An automatic credit equal to the penalty amount will be applied to their EmaraTax account. This credit can be used to settle other tax liabilities or claimed through a refund application.</p>
+    <p class="text-justify mt-3"><strong>For businesses with unpaid penalties:</strong> The penalty will be cancelled automatically once the tax return or annual declaration is submitted within the seven-month period.</p>
+    <br/>
+    <h3 class="my-2"><strong>What Businesses Must Do</strong></h3>
+    <ol class="ml-3" style="list-style-type: decimal; padding-left: 24px; margin-bottom: 20px;">
+      <li class="pt-2">Check whether your business falls within the first tax period covered by the initiative</li>
+      <li class="pt-2">Register with the FTA through EmaraTax (if not already registered)</li>
+      <li class="pt-2">Submit your tax return or annual declaration within seven months from the end of your first tax period</li>
+      <li class="pt-2">Review the FTA's public clarification on the waiver for your specific situation</li>
+    </ol>
+    <br/>
+    <h3 class="my-2"><strong>Numbers at a Glance</strong></h3>
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2"><strong>91,000</strong> total expected beneficiaries</li>
+      <li class="pt-2"><strong>68,600</strong> already benefited during 2025 and elapsed period of 2026</li>
+      <li class="pt-2"><strong>22,000</strong> still eligible to apply in the coming period</li>
+    </ul>
+    <br/>
+    <h3 class="my-2"><strong>Important Timeline</strong></h3>
+    <p class="text-justify">
+      The initiative is in effect now, but the seven-month filing window from the end of your first tax period is critical. Missing this deadline means the penalty no longer qualifies for the waiver.
+    </p>
+    <br/>
+    <h3 class="my-2"><strong>How Middle East Advisory Group Can Help</strong></h3>
+    <p class="text-justify">
+      If your business missed its corporate tax registration deadline or has questions about whether you qualify for this waiver, the FTA has published detailed guidance on its website. MEA Group can also help you assess your eligibility and ensure you submit your registration and filing within the required timeline.
+    </p>
+  `,
+    author: "Middle East Advisory Group",
+    date: "June 11, 2026",
+    category: "Corporate Tax",
+    image: "/corporate-tax-documents-uae.jpg",
+  },
+  {
     id: 10,
     slug: "dubai-removes-minimum-property-value-investor-visas",
     title: "Dubai Removes Minimum Property Value for Investor Visas",

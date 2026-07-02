@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description:
       "Learn how to set up a business in Dubai. Compare free zones vs mainland, understand license types, formation steps, costs, and 2026 requirements in this complete guide.",
     url: "/insights/how-to-set-up-a-business-in-dubai-2026",
-    images: [{ url: "/hero-relocation-dubai.jpg", width: 1200, height: 630, alt: "How to Set Up a Business in Dubai 2026" }],
+    images: [{ url: "/hero-relocation-dubai.jpg", width: 1200, height: 630, alt: "Establishing a Business in Dubai: A Practical Framework for 2026" }],
   },
 }
 

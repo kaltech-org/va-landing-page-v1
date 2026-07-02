@@ -120,7 +120,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${BASE_URL}/insights/how-to-set-up-a-business-in-dubai-2026`,
-      lastModified: new Date("2026-06-16"),
+      lastModified: new Date("2026-07-02"),
       changeFrequency: "yearly",
       priority: 0.7,
     },

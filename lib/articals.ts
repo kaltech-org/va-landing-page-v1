@@ -7,7 +7,7 @@ export const articles = [
       "Learn how to set up a business in Dubai. Compare free zones vs mainland, understand license types, formation steps, costs, and 2026 requirements in this complete guide.",
     content: `
     <p class="text-justify">Dubai attracts approximately 20,000 new business registrations annually. This isn't coincidental. The emirate's zero personal income tax, strategic location, and established regulatory infrastructure make it an obvious choice for entrepreneurs and established enterprises alike.</p>
-    <p class="text-justify mt-3">However, the decision to establish a business here is not simply about completing registration forms. It requires clarity on fundamental questions: Should you operate in a free zone or on the mainland? Which license type matches your operations? How should you structure ownership? What realistic timeframes and costs should you budget?</p>
+    <p class="text-justify mt-3">However, the decision to establish a business here is not simply about completing registration forms. It requires clarity on fundamental questions: Should you operate in a free zone or on the mainland? Which license type matches your operations? How should you structure ownership?</p>
     <p class="text-justify mt-3">This guide addresses each consideration systematically. We assume you've decided Dubai is your destination; what follows is a framework for making informed choices about how you'll establish yourself here.</p>
     <br/>
     <h3 class="my-2"><strong>The Core Decision: Free Zone or Mainland</strong></h3>
@@ -29,14 +29,15 @@ export const articles = [
       <li class="pt-2">Personal income tax is not levied</li>
       <li class="pt-2">Profit and capital repatriation is unrestricted</li>
       <li class="pt-2">Office space can be virtual, flexi-desk, or dedicated</li>
-      <li class="pt-2">Setup typically completes in 4-8 weeks</li>
     </ul>
     <p class="text-justify mt-3"><strong>Operational constraints:</strong></p>
-    <p class="text-justify mt-3">Direct trading with mainland UAE customers is not permitted (you must appoint a local agent or distributor)</p>
-    <p class="text-justify mt-3">Your operations must remain within the zone's geographic boundaries</p>
-    <p class="text-justify mt-3">Available activities are limited to those the zone permits</p>
-    <p class="text-justify mt-3"><strong>First-year cost range:</strong> AED 10,000-35,000</p>
-    <p class="text-justify mt-3"><strong>Common free zones by sector:</strong> DMCC specialises in trading and commodities. IFZA focuses on technology, e-commerce, and professional services. RAKEZ serves manufacturing and logistics. These zones differ in cost, support infrastructure, and activity focus.</p>
+    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+      <li class="pt-2">Direct trading with mainland UAE customers is not permitted (you must appoint a local agent or distributor)</li>
+      <li class="pt-2">Your operations must remain within the zone's geographic boundaries</li>
+      <li class="pt-2">Available activities are limited to those the zone permits</li>
+    </ul>
+    <p class="text-justify mt-3"><strong>Common free zones by sector:</strong></p>
+    <p class="text-justify mt-3">DMCC specialises in trading and commodities. IFZA focuses on technology, e-commerce, and professional services. RAKEZ serves manufacturing and logistics. These zones differ in cost, support infrastructure, and activity focus.</p>
     <br/>
     <h3 class="my-2"><strong>Mainland Operations</strong></h3>
     <p class="text-justify mt-3">Mainland registration places your company under the Department of Economic Development and municipal regulation.</p>
@@ -52,9 +53,8 @@ export const articles = [
     <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
       <li class="pt-2">Direct access to all UAE customers without intermediaries</li>
       <li class="pt-2">Physical office is mandatory (minimum 200 sq ft, commercial zoning)</li>
-      <li class="pt-2">Corporate tax applies (0% on profits up to AED 375,000; 9% above)</li>
+      <li class="pt-2">Corporate tax applies based on profit thresholds</li>
       <li class="pt-2">Personal income tax is not levied</li>
-      <li class="pt-2">Setup typically requires 6-10 weeks</li>
       <li class="pt-2">More extensive regulatory oversight</li>
     </ul>
     <p class="text-justify mt-3"><strong>Operational requirements:</strong></p>
@@ -63,13 +63,12 @@ export const articles = [
       <li class="pt-2">Larger employment headcount may trigger Emiratisation obligations</li>
       <li class="pt-2">Lease registration with RERA (Real Estate Regulatory Authority) is mandatory</li>
     </ul>
-    <p class="text-justify mt-3"><strong>First-year cost range:</strong> AED 20,000-80,000 (including office lease)</p>
     <br/>
     <h3 class="my-2"><strong>The Decision Framework</strong></h3>
     <p class="text-justify mt-3">If your business model depends on selling to UAE companies and individuals, mainland is necessary. If your customers are primarily international, or if you're testing a concept, free zones offer operational simplicity and lower costs. If you eventually plan to serve both markets, some businesses establish a free zone entity for international trading and appoint a mainland distributor for local sales.</p>
     <br/>
     <h3 class="my-2"><strong>Understanding License Types</strong></h3>
-    <p class="text-justify mt-3">The Department of Economic Development issues licenses based on your business activity. Selecting the correct license type is not administrative convenience, it determines what you're legally permitted to do.</p>
+    <p class="text-justify mt-3">The Department of Economic Development issues licenses based on your business activity. Selecting the correct license type is not administrative convenience—it determines what you're legally permitted to do.</p>
     <br/>
     <h3 class="my-2"><strong>Commercial License</strong></h3>
     <p class="text-justify mt-3">For businesses engaged in buying, selling, and distribution of goods. This is the most common license type.</p>
@@ -77,110 +76,112 @@ export const articles = [
     <p class="text-justify mt-3">Import and export trading, wholesale distribution, retail operations, e-commerce, agency services, merchandise trading, brokerage</p>
     <p class="text-justify mt-3"><strong>Examples of impermissible activities:</strong></p>
     <p class="text-justify mt-3">Manufacturing goods, providing professional services, operating tourism businesses</p>
-    <p class="text-justify mt-3"><strong>Typical cost:</strong> AED 3,000-5,000 (mainland) | AED 2,500-4,500 (free zone)</p>
-    <p class="text-justify mt-3"><strong>Renewal:</strong> Annually at 15-20% of initial cost</p>
     <br/>
     <h3 class="my-2"><strong>Professional License</strong></h3>
     <p class="text-justify mt-3">For service-based businesses offering expertise and consultation.</p>
     <p class="text-justify mt-3"><strong>Examples of permissible activities:</strong></p>
     <p class="text-justify mt-3">Management consultancy, business advisory, engineering services, IT development, accounting and audit, architectural services, legal advisory, training and education</p>
-    <p class="text-justify mt-3"><strong>Typical cost:</strong> AED 3,500-6,000 (mainland) | AED 2,500-4,500 (free zone)</p>
+    <p class="text-justify mt-3"><strong>Examples of impermissible activities:</strong></p>
+    <p class="text-justify mt-3">Trading goods, manufacturing, operating food establishments</p>
     <br/>
     <h3 class="my-2"><strong>Industrial License</strong></h3>
     <p class="text-justify mt-3">For manufacturing, processing, and production operations.</p>
-    <p class="text-justify mt-3">Examples of permissible activities: Manufacturing and assembly, food processing, textiles production, metal fabrication, electronics assembly, chemical processing</p>
-    <p class="text-justify mt-3"><strong>Typical cost:</strong> AED 4,000-7,000 (mainland) | AED 3,500-6,000 (free zone)</p>
+    <p class="text-justify mt-3"><strong>Examples of permissible activities:</strong></p>
+    <p class="text-justify mt-3">Manufacturing and assembly, food processing, textiles production, metal fabrication, electronics assembly, chemical processing</p>
+    <p class="text-justify mt-3"><strong>Examples of impermissible activities:</strong></p>
+    <p class="text-justify mt-3">Trading finished goods, providing services</p>
+    <p class="text-justify mt-3"><strong>Special requirement:</strong> Operations must be located in designated industrial areas (Al Quoz, Dubai Industrial City, or equivalent)</p>
     <br/>
     <h3 class="my-2"><strong>Tourism License</strong></h3>
     <p class="text-justify mt-3">For hospitality and tourism-related businesses.</p>
-    <p class="text-justify mt-3">Examples of permissible activities: Hotel and resort operations, restaurants and cafes, travel agencies and tour operators, event management, spa and wellness centres</p>
-    <p class="text-justify mt-3">Typical cost: AED 4,000-8,000 (mainland) | AED 3,500-7,000 (free zone)</p>
+    <p class="text-justify mt-3"><strong>Examples of permissible activities:</strong></p>
+    <p class="text-justify mt-3">Hotel and resort operations, restaurants and cafes, travel agencies and tour operators, event management, spa and wellness centres</p>
+    <p class="text-justify mt-3"><strong>Examples of impermissible activities:</strong></p>
+    <p class="text-justify mt-3">General merchandise trading, manufacturing</p>
+    <p class="text-justify mt-3"><strong>Special requirements:</strong> Health permits, food safety certifications, and (where applicable) liquor licenses are necessary</p>
+    <br/>
+    <h3 class="my-2"><strong>Agricultural License</strong></h3>
+    <p class="text-justify mt-3">For farming and agricultural operations.</p>
+    <p class="text-justify mt-3"><strong>Examples of permissible activities:</strong></p>
+    <p class="text-justify mt-3">Plant nurseries, greenhouse operations, livestock farming, agricultural trading, aquaculture</p>
+    <p class="text-justify mt-3"><strong>Note:</strong> Agricultural licensing is available but limited in Dubai; more readily available in the Northern Emirates.</p>
     <br/>
     <h3 class="my-2"><strong>Selecting Your Business Activity</strong></h3>
     <p class="text-justify mt-3">The Department of Economic Development maintains an approved activities database comprising over 2,100 classifications. You must select an activity (or activities) that accurately describes your operations.</p>
     <p class="text-justify mt-3"><strong>Why precision matters:</strong> If your registered activity is "general trading" but your actual operations involve specialised e-commerce in electronics, the misalignment creates regulatory risk. Audits or banking inquiries may surface the discrepancy, resulting in fines or operational restrictions.</p>
-    <p class="text-justify mt-3"><strong>How to approach this:</strong> Be specific enough that your activity demonstrates regulatory intent, but broad enough that you retain operational flexibility. "E-commerce trading" is appropriately specific. "E-commerce trading of electronics exclusively" may be unnecessarily narrow. You may register up to three activities: one primary and two secondary. Secondary activities should logically relate to your primary business.</p>
-    <p class="text-justify mt-3"><strong>Important:</strong> Certain activities require additional approvals from government entities. Food businesses require health permits. Financial services require Central Bank approval. Real estate brokerage requires RERA registration. These approvals typically add 2-4 weeks to your timeline and AED 500-3,000 to costs.</p>
+    <p class="text-justify mt-3"><strong><strong>How to approach this:</strong></strong></p>
+    <p class="text-justify mt-3">Be specific enough that your activity demonstrates regulatory intent, but broad enough that you retain operational flexibility. "E-commerce trading" is appropriately specific. "E-commerce trading of electronics exclusively" may be unnecessarily narrow.</p>
+    <p class="text-justify mt-3">You may register up to three activities: one primary and two secondary. Secondary activities should logically relate to your primary business.</p>
+    <p class="text-justify mt-3"><strong><strong>Common activity categories:</strong></strong></p>
+    <p class="text-justify mt-3">Trading includes general merchandise, import-export, wholesale, retail, and e-commerce. Professional services encompasses consultancy, engineering, IT, accounting, and legal advisory. Manufacturing covers food processing, textiles, metals, and assembly. Tourism includes hospitality, travel, and event management. Technology includes software development, digital marketing, and IT services.</p>
+    <p class="text-justify mt-3"><strong>Important:</strong> Certain activities require additional approvals from government entities. Food businesses require health permits. Financial services require Central Bank approval. Real estate brokerage requires RERA registration.</p>
     <br/>
     <h3 class="my-2"><strong>Free Zone Formation: Step-by-Step</strong></h3>
-    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+    <ol class="ml-3" style="list-style-type: decimal; padding-left: 20px; margin-bottom: 20px;">
       <li class="pt-2"><strong>Select your free zone. </strong>Choose a zone that specialises in your sector. Consider cost, support infrastructure, visa allocation, and office options.</li>
-      <li class="pt-2"><strong>Submit business names for approval. </strong>Propose three names in order of preference. The zone verifies availability and naming convention compliance. Timeline: 2-5 days.</li>
-      <li class="pt-2"><strong>Gather and submit initial documents. </strong>Prepare personal documents (passport, visa, residence proof), business documents (business plan, MOA if multiple shareholders), and submit to the zone. Timeline: 1 week.</li>
-      <li class="pt-2"><strong>Receive initial approval. </strong>The zone reviews your submission and issues an "In-Principle Approval" confirming no regulatory objections. Timeline: 3-7 days. Cost: Free.</li>
-      <li class="pt-2"><strong>Secure office space. </strong>Select from available options. Virtual offices (AED 5,000-8,000 annually) provide a business address with no physical space. Flexi-desks (AED 12,000-20,000 annually) offer shared workspace. Serviced offices (AED 25,000-45,000 annually) provide dedicated private space. Commercial space (AED 40,000-100,000+ annually) allows full customisation.</li>
-      <li class="pt-2"><strong>Submit final licensing application. </strong>Prepare your final application with office lease details and updated MOA. Timeline: 1 week.</li>
-      <li class="pt-2"><strong>Complete KYC verification. </strong>Confirm your identity via video call (standard) or in-person visit. Timeline: 2-5 days.</li>
-      <li class="pt-2"><strong>Pay license fees and receive license. </strong>Remit license fees (AED 3,000-5,000). The digital license is available immediately; the physical certificate within 2-3 days.</li>
-      <li class="pt-2"><strong>Register with federal agencies. </strong>Register with the Federal Tax Authority (mandatory for all businesses), the Statistics Centre, and the Labour Ministry if you intend to sponsor employees. Timeline: 3-5 days. Cost: Free.</li>
-    </ul>
-    <p class="text-justify mt-3">Total timeline: 4-8 weeks</p>
+      <li class="pt-2"><strong>Submit business names for approval. </strong>Propose three names in order of preference. The zone verifies availability and naming convention compliance.</li>
+      <li class="pt-2"><strong>Gather and submit initial documents. </strong>Prepare personal documents (passport, visa, residence proof), business documents (business plan, MOA if multiple shareholders), and submit to the zone.</li>
+      <li class="pt-2"><strong>Receive initial approval. </strong>The zone reviews your submission and issues an "In-Principle Approval" confirming no regulatory objections.</li>
+      <li class="pt-2"><strong>Secure office space. </strong>Select from available options: virtual offices, flexi-desks, serviced offices, or commercial space depending on your needs.</li>
+      <li class="pt-2"><strong>Submit final licensing application. </strong>Prepare your final application with office lease details and updated MOA.</li>
+      <li class="pt-2"><strong>Complete KYC verification. </strong>Confirm your identity via video call (standard) or in-person visit.</li>
+      <li class="pt-2"><strong>Pay license fees and receive license. </strong>Remit license fees. The digital license is available immediately; the physical certificate within 2-3 days.</li>
+      <li class="pt-2"><strong>Register with federal agencies. </strong>Register with the Federal Tax Authority (mandatory for all businesses), the Statistics Centre, and the Labour Ministry if you intend to sponsor employees.</li>
+    </ol>
     <br/>
     <h3 class="my-2"><strong>Mainland Formation: Step-by-Step</strong></h3>
-    <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
+    <ol class="ml-3" style="list-style-type: decimal; padding-left: 20px; margin-bottom: 20px;">
       <li class="pt-2"><strong>Select your business activity. </strong>Choose from the DED's activity database. Mainland provides access to more activities than free zones.</li>
-      <li class="pt-2"><strong>Reserve your business name. </strong>Submit three proposed names to DED. Timeline: 3-5 days.</li>
-      <li class="pt-2"><strong>Submit initial approval documents. </strong>Gather documents (passport, visa, address proof, business description) and submit to DED online or in person. Timeline: 1 week.</li>
-      <li class="pt-2"><strong>Secure physical office space. </strong>A physical office is mandatory; virtual offices are not permitted. Minimum space is 200 sq ft in a commercial zone. Costs vary significantly by location. Business Bay and Downtown command AED 50,000-100,000+ annually. Mid-range areas (JLT, Barsha) range from AED 40,000-80,000. More affordable areas (Deira, Al Quoz) range from AED 25,000-50,000.</li>
-      <li class="pt-2"><strong>Register your lease with RERA. </strong>The Real Estate Regulatory Authority must register your lease to ensure legitimacy. Timeline: 3-5 days. Cost: AED 500-1,500.</li>
-      <li class="pt-2"><strong>Submit final licensing documents. </strong>Prepare your final application with your RERA-registered lease, MOA (if applicable), and identification. Timeline: 1 week.</li>
-      <li class="pt-2"><strong>Complete KYC verification. </strong>Some activities require in-person verification at DED; others accept video verification. Timeline: 2-5 days.</li>
-      <li class="pt-2"><strong>Pay license fees. </strong>Remit your DED license fee (AED 3,500-7,000 depending on activity) and municipality fee (AED 500-1,500). Timeline: 1 day.</li>
-      <li class="pt-2"><strong>Register with municipality and utilities. </strong>Register with Dubai Municipality and arrange electricity and water connection through DEWA. Timeline: 2-3 days. Cost: DEWA deposit (usage-dependent).</li>
-    </ul>
-    <p class="text-justify mt-3">Total timeline: 6-10 weeks</p>
+      <li class="pt-2"><strong>Reserve your business name. </strong>Submit three proposed names to DED.</li>
+      <li class="pt-2"><strong>Submit initial approval documents. </strong>Gather documents (passport, visa, address proof, business description) and submit to DED online or in person.</li>
+      <li class="pt-2"><strong>Secure office space. </strong>Select appropriate office space for your mainland operations. Options range from serviced offices to commercial space. Location choice significantly impacts operational requirements and setup process.</li>
+      <li class="pt-2"><strong>Register your lease with RERA. </strong>The Real Estate Regulatory Authority must register your lease to ensure legitimacy.</li>
+      <li class="pt-2"><strong>Submit final licensing documents. </strong>Prepare your final application with your RERA-registered lease, MOA (if applicable), and identification.</li>
+      <li class="pt-2"><strong>Complete KYC verification. </strong>Some activities require in-person verification at DED; others accept video verification.</li>
+      <li class="pt-2"><strong>Pay license fees. </strong>Remit your DED license fee and municipality fee.</li>
+      <li class="pt-2"><strong>Register with municipality and utilities. </strong>Register with Dubai Municipality and arrange electricity and water connection through DEWA.</li>
+    </ol>
     <br/>
-    <h3 class="my-2"><strong>Cost Framework</strong></h3>
+    <h3 class="my-2"><strong>Visa and Sponsorship</strong></h3>
+    <p class="text-justify mt-3"><strong>For business owners:</strong> You may obtain an Investor Visa (3-10 years) if your investment meets certain thresholds, or an Employment Visa through your own company with a minimum salary requirement.</p>
+    <p class="text-justify mt-3"><strong>For employees:</strong> Your company can sponsor visas based on office size and activity type. Virtual offices and flexi-desks typically allow 0-1 visa. Dedicated offices support 2-4 visas. Larger commercial space allows 4+ visas.</p>
+    <p class="text-justify mt-3"><strong>Required documents:</strong> Valid passport, employment contract, medical test results, health insurance</p>
     <br/>
-    <h3 class="my-2"><strong>Free Zone – Virtual Office Scenario (No Employees)</strong></h3>
-    <p class="text-justify mt-3">License fee: AED 2,500-4,000</p>
-    <p class="text-justify mt-3">Virtual office (annual): AED 5,000-8,000</p>
-    <p class="text-justify mt-3">Establishment card and administration: AED 500-1,000</p>
-    <p class="text-justify mt-3">Corporate tax registration: Free</p>
-    <p class="text-justify mt-3"><strong>Year 1 total: AED 8,000-13,000</strong></p>
+    <h3 class="my-2"><strong>Corporate Banking</strong></h3>
+    <p class="text-justify mt-3">Banks conduct stringent due diligence on new business accounts. Prepare personal documents (passport copies, visa or residence permit, proof of address), business documents (trade license, MOA, RERA-registered lease if applicable, business plan), and financial documents (proof of initial capital, source of funds documentation).</p>
     <br/>
-    <h3 class="my-2"><strong>Mainland – Service Business with One Employee</strong></h3>
-    <p class="text-justify mt-3">License fee: AED 4,000-6,000</p>
-    <p class="text-justify mt-3">Office lease (annual): AED 35,000-60,000</p>
-    <p class="text-justify mt-3">RERA registration: AED 1,500-2,500</p>
-    <p class="text-justify mt-3">Municipality fee: AED 500-1,500</p>
-    <p class="text-justify mt-3">Employee visa: AED 1,500-2,500</p>
-    <p class="text-justify mt-3"><strong>Year 1 total: AED 42,500-72,500</strong></p>
+    <h3 class="my-2"><strong>2026 Considerations</strong></h3>
+    <p class="text-justify mt-3"><strong>Corporate tax registration is now mandatory</strong> for all businesses, even those claiming 0% tax rates. Registration is free but essential.</p>
+    <p class="text-justify mt-3"><strong>Tax rates:</strong> Corporate tax applies with tiered thresholds. Free zone companies must qualify as Qualifying Free Zone Persons (QFZP) to maintain preferential tax treatment.</p>
+    <p class="text-justify mt-3"><strong>E-invoicing is phased in.</strong> Starting July 2026, certain businesses must use structured electronic invoicing. Full mandate for smaller businesses begins July 2027.</p>
+    <p class="text-justify mt-3"><strong>Banking due diligence has intensified.</strong> Financial institutions scrutinise source of funds, business substance, beneficial ownership, and sanctions exposure more rigorously than previously.</p>
     <br/>
-    <h3 class="my-2"><strong>Ongoing Annual Costs (All Structures)</strong></h3>
-    <p class="text-justify mt-3">License renewal: 15-20% of initial cost</p>
-    <p class="text-justify mt-3">Visa renewals: AED 1,500-2,500 per person</p>
-    <p class="text-justify mt-3">Office lease: Location-dependent</p>
-    <p class="text-justify mt-3">Professional insurance: AED 1,000-3,000 (recommended)</p>
-    <p class="text-justify mt-3">Accounting services: AED 3,000-8,000 (year 2 onwards)</p>
+    <h3 class="my-2"><strong>Timeline and Support</strong></h3>
+    <p class="text-justify mt-3">Working with Middle East Advisory Group can significantly streamline this process. Through our established relationships with regulatory authorities, free zones, and banking partners, we can typically facilitate business setup within 1-3 weeks, whilst ensuring full compliance and addressing any complexities specific to your structure.</p>
+    <p class="text-justify mt-3">Our role is to navigate the procedural steps, manage documentation, coordinate approvals, and liaise with relevant authorities, allowing you to focus on business strategy rather than administrative detail.</p>
     <br/>
     <h3 class="my-2"><strong>Frequently Asked Questions</strong></h3>
-    <p class="text-justify mt-3"><strong>Q: How long does the entire process take?</strong></p>
-    <p class="text-justify">A: Free zone registration typically requires 4-8 weeks. Mainland registration requires 6-10 weeks. The timeline depends on document preparation and, significantly, on your bank's processing timeline. Many entrepreneurs are operational within 8-10 weeks, but banking delays can extend this.</p>
     <p class="text-justify mt-3"><strong>Q: Can I own my business 100% if I'm foreign?</strong></p>
     <p class="text-justify">A: Yes, in free zones and most mainland sectors. Certain strategic sectors (banking, insurance, and some real estate activities) may require Emirati partnership, but these are exceptions rather than the rule.</p>
     <p class="text-justify mt-3"><strong>Q: Can my free zone company sell to mainland customers?</strong></p>
     <p class="text-justify">A: Not directly. You may appoint a mainland distributor or agent to handle local sales. Alternatively, if serving both markets is essential, some businesses establish a free zone entity for international operations and a separate mainland entity for local trading.</p>
-    <p class="text-justify mt-3"><strong>Q: What's the absolute minimum cost to establish myself?</strong></p>
-    <p class="text-justify">A: A free zone company with a virtual office and no employees can be established for approximately AED 8,000-13,000 in year one. Mainland operations require significantly more, typically AED 45,000-80,000 or higher depending on office location.</p>
     <p class="text-justify mt-3"><strong>Q: Can I change my business activity after registration?</strong></p>
-    <p class="text-justify">A: Yes. Submit an amendment request to your free zone or to DED. The process typically requires 2-3 weeks and costs AED 500-1,500. Some activities cannot be amended; these require closure and re-registration.</p>
+    <p class="text-justify">A: Yes. Submit an amendment request to your free zone or to DED. Some activities cannot be amended; these require closure and re-registration.</p>
     <p class="text-justify mt-3"><strong>Q: What happens if my business requires regulatory approvals?</strong></p>
-    <p class="text-justify">A: Food businesses require health permits. Financial services require Central Bank approval. Real estate brokerage requires RERA registration. These approvals add 2-4 weeks to your timeline and AED 500-3,000 to costs.</p>
+    <p class="text-justify">A: Food businesses require health permits. Financial services require Central Bank approval. Real estate brokerage requires RERA registration. These approvals may add additional days to your timeline.</p>
     <p class="text-justify mt-3"><strong>Q: Is annual license renewal required?</strong></p>
-    <p class="text-justify">A: Yes. Renewal must occur annually, ideally 60 days before expiration. The renewal cost is typically 15-20% of your initial license cost.</p>
+    <p class="text-justify">A: Yes. Renewal must occur annually, ideally 60 days before expiration.</p>
     <br/>
     <h3 class="my-2"><strong>Moving Forward</strong></h3>
-    <p class="text-justify mt-3">Establishing a business in Dubai is systematic when you understand the requirements. The first decision, free zone or mainland, shapes everything that follows. The second decision: license type and business activity, requires precision to avoid misalignment between your registered activity and your actual operations.</p>
-    <p class="text-justify mt-3">The process is manageable within 4-10 weeks when your documentation is complete and your strategy is clear.</p>
-    <br/>
-    <h3 class="my-2"><strong>How Middle East Advisory Group Can Assist</strong></h3>
+    <p class="text-justify mt-3">Establishing a business in Dubai is systematic when you understand the requirements. The first decision, free zone or mainland, shapes everything that follows. The second decision, license type and business activity, requires precision to avoid misalignment between your registered activity and your actual operations.</p>
+    <p class="text-justify mt-3">The process is manageable within 1-3 weeks when your documentation is complete and your strategy is clear.</p>
+    <p class="text-justify mt-3"><strong>How Middle East Advisory Group can assist:</strong></p>
     <p class="text-justify mt-3">We work with entrepreneurs and established enterprises on company formation, visa sponsorship, banking facilitation, and ongoing compliance. We navigate the regulatory pathways so you can focus on operations. Whether you're structuring a startup or establishing a regional hub, we provide pragmatic guidance grounded in current regulations and banking requirements.</p>
-    <p class="text-justify mt-3">The decision to establish in Dubai is straightforward. The execution, navigating regulatory bodies, securing appropriate office space, managing visa sponsorships, and opening corporate accounts, requires structured guidance.</p>
+    <p class="text-justify mt-3">The decision to establish in Dubai is straightforward. The execution—navigating regulatory bodies, securing appropriate office space, managing visa sponsorships, and opening corporate accounts—requires structured guidance.</p>
     <p class="text-justify mt-3">Learn more about our <a href="/services/uae-ksa-relocation">Dubai business setup</a> services, or contact us to discuss your specific circumstances. We'll clarify which structure suits your business model and guide you through each step.</p>
   `,
     author: "Middle East Advisory Group",
-    date: "July 2, 2026",
+    date: "July 7, 2026",
     category: "Business Setup",
     image: "/hero-relocation-dubai.jpg",
   },

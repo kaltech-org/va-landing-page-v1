@@ -14,7 +14,8 @@ const categories: { title: string; items: Asset[] }[] = [
   {
     title: "Logos & Social Icons",
     items: [
-      { name: "MEA Group Logo", file: "/assets/new-logo.png" },
+      { name: "MEA Group Logo", context: "Dark background", file: "/assets/new-logo.png" },
+      { name: "MEA Group Logo", context: "Clear background, for light surfaces", file: "/assets/mea-logo-clear-bg.png" },
       { name: "LinkedIn Icon", file: "/assets/linkedin-icon.svg" },
     ],
   },

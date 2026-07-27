@@ -28,7 +28,7 @@ export function Footer() {
             {/* Social icons in gold */}
             <div className="flex gap-4 mt-6 sm:mt-8">
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/company/me-advisory-group"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent hover:text-accent/80 transition"

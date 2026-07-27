@@ -16,7 +16,18 @@ const categories: { title: string; items: Asset[] }[] = [
     items: [
       { name: "MEA Group Logo", context: "Dark background", file: "/assets/new-logo.png" },
       { name: "MEA Group Logo", context: "Clear background, for light surfaces", file: "/assets/mea-logo-clear-bg.png" },
-      { name: "LinkedIn Icon", file: "/assets/linkedin-icon.svg" },
+      { name: "LinkedIn Icon", file: "/assets/linkedin-icon.png" },
+      { name: "YouTube Icon", file: "/assets/youtube-icon.png" },
+      { name: "Mail Icon", file: "/assets/mail-icon.png" },
+      { name: "Phone Icon", file: "/assets/phone-icon.png" },
+      { name: "Address Icon", file: "/assets/address-icon.png" },
+      { name: "Website Icon", file: "/assets/website-icon.png" },
+    ],
+  },
+  {
+    title: "Taglines",
+    items: [
+      { name: "Strategic Growth Partners Tagline", file: "/assets/tagline-strategic-growth-partners.png" },
     ],
   },
   {
